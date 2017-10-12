@@ -8,17 +8,17 @@
 
 ::selection { color: #e27308; }
 
-p { font-size: 105%; }
+p { font-size: 100%; }
 
 #project_title {
-  padding-top: 100px;
+  padding-top: 150px;
   font-size: 60px;
 }
 
-#project_tagline { font-size: 40px; }
+#project_tagline { font-size: 30px; }
 
 #header_wrap {
-  height: 525px;
+  height: 400px;
   background: #2e3758;
   background-image: url("../graphsense_bg.jpg");
   opacity: 1.0; background-size: cover;
@@ -28,7 +28,9 @@ p { font-size: 105%; }
   padding-bottom: 135px;
 }
 
-#main_content_wrap { background: #f8f8f8; }
+#main_content_wrap { 
+  background: #f8f8f8;
+}
 
 #footer_wrap { background: #20284c; }
 

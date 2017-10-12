@@ -1,107 +1,87 @@
+## Features
 
-## Insight into virtual currency ecosystems
+GraphSense is an open source platform for analyzing cryptocurrencies
+such as [Bitcoin][bitcoin]. 
 
-GraphSense provides algorithmic solutions for real-time analytics of digital
-currency transactions for gaining insight into cash flows and functionality of
-digital currency systems.
+- **Address Clustering**: partition the set of addresses observed in a cryptocurrency
+ecosystem into maximal subsets (clusters) that are likely to be controlled by the same
+real-world entity.
 
-### Features
+- **Micro- and Macroscopic Analysis**: inspect main cryptocurrency entities
+(block, transaction, address) and compute summary statistics over the entire
+blockchain.
 
-Explore and inspect virtual currency transactions.
+- **Network Perspective**: apply a network-centric perspective and traverse currency
+flows between addresses and clusters.
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
-amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
-rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
-ipsum dolor sit amet.
+- **Horizontal Scalability**: cryptocurrency blockchains [are growing][blockchain.info]
+and new currencies [appear on the horizon][coinmarketcap]. To make GraphSense
+future-proof, it is built on [Apache Spark][spark] and [Cassandra][cassandra] for
+horizontal scalability.
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
-amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
-rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
-ipsum dolor sit amet.
+## Example
 
-
-### Screenshots
-
-- Screenshot of graphsense-dashboard
+The following example shows details about an example Bitcoin address.
 
 ![screenshot](assets/screenshot_dashboard.png)
 
 
-### Publications
+## Technical Architecture
+
+GraphSense provides a number of software components:
+
+- [dashboard][dashboard]: a user-interface allowing search, inspection, and traversal of cryptocurrency entities
+
+- [rest-api][rest-api]: an API for retrieving data from the underlying Cassandra store
+
+- [transformation][transformation]: a Spark pipeline for computing statistics and network representations from raw blockchain data stored in Cassandra.
+
+- [datafeed][datafeed]: a component for ingesting raw blockchain data and exchange rates into Cassandra
+
+- [bitcoin-client][bitcoin-client]: a Docker container encapsuling the most-recent Bitcoin client version
+
+
+## Publications
+
+Some more technical details about GraphSense are describe [(here)](http://www.graphsense.info/wp-content/uploads/2016/09/2016_SEMANTICS_Bitcoin_Where_Art_Thou.pdf); please cite as:
+
+    @inproceedings{Haslhofer:2016a,
+        title={O Bitcoin Where Art Thou? Insight into Large-Scale Transaction Graphs.},
+        author={Haslhofer, Bernhard and Karl, Roman and Filtz, Erwin},
+        booktitle={SEMANTiCS (Posters, Demos)},
+        year={2016}
+    } 
+
+
+So far, has been used for computing statistics in the following
+scientific papers:
 
 Filtz, E., Polleres, A., Karl, R., Haslhofer, B.:
 **Evolution of the Bitcoin Address Graph - An Exploratory Longitudinal Study.**
 International Data Science Conference (DSC 2017), Salzburg, Austria, 2017.
 [(pdf)](https://aic.ai.wu.ac.at/~polleres/publications/filtz-etal-2017IDSC.pdf)
 
-*Bitcoin is a decentralized virtual currency, which can be used to execute
-pseudo-anonymous payments globally within a short period of time and
-comparably low transaction costs. In this paper, we present initial
-results of a longitudinal study conducted over the Bitcoin address graph,
-which contains all addresses and transactions from the beginning of
-Bitcoin in January 2009 until 31st of August 2016. Our analysis reveals a
-highly-skewed degree distribution with a small number of outliers and
-illustrates that the entire graph is expanding rapidly. Furthermore, it
-demonstrates the power of address clustering heuristics for identifying
-real-world actors, who prefer to use Bitcoin for transferring rather than
-storing value. We believe that this paper provides novel insight into
-virtual currency ecosystems, which can inform the design of future
-analytics methods and infrastructures.*
+## Contributors
 
-Haslhofer, B., Karl, R., Filtz, E.
-**O Bitcoin Where Art Thou? Insight into Large-Scale Transaction Graphs.**
-SEMANTICS 2016, Leipzig.
-[(pdf)](http://www.graphsense.info/wp-content/uploads/2016/09/2016_SEMANTICS_Bitcoin_Where_Art_Thou.pdf)
+- [Bernhard Haslhofer](http://bernhardhaslhofer.info/)
+- Roman Karl
+- Mihai Bartha
+- Rainer Stütz
 
-*Bitcoin is a rising digital currency and exemplifies the growing need for
-systematically gathering and analyzing public transaction data sets such
-as the blockchain. However, the blockchain in its raw form is just a large
-ledger listing transfers of currency units between alphanumeric character
-strings, without revealing contextually relevant real-world information.
-In this demo, we present GraphSense, which is a solution that applies a
-graph-centric perspective on digital currency transactions. It allows
-users to explore transactions and follow the money flow, facilitates
-analytics by semantically enriching the transaction graph, supports path
-and graph pattern search, and guides analysts to anomalous data points. To
-deal with the growing volume and velocity of transaction data, we
-implemented our solution on a horizontally scalable data processing and
-analytics infrastructure. Given the ongoing digital transformation in
-financial services and technologies, we believe that our approach
-contributes to development of analytics solutions for digital currency
-ecosystems, which is relevant in fields such as financial analytics, law
-enforcement, or scientific research.*
-
-Filtz, E., Savenkow, V., Umbrich, J.
-**On finding the k shortest paths in RDF data.**
-Intelligent Exploration of Semantic Data Workshop (IESD 2016),
-co-located with ISWC 2016, Kobe, Japan.
-[(pdf)](http://www.graphsense.info/wp-content/uploads/2016/09/IESD_16_cameraready.pdf")
-
-*Finding relationships between entities in RDF data is in the heart of
-many exploration tasks. General path enumeration algorithms are typically
-used for computing such relationships, nding top k short-est paths being
-of special interest. The k shortest paths problem has been thoroughly
-studied for the weighted graph case, the two most pop-ular generic
-algorithms are due to Eppstein and to Yen. Along with the Dijkstra’s
-shortest path algorithm upon which they build, these two algorithms are
-available in most libraries and graph databases. In the RDF context,
-however, the graph is unlabeled but can have multi-edges, and the found
-paths can contain cycles, so applying the mentioned algorithms is either
-impossible (Yen’s) or suboptimal. It is a folklore knowledge that the
-traditional breadth rst search (BFS) can be easily adapted to compute the
-k shortest paths. However, for dense graphs and large k, both time and
-memory consumption become critical. We discuss two BFS adaptations which
-are easy to implement and substantially boost performance when solving the
-k shortest paths problem.*
 
 <div style="padding-bottom: 10em;"></div>
+
+[bitcoin]: https://bitcoin.org/en/
+[spark]: https://spark.apache.org/
+[cassandra]: http://cassandra.apache.org/
+[blockchain.info]: https://blockchain.info/charts/blocks-size?timespan=all
+[coinmarketcap]: https://coinmarketcap.com/
+
+[dashboard]: bla
+[rest-api]: bla
+[transformation]: bla
+[datafeed]: bla
+[bitcoin-client]: bla
+
+
+
