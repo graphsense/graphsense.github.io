@@ -68,9 +68,6 @@ International Data Science Conference (DSC 2017), Salzburg, Austria, 2017.
 - Mihai Bartha
 - Rainer Stütz
 
-
-<div style="padding-bottom: 10em;"></div>
-
 [bitcoin]: https://bitcoin.org/en/
 [spark]: https://spark.apache.org/
 [cassandra]: http://cassandra.apache.org/
