@@ -23,7 +23,7 @@ horizontal scalability.
 
 The following example shows details about an example Bitcoin address.
 
-![screenshot](assets/screenshot_dashboard.png)
+![screenshot](assets/screenshot_dashboard.jpeg)
 
 
 ## Technical Architecture
