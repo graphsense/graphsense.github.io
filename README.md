@@ -53,7 +53,7 @@ Some more technical details about GraphSense are described [here](http://www.gra
     }
 
 
-So far, has been used for computing statistics in the following
+So far, GraphSense has been used for computing statistics in the following
 scientific papers:
 
 Filtz, E., Polleres, A., Karl, R., Haslhofer, B.:
