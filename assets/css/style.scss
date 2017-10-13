@@ -4,18 +4,31 @@
 @import "{{ site.theme }}";
 
 
-::-moz-selection { color: #e27308; }
+::-moz-selection {
+  color: #e27308;
+}
 
-::selection { color: #e27308; }
+::selection {
+  color: #e27308;
+}
 
-p { font-size: 100%; }
+p {
+  font-size: 100%;
+}
+
+code {
+  font-size: 85%;
+  background: #f8f8f8;
+}
 
 #project_title {
   padding-top: 150px;
   font-size: 60px;
 }
 
-#project_tagline { font-size: 30px; }
+#project_tagline {
+  font-size: 30px;
+}
 
 #header_wrap {
   height: 400px;
@@ -28,11 +41,13 @@ p { font-size: 100%; }
   padding-bottom: 135px;
 }
 
-#main_content_wrap { 
+#main_content_wrap {
   background: #f8f8f8;
 }
 
-#footer_wrap { background: #20284c; }
+#footer_wrap {
+  background: #20284c;
+}
 
 #forkme_banner {
   display: block;
