@@ -1,7 +1,7 @@
 ## Features
 
 GraphSense is an open source platform for analyzing cryptocurrencies
-such as [Bitcoin][bitcoin]. 
+such as [Bitcoin][bitcoin].
 
 - **Address Clustering**: partition the set of addresses observed in a cryptocurrency
 ecosystem into maximal subsets (clusters) that are likely to be controlled by the same
@@ -43,14 +43,14 @@ GraphSense provides a number of software components:
 
 ## Publications
 
-Some more technical details about GraphSense are describe [(here)](http://www.graphsense.info/wp-content/uploads/2016/09/2016_SEMANTICS_Bitcoin_Where_Art_Thou.pdf); please cite as:
+Some more technical details about GraphSense are described [here](http://www.graphsense.info/wp-content/uploads/2016/09/2016_SEMANTICS_Bitcoin_Where_Art_Thou.pdf); please cite as:
 
     @inproceedings{Haslhofer:2016a,
         title={O Bitcoin Where Art Thou? Insight into Large-Scale Transaction Graphs.},
         author={Haslhofer, Bernhard and Karl, Roman and Filtz, Erwin},
         booktitle={SEMANTiCS (Posters, Demos)},
         year={2016}
-    } 
+    }
 
 
 So far, has been used for computing statistics in the following
@@ -68,17 +68,18 @@ International Data Science Conference (DSC 2017), Salzburg, Austria, 2017.
 - Mihai Bartha
 - Rainer Stütz
 
+
 [bitcoin]: https://bitcoin.org/en/
 [spark]: https://spark.apache.org/
 [cassandra]: http://cassandra.apache.org/
 [blockchain.info]: https://blockchain.info/charts/blocks-size?timespan=all
 [coinmarketcap]: https://coinmarketcap.com/
 
-[dashboard]: bla
-[rest-api]: bla
-[transformation]: bla
-[datafeed]: bla
-[bitcoin-client]: bla
+[bitcoin-client]: https://github.com/graphsense/bitcoin-client
+[datafeed]: https://github.com/graphsense/graphsense-datafeed
+[transformation]: https://github.com/graphsense/graphsense-transformation
+[rest-api]: https://github.com/graphsense/graphsense-REST
+[dashboard]: https://github.com/graphsense/graphsense-dashboard
 
 
 
