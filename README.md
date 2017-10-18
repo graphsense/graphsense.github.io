@@ -19,27 +19,25 @@ and new currencies [appear on the horizon][coinmarketcap]. To make GraphSense
 future-proof, it is built on [Apache Spark][spark] and [Cassandra][cassandra] for
 horizontal scalability.
 
+## Technical Architecture
+
+GraphSense is built on scalable and distributed cluster technology and therefore requires a number of software components. They must be setup and/or executed in the following order:
+
+- [bitcoin-client][bitcoin-client]: a Docker container encapsuling the most-recent Bitcoin client version
+
+- [datafeed][datafeed]: a component for ingesting raw blockchain data and exchange rates into Cassandra
+
+- [transformation][transformation]: a Spark pipeline for computing statistics and network representations from raw blockchain data stored in Cassandra.
+
+- [rest-api][rest-api]: an API for retrieving data from the underlying Cassandra store
+
+- [dashboard][dashboard]: a user-interface allowing search, inspection, and traversal of cryptocurrency entities
+
 ## Example
 
 The following example shows details about an example Bitcoin address.
 
 ![screenshot](assets/screenshot_dashboard.jpeg)
-
-
-## Technical Architecture
-
-GraphSense provides a number of software components:
-
-- [dashboard][dashboard]: a user-interface allowing search, inspection, and traversal of cryptocurrency entities
-
-- [rest-api][rest-api]: an API for retrieving data from the underlying Cassandra store
-
-- [transformation][transformation]: a Spark pipeline for computing statistics and network representations from raw blockchain data stored in Cassandra.
-
-- [datafeed][datafeed]: a component for ingesting raw blockchain data and exchange rates into Cassandra
-
-- [bitcoin-client][bitcoin-client]: a Docker container encapsuling the most-recent Bitcoin client version
-
 
 ## Publications
 
