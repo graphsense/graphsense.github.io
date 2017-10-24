@@ -41,7 +41,7 @@ The following example shows details about an example Bitcoin address.
 
 ## Publications
 
-Some more technical details about GraphSense are described [here](http://www.graphsense.info/wp-content/uploads/2016/09/2016_SEMANTICS_Bitcoin_Where_Art_Thou.pdf); please cite as:
+Some more technical details about GraphSense are described [here](http://ceur-ws.org/Vol-1695/paper20.pdf); please cite as:
 
     @inproceedings{Haslhofer:2016a,
         title={O Bitcoin Where Art Thou? Insight into Large-Scale Transaction Graphs.},
