@@ -14,10 +14,11 @@
     </script>
     <meta charset="utf-8"/>
     <title>Graphsense</title>
-    <link href="main.css?b600f09221f038ca5b27" rel="stylesheet">
+    <link href="main.css?8e0288cdfc47935dc251" rel="stylesheet">
+   <link rel="shortcut icon" type="image/png" href="./favicon.png"/>
   </head>
   <body>
-    <div class="flex flex-col min-h-full static-page">
+    <div class="flex flex-col min-h-full landingpage static-page">
       <header class=splash>
   <div class="logo w-4/5 md:w-3/5 lg:w-2/5">
     <img alt=GRAPHSENSE src=344c4f29db63ce9a08e4c09c26109922.svg />
@@ -34,119 +35,143 @@
 </header>
 
 
-      <div class="container mx-auto px-4 flex-grow mt-8"><div class=container>
+      <div class="container mx-auto px-4 flex-grow mt-8"><div class="container">
   
-  <p>GraphSense is an open source platform for analyzing cryptocurrency transaction ledgers. At the moment,
-    it supports analysis of <a href=https://bitcoin.org/en/ >Bitcoin</a>, <a href=https://www.bitcoincash.org/ >Bitcoin Cash</a>, <a href=https://litecoin.com/en/ >Litecoin</a>, and <a href=https://z.cash/ >Zcash</a> transactions.</p>
-
-  <h2>Features</h2>
-
-  <ul>
-
-    <li>Search by address, tag, transaction or block in several cryptocurrency ledgers.</li>
-
-    <li>Navigate in transaction network abstractions computed from various ledgers and inspect statistical properties of nodes (addresses, clusters) and edges (aggregated transactions).</li>
-
-    <li>Automatically search for transaction paths connecting two nodes.</li>
-
-    <li>
-      <p><strong>BlockSci integration</strong>: GraphSense makes use of <a href=https://github.com/citp/BlockSci>BlockSci</a> for parsing blockchains, obtaining exchange rates, and filtering CoinJoins.</p> 
-    </li>
-
-    <li>Support for data-driven analytics via the GraphSense REST-API</li>
-
-    <li>
-      <p><strong>Horizontal Scalability</strong>: cryptocurrency blockchains <a href="https://blockchain.info/charts/blocks-size?timespan=all">are growing</a> and new currencies <a href=https://coinmarketcap.com/ >appear on the horizon</a>. GraphSense should be future-proof, because it is built on <a href=https://spark.apache.org/ >Apache Spark</a> and <a href=http://cassandra.apache.org/ >Cassandra</a> for horizontal scalability.</p>
-    </li>
-
-  </ul>
-
-  <h2 id=technical-architecture>Technical Architecture</h2>
-
-  <p>GraphSense is built on scalable and distributed cluster technology and therefore requires a number of software components. They must be setup and/or executed in the following order:</p>
-
-  <ul>
-    <li>
-      <p><a href=https://github.com/graphsense/btc-client>btc-client</a>, <a href=https://github.com/graphsense/bch-client>bch-client</a>, <a href=https://github.com/graphsense/ltc-client>ltc-client</a>, <a href=https://github.com/graphsense/zec-client>zec-client</a>: docker containers encapsulating the most-recent cryptocurrency client versions</p>
-    </li>
-    <li>
-      <p><a href=https://github.com/graphsense/graphsense-blocksci>graphsense-blocksci</a>: a dockerized component to synchronize BlockSci data to Apache Cassandra</p>
-    </li>
-    <li>
-      <p><a href=https://github.com/graphsense/graphsense-transformation>graphsense-transformation</a>: an Apache Spark ETL pipeline for computing statistics and network representations from raw blockchain data stored in Cassandra</p>
-    </li>
-    <li>
-      <p><a href=https://github.com/graphsense/graphsense-REST>graphsense-REST</a>: an API for retrieving data from the underlying Cassandra store</p>
-    </li>
-    <li>
-      <p><a href=https://github.com/graphsense/graphsense-tagpacks>graphsense-tagpacks</a>: a data structure for collecting cryptocurrency attribution tags with associated provenance and categorization metadata</p>
-    </li>
-    <li>
-      <p><a href=https://github.com/graphsense/graphsense-dashboard>graphsense-dashboard</a>: a user-interface allowing search, inspection, and traversal of cryptocurrency entities</p>
-    </li>
-  </ul>
-
-  <h2 id=example>Example</h2>
-
-  <p>The following screenshot shows details about an example Bitcoin address.</p>
-
-  <p><img class=example src=fa41a15b88bfb55905fb1b5e8712c8fb.png alt=screenshot></p>
-
-  <h2 id=publications>Publications</h2>
-
-  <p>Some more technical details about GraphSense are described <a href=http://ceur-ws.org/Vol-1695/paper20.pdf>here</a>; please cite as:</p>
-
-  <div class=highlighter-rouge><div class=highlight><pre class=highlight><code>@inproceedings{Haslhofer:2016a,
-      title={O Bitcoin Where Art Thou? Insight into Large-Scale Transaction Graphs.},
-      author={Haslhofer, Bernhard and Karl, Roman and Filtz, Erwin},
-      booktitle={SEMANTiCS (Posters, Demos)},
-      year={2016}
-  }
-  </code></pre></div></div>
-
-  <p>So far, GraphSense has been used for computing statistics in the following
-  scientific papers:</p>
-
-  <p>Romiti, M., Judmayer, A., Zamyatin, A., Haslhofer, B.
-  <strong>A Deep Dive into Bitcoin Mining Pools: An Empirical Analysis of Mining Shares.</strong>
-  Journal of Cybersecurity, 5 (1).
-  <a href=https://arxiv.org/abs/1905.05999>(pdf)</a></p>
-
-  <p>Paquet-Clouston, M., Haslhofer, B., & Dupont, B.
-  <strong>Ransomware payments in the bitcoin ecosystem.</strong>
-  Journal of Cybersecurity, 5 (1).
-  <a href=http://arxiv.org/abs/1804.04080>(pdf)</a></p>
-
-  <p>Filtz, E., Polleres, A., Karl, R., Haslhofer, B.:
-  <strong>Evolution of the Bitcoin Address Graph - An Exploratory Longitudinal Study.</strong>
-  International Data Science Conference (DSC 2017), Salzburg, Austria, 2017.
-  <a href=https://aic.ai.wu.ac.at/~polleres/publications/filtz-etal-2017IDSC.pdf>(pdf)</a></p>
-
-  <h2 id=contributors>Contributors</h2>
-
-  <ul>
-    <li><a href=http://bernhardhaslhofer.info/ >Bernhard Haslhofer</a></li>
-    <li>Rainer Stütz</li>
-    <li><a href=https://matteoromiti.github.io/ >Matteo Romiti</a></li>
-    <li>Matthias Rella</li>    
-    <li>Mihai Bartha</li>    
-  </ul>
-</div>
-</div>
-      <footer class="flex flex-row justify-between p-4 mt-6 text-sm w-full text-grey-dark splash-footer">
-  <div>
-    <div>Open Source Software by the <a href="https://www.ait.ac.at" target="_blank">Austrian Institute of Technology</a></div>
-    <div class="mt-1"><a href="https://github.com/graphsense"><i class="fab fa-github"></i> Visit us on Github</a></div>
-    <div class="mt-1">Version 0.4.1</div>
+  <section id="stats" class="supported-currencies mt-6 flex-grow">
+  <h2>Supported currencies</h2>
+  <div id="currencies" class="container flex flex-wrap justify-center mx-auto">
+      <div class="currency w-full md:w-1/2 lg:w-1/3 xl:w-1/4" style="background-image:url()">
+        <h3></h3>
+        <div class="statistics">
+          <div class="stats-table">
+            <div class="stats-row">
+              <span class="stats-key">Last update</span>
+              <span class="stats-value">Invalid&nbsp;date&nbsp;Invalid&nbsp;date</span>
+            </div>
+            <div class="stats-row">
+              <span class="stats-key">Lastest&nbsp;block</span>
+              <span class="stats-value">NaN</span>
+            </div>
+            <div class="stats-row">
+              <span class="stats-key">Transactions</span>
+              <span class="stats-value">0</span>
+            </div>
+            <div class="stats-row">
+              <span class="stats-key">Addresses</span>
+              <span class="stats-value">0</span>
+            </div>
+            <div class="stats-row">
+              <span class="stats-key">Entities</span>
+              <span class="stats-value">0</span>
+            </div>
+            <div class="stats-row">
+              <span class="stats-key">Tags</span>
+              <span class="stats-value">0</span>
+            </div>
+          </div>
+        </div>
+      </div>
   </div>
-  <ul class="flex flex-row flex-wrap justify-end list-reset">
-    <li class="ml-6"><a href="/terms.html">Terms</a></li>
-    <li class="ml-6"><a href="/privacy.html">Privacy</a></li>
-    <li class="ml-6"><a href="/about.html">About</a></li>
-    <li class="ml-6"><a href="mailto:contact@graphsense.info">Contact</a></li>
-  </ul>
-</footer>
+</section>
 
+  <div class="mt-8">
+    <h2>Features</h2>
+      <ul class="features flex flex-row flex-wrap w-full">
+        <li class="w-full md:w-1/2"><i class="fa fa-search"></i> <strong>Cross-currency search</strong> <div>Search by address, tag, transaction or block in several cryptocurrency ledgers.</div></li>
+        <li class="w-full md:w-1/2"><i class="fa fa-project-diagram"></i> <strong>Traverse transactions</strong> <div>Navigate in transaction network abstractions computed from various ledgers.</div></li>
+        <li class="w-full md:w-1/2"><i class="fa fa-info"></i> <strong>Inspect metadata</strong> <div>Inspect statistical properties of nodes and edges.</div></li>
+        <li class="w-full md:w-1/2"><i class="fa fa-code-branch"></i> <strong>Find paths</strong> <div>Automatically search for transaction paths connecting two nodes.</div></li>
+        <li class="w-full md:w-1/2"><i class="fa fa-terminal"></i> <strong>Programmable</strong> <div>Support for data-driven analytics via the REST API.</div></li> </li>
+        <li class="w-full md:w-1/2"><i class="fa fa-cube"></i> <strong>BlockSci integration</strong><div>GraphSense makes use of <a target="_blank" href="https://github.com/citp/BlockSci">BlockSci</a> for parsing blockchains, obtaining exchange rates, and filtering CoinJoins.</div></li>
+        <li class="w-full md:w-1/2"><i class="fa fa-tachometer-alt"></i> <strong>Future-proof</strong><div>Built on <a target="_blank" href="https://spark.apache.org/">Apache Spark</a> and <a target="_blank" href="http://cassandra.apache.org/">Cassandra</a> for horizontal scalability.</div></li>
+        <li class="w-full md:w-1/2"><i class="fab fa-github"></i> <strong>Open source</strong><div>The complete software stack is open souce and MIT licensed.</div></li>
+    </ul>
+  </div>
+
+
+  <div class="mt-8">
+    <h2 id="example">Example</h2>
+
+    <p class="w-full md:w-2/3 m-auto"><img src="fa41a15b88bfb55905fb1b5e8712c8fb.png" alt="screenshot"></p><p class="text-center w-full">An example Bitcoin address, its connections and statistics.</p>
+  </div>
+
+
+
+  <div class="mt-8">
+    <h2 id="publications">Publications</h2>
+
+    <div class="w-full md:w-2/3 m-auto">
+      <p>Some more technical details about GraphSense are described <a href="http://ceur-ws.org/Vol-1695/paper20.pdf">here</a>; please cite as:</p>
+
+      <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@inproceedings{Haslhofer:2016a,
+          title={O Bitcoin Where Art Thou? Insight into Large-Scale Transaction Graphs.},
+          author={Haslhofer, Bernhard and Karl, Roman and Filtz, Erwin},
+          booktitle={SEMANTiCS (Posters, Demos)},
+          year={2016}
+      }
+      </code></pre></div></div>
+
+      <p>So far, GraphSense has been used for computing statistics in the following
+      scientific papers:</p>
+
+      <p>Romiti, M., Judmayer, A., Zamyatin, A., Haslhofer, B.
+      <strong>A Deep Dive into Bitcoin Mining Pools: An Empirical Analysis of Mining Shares.</strong>
+      Journal of Cybersecurity, 5 (1).
+      <a href="https://arxiv.org/abs/1905.05999">(pdf)</a></p>
+
+      <p>Paquet-Clouston, M., Haslhofer, B., & Dupont, B.
+      <strong>Ransomware payments in the bitcoin ecosystem.</strong>
+      Journal of Cybersecurity, 5 (1).
+      <a href="http://arxiv.org/abs/1804.04080">(pdf)</a></p>
+
+      <p>Filtz, E., Polleres, A., Karl, R., Haslhofer, B.:
+      <strong>Evolution of the Bitcoin Address Graph - An Exploratory Longitudinal Study.</strong>
+      International Data Science Conference (DSC 2017), Salzburg, Austria, 2017.
+      <a href="https://aic.ai.wu.ac.at/~polleres/publications/filtz-etal-2017IDSC.pdf">(pdf)</a></p>
+    </div>
+
+  </div>
+
+  <div class="mt-8">
+    <h2 id="contributors">Contributors</h2>
+
+    <ul class="contributors flex flex-row flex-wrap justify-center w-full md:w-2/3 m-auto justify-around">
+      <li><img src="60e75f12650cd8b67b4378147b14c13f.jpeg"/><a href="http://bernhardhaslhofer.info/">Bernhard Haslhofer</a></li>
+      <li><img src="d7c5ad2ff28efaef870d2e17bc9336f4.png"/>Rainer Stütz</li>
+      <li><img src="b19da6611fabfdf34e41eaffe5c68e2d.png"/><a href="https://matteoromiti.github.io/">Matteo Romiti</a></li>
+      <li><img src="548dbea896d63f8d291b5f20fd5a07b7.jpeg"/><a href="https://pi.systems">Matthias Rella</a></li>    
+      <li><img src="93d7685ef9375e86d3ee87c76c81e8ff.jpeg"/>Mihai Bartha</li>    
+    </ul>
+  </div>
+</div>
+</div>
+      <footer class="p-4 mt-6 text-sm w-full text-grey-dark splash-footer">
+  <div class="flex flex-col">
+    <div class="flex flex-row mb-2">
+      <div>
+        GraphSense is supported by the <a href="https://www.titanium-project.eu">TITANIUM project</a>, which has received funding from the European Union’s <a href="https://ec.europa.eu/programmes/horizon2020/en">Horizon 2020</a> research and innovation programme under grant agreement No 740558, and by the <a href="http://virtcrime-project.info/">VIRTCRIME project</a>, which is funded by the Austrian security research programme <a href="https://www.kiras.at">KIRAS</a> of the Federal Ministry for Transport, Innovation and Technology <a href="http://www.bmvit.gv.at">BMVIT</a>.
+      </div>
+      <div class="flex flex-row" style="min-width:250px">
+        <img src="d3145e5cfbfbfb9fd15417e60f1f8813.png" class="h-10"/>
+        <img src="6ec0bb7d63237c0789c23d69b9149899.png" class="h-10"/>
+        <img src="a7117943f94e7681ff53cea7e3e2b280.png" class="h-10"/>
+      </div>
+    </div>
+    <div class="flex flex-row justify-between">
+      <div>
+        <div>Open Source Software by the <a href="https://www.ait.ac.at" target="_blank">Austrian Institute of Technology</a></div>
+        <div class="mt-1"><a href="https://github.com/graphsense"><i class="fab fa-github"></i> Visit us on Github</a></div>
+        <div class="mt-1">Version 0.4.1</div>
+      </div>
+      <ul class="flex flex-row flex-wrap justify-end list-reset">
+        <li class="ml-6 self-end"><a href="/terms.html">Terms</a></li>
+        <li class="ml-6 self-end"><a href="/privacy.html">Privacy</a></li>
+        <li class="ml-6 self-end"><a href="/about.html">About</a></li>
+        <li class="ml-6 self-end"><a href="mailto:contact@graphsense.info">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
 
     </div>
   </body>
