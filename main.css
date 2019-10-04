@@ -601,7 +601,7 @@ table.dataTable td {
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
 
-.fa,
+
 .fas,
 .far,
 .fab {
@@ -705,14 +705,14 @@ table.dataTable td {
   float: right;
 }
 
-.fa.fa-pull-left,
+
 .fas.fa-pull-left,
 .far.fa-pull-left,
 .fab.fa-pull-left {
   margin-right: .3em;
 }
 
-.fa.fa-pull-right,
+
 .fas.fa-pull-right,
 .far.fa-pull-right,
 .fab.fa-pull-right {
@@ -6183,7 +6183,7 @@ readers do not read off random characters that represent icons */
   src: url(f72d546abcc27880adf8428792c72519.eot?#iefix) format("embedded-opentype"), url(8086e197694282b26c7b729945ecc377.woff2) format("woff2"), url(52b8345b6d8e11988d8db917c366b4da.woff) format("woff"), url(1709a2810c3752483683f3f7d287aa89.ttf) format("truetype"), url(27603739fe78fee587c7b84873475b61.svg#fontawesome) format("svg");
 }
 
-.fa,
+
 .fas {
   font-family: 'Font Awesome 5 Free';
   font-weight: 900;
@@ -6965,14 +6965,6 @@ table {
   background-color: #d2eced;
 }
 
-.border-grey {
-  border-color: #c7d1d2;
-}
-
-.rounded-sm {
-  border-radius: .125rem;
-}
-
 .rounded {
   border-radius: .25rem;
 }
@@ -7043,10 +7035,6 @@ table {
   align-items: center;
 }
 
-.self-end {
-  align-self: flex-end;
-}
-
 .justify-end {
   justify-content: flex-end;
 }
@@ -7057,10 +7045,6 @@ table {
 
 .justify-between {
   justify-content: space-between;
-}
-
-.justify-around {
-  justify-content: space-around;
 }
 
 .flex-grow {
@@ -7083,10 +7067,6 @@ table {
   height: 2rem;
 }
 
-.h-10 {
-  height: 2.5rem;
-}
-
 .h-24 {
   height: 6rem;
 }
@@ -7105,10 +7085,6 @@ table {
 
 .m-8 {
   margin: 2rem;
-}
-
-.m-auto {
-  margin: auto;
 }
 
 .mx-auto {
@@ -7790,7 +7766,7 @@ svg.slash path {
   width: 100%;
 }
 
-.landingpage h2 {
+.supported-currencies h2 {
   font-family: Conv_Octarine-Bold;
   padding-top: 0;
   padding-bottom: 1.5rem;
@@ -7798,8 +7774,6 @@ svg.slash path {
   text-align: center;
   color: #6bc2c2;
   font-size: 1.875rem;
-  margin-bottom: 1rem;
-  margin-top: 1.5rem;
 }
 
 .currency {
@@ -7850,6 +7824,17 @@ svg.slash path {
 
 .stats-value {
   display: table-cell;
+}
+
+.coming {
+  font-size: 1.25rem;
+  color: #717f85;
+  padding-top: 2rem;
+}
+
+.static-page h2 {
+  margin-bottom: 1rem;
+  margin-top: 1.5rem;
 }
 
 .static-page p {
@@ -7932,45 +7917,6 @@ div.d3-context-menu-theme ul li.is-parent:after {
   border-top-color: theme('colors.gs.base');
 }
 
-ul.features li {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
-  margin-bottom: 2rem;
-  text-align: center;
-}
-
-ul.features li i {
-  font-size: 3rem;
-  background-color: #6bc2c2;
-  border-radius: 9999px;
-  color: #d2eced;
-  margin-bottom: .75rem;
-  width: 90px;
-  height: 90px;
-  line-height: 88px;
-}
-
-ul.features li strong {
-  font-size: 1.5rem;
-  margin-bottom: .75rem;
-}
-
-ul.contributors li {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-ul.contributors li img {
-  width: 100px;
-  border-radius: 100%;
-  overflow: hidden;
-  margin-bottom: 10px;
-}
-
 @media (min-width: 576px) {
 
   .sm\:min-h-full {
@@ -7994,10 +7940,6 @@ ul.contributors li img {
 
   .md\:w-1\/2 {
     width: 50%;
-  }
-
-  .md\:w-2\/3 {
-    width: 66.66667%;
   }
 
   .md\:w-3\/5 {
