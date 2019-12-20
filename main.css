@@ -6462,7 +6462,7 @@ a {
  * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
  */
 
-b,
+
 strong {
   font-weight: inherit;
 }
@@ -6471,7 +6471,7 @@ strong {
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
 
-b,
+
 strong {
   font-weight: bolder;
 }
@@ -6635,6 +6635,11 @@ legend {
  * 1. Add the correct display in IE 9-.
  * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
  */
+
+progress {
+  display: inline-block; /* 1 */
+  vertical-align: baseline; /* 2 */
+}
 
 /**
  * Remove the default vertical scrollbar in IE.
@@ -6961,6 +6966,10 @@ table {
   background-color: #fff;
 }
 
+.bg-gs-dark {
+  background-color: #71a1a5;
+}
+
 .bg-gs-lighter {
   background-color: #d2eced;
 }
@@ -7083,10 +7092,6 @@ table {
   height: 2rem;
 }
 
-.h-10 {
-  height: 2.5rem;
-}
-
 .h-24 {
   height: 6rem;
 }
@@ -7124,8 +7129,20 @@ table {
   margin-right: .25rem;
 }
 
+.mt-2 {
+  margin-top: .5rem;
+}
+
+.mr-2 {
+  margin-right: .5rem;
+}
+
 .mb-2 {
   margin-bottom: .5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
 }
 
 .mt-6 {
@@ -7138,6 +7155,10 @@ table {
 
 .mt-8 {
   margin-top: 2rem;
+}
+
+.max-w-md {
+  max-width: 40rem;
 }
 
 .min-h-full {
@@ -7333,6 +7354,10 @@ table {
 
 .visible {
   visibility: visible;
+}
+
+.invisible {
+  visibility: hidden;
 }
 
 .w-8 {
@@ -7589,11 +7614,11 @@ svg .addressNodeRect {
   /* defined inline to allow for export in svg file */
 }
 
-svg .clusterNode {
+svg .entityNode {
   cursor: pointer;
 }
 
-svg .clusterNodeRect {
+svg .entityNodeRect {
   /* defined inline to allow for export in svg file */
 }
 
