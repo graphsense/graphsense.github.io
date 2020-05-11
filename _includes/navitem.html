@@ -1,0 +1,11 @@
+<li class="nav-item position-relative">
+  <a class="nav-link text-right" href="{{ include.url | relative_url }}">
+    {% if include.icon %}
+    <i class="{{include.icon}} pr-1"></i>
+    {% endif %}
+    {{ include.title | escape }}
+  </a>
+
+  <div class="nav-link-shadow">
+  </div>
+</li>
