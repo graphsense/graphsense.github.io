@@ -15,9 +15,9 @@
 # in the templates via {{ site.myvariable }}.
 title: Graphsense
 email: "contact@graphsense.info"
-version: "0.4.2"
-#baseurl: "" # the subpath of your site, e.g. /blog
-#url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://graphsense.info" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 #github_username:  jekyll
 
@@ -28,6 +28,7 @@ repo: "https://github.com/graphsense"
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-seo-tag
 
 # A list of the pages to display in the navigation bar
 header_pages:
