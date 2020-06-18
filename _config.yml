@@ -32,9 +32,10 @@ plugins:
 
 # A list of the pages to display in the navigation bar
 header_pages:
-  - about.md
+  - index.md
   - news.md
   - documentation.md
+  - about.md
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

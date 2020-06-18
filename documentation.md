@@ -50,7 +50,7 @@ The GraphSense Dashboard is a Web-app running on the client side (in your browse
 
 **Q: How can I get access to the GraphSense demo?**
 
-Just drop an email to [contact@graphsense.info](mailto:contact@graphsense.info) and briefly explain who you are and why you want access to our demo. You will receive access credentials and we will also sign you up for our public GraphSense users mailing list.
+Just drop an email to [contact@graphsense.info](mailto:contact@graphsense.info) and briefly explain **who** you are and **why** you want access to our demo. You will receive access credentials and we will also sign you up for our public GraphSense users mailing list.
 
 #### Governance & Organization
 
@@ -66,7 +66,7 @@ Currently GraphSense development relies on public research grants. Most importan
 
 GraphSense development is very much driven by the needs of our project partners and our own research needs. We found that no existing commercial tool fulfills the most important need, if you want to conduct more advanced cryptocurrency analysis: full control over collected data and the ability to run customized analytics jobs. GraphSense is very much designed for **data-driven cryptocurrency analytics**.
 
-We do however use an existing open source tools: we wrapped and integrated [BlockSci](https://github.com/citp/BlockSci) in our pipeline.
+We do, however, make use of an existing open source tool: we wrapped and integrated [BlockSci](https://github.com/citp/BlockSci) in our pipeline.
 
 
 [spark]: https://spark.apache.org/

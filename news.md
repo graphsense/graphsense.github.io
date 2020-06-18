@@ -4,6 +4,22 @@ title: News
 ---
 
 <h2>
+  Release GraphSense 0.4.4
+  <small class="text-muted">(2020-06-16)</small>
+</h2>
+
+We are happy to announce that the fourth minor release (0.4.4) of the the 0.4 series, has arrived.
+
+This release provides some bug fixes and minor enhancements, such as:
+
+* A Tag Coherence score as an indicator for heuristic clustering reliability
+
+* Automated connection of entities on the GraphSense Dashboard
+
+* Audit trails can be exported as PDF report
+
+
+<h2>
   Release GraphSense 0.4.3
   <small class="text-muted">(2020-05-11)</small>
 </h2>

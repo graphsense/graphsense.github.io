@@ -1,5 +1,6 @@
 ---
 layout: home
+title: Home
 ---
 
 <div class="container mt-3">
@@ -91,5 +92,4 @@ layout: home
   <li><img src="{{ "/assets/img/rs.png" | relative_url }}"/>Rainer Stütz</li>
   <li><img src="{{ "/assets/img/romitim.png" | relative_url }}"/><a href="https://matteoromiti.github.io/">Matteo Romiti</a></li>
   <li><img src="{{ "/assets/img/mr.jpeg" | relative_url }}"/><a href="https://pi.systems">Matthias Rella</a></li>    
-  <li><img src="{{ "/assets/img/mb.jpeg" | relative_url }}"/>Mihai Bartha</li>    
 </ul>
