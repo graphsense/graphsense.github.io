@@ -17,10 +17,10 @@ title: Home
 
   <div class="row">
 
-    {% for currency in site.data.stats.currencies %}
+    {% for currency in site.data.currencies %}
       {% assign curr = currency[0] %}
       {% assign stats=currency[1] %}
-      {% include currency.html currency=curr stats=stats %}
+      {% include currency.html currency=curr %}
     {% endfor %}
 
   </div>
