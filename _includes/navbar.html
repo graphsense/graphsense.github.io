@@ -2,7 +2,7 @@
   <div class="container">
     <div class="navbar-brand">
       
-      <a class="{% if page.layout == "home" %} invisible {% endif %}"href="/"><img style="height:45px" src="{{ "assets/img/logo.svg" | relative_url }}"/></a>
+      <a class="{% if page.layout == 'home' %} invisible {% endif %}"href="/"><img style="height:45px" src="{{'assets/img/logo.svg' | relative_url }}"/></a>
     </div>
     {%- assign page_paths = site.header_pages -%}
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"

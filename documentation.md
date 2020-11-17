@@ -2,7 +2,38 @@
 title: Documentation
 ---
 
-## Hardware Requirements
+<h2>Overview</h2>
+
+The following video gives an overview what GraphSense is about, what you can do with this platform and into which direction we are going to develop it further.
+
+<div class="container mb-2">
+  <p class="text-center m-auto">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/H41LrA3NCo4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </p>
+</div>
+
+If you would like to play around with our GraphSense Demo instance, please drop an email to <a href="mailto:contact@graphsense.info">contact@graphsense.info</a>.
+
+<h2 class="mt-3">Tutorials</h2>
+
+GraphSense supports simple analysis methods with low entry barriers via the GraphSense dashboard, as well as the possibility to carry out advanced analyzes via an API.
+
+<div class="container">
+  <p style="color:red" class="text-center m-auto">
+  	TODO (Bernhard): link 5min video explaining simple analytics via the dashboard
+  </p>
+</div>
+
+<div class="container">
+  <p style="color:red" class="text-center m-auto">
+  	TODO (Matteo): link 5min video explaining advanced analytics via the API
+  </p>
+</div>
+
+
+<h2 class="mt-3">Setup and Installation</h2>
+
+<h4>Hardware Requirements</h4>
 
 GraphSense can process hundreds of millions transactions and is therefore built on-top of [Apache Spark](spark) and [Cassandra](cassandra), which are highly scalable computing and analytics infrastructures.
 
@@ -16,31 +47,15 @@ All nodes are connected via **10Gbit ethernet** interfaces and a corresponding s
 
 In our previous setup we used just four worker nodes, which can be seen as minimal requirement to run the transformation pipeline for larger blockchains like Bitcoin.
 
-## Setting up GraphSense
+<h4>Setting up the Software</h4>
 
-GraphSense is not a single piece of software but a highly modular analytics platform comprising several components. Each component provides a detailed README file, explaining how to set it up. 
+In order to be able to set up GraphSense with all its components more easily on a cluster, we offer a central repository ([graphsense-setup](https://github.com/graphsense/graphsense-setup)) through which the setup can be controlled. There you will also find further documentation on the setup procedure.
 
-Before setting up GraphSense, you should have a cluster up and running, with [Apache Spark][spark] and [Cassandra][cassandra] installed. Please refer to the corresponding documentation for further details.
+<h2 class="mt-3">Frequently Asked Questions</h2>
 
-If you want to setup the entire GraphSense platform, please follow this order:
+<h4>Setup & Architecture</h4>
 
-1. Setup the cryptocurrency clients: [btc-client](https://github.com/graphsense/btc-client), [bch-client](https://github.com/graphsense/bch-client), [ltc-client](https://github.com/graphsense/ltc-client), [zec-client](https://github.com/graphsense/zec-client). Each repository provides a docker container encapsulating the most-recent cryptocurrency client versions.
-
-2. Setup and run [graphsense-blocksci](https://github.com/graphsense/graphsense-blocksci) for ingesting raw blockchain transaction data and exchange into a dedicated Cassandra keyspace.
-
-3. Use the [graphsense-tagpack-tool](https://github.com/graphsense/graphsense-tagpack-tool) for validating TagPacks and ingesting them into a dedicated Cassandra keyspace. You can use our [public TagPack collection](https://github.com/graphsense/graphsense-tagpacks) or your own, possibly private one.
-
-4. After having ingested transaction data, exchange rates, and TagPacks into a *raw* Cassandra keyspace, you can now run the [graphsense-transformation](https://github.com/graphsense/graphsense-transformation) pipeline, which computes all sorts of statistics and various types of Graph abstractions and stores them in a so-called *transformed* keyspace. Running the transformation pipeline is a resource intensive task and can, depending your hardware infrastructure, take some time.
-
-5. Having both a *raw* and *transformed* Cassandra in place, you can now run the [graphsense-REST](https://github.com/graphsense/graphsense-REST) against these keyspaces. This will expose the GraphSense REST API, which you can use in your client app.
-
-6. Finally, when the REST interface is up and running, you can setup the [graphsense-dashboard](https://github.com/graphsense/graphsense-dashboard), which relies on the REST interface, and provides an interactive analytics interface.
-
-## Frequently Asked Questions
-
-#### Setup & Architecture
-
-**Q: Why doesn't GraphSense run on my computer?**
+**Q: Can I run GraphSense on my local computer or a Raspberry Pi?**
 
 GraphSense processes hundreds of millions transactions, which requires quite some RAM and disk space. Your computer most likely just doesn't have enough hardware resources for processing and storing vast amounts of transactions and derived statics. You can however, run each component in development mode, just as we do it. Please check the README files in each repository.
 
@@ -52,7 +67,7 @@ The GraphSense Dashboard is a Web-app running on the client side (in your browse
 
 Just drop an email to [contact@graphsense.info](mailto:contact@graphsense.info) and briefly explain **who** you are and **why** you want access to our demo. You will receive access credentials and we will also sign you up for our public GraphSense users mailing list.
 
-#### Governance & Organization
+<h4>Governance & Organization</h4>
 
 **Q: Who is behind GraphSense and who is driving development?**
 
@@ -60,13 +75,19 @@ GraphSense has a strong research background and development is mainly driven by 
 
 **Q: Who is funding GraphSense?**
 
-Currently GraphSense development relies on public research grants. Most importantly the EU H2020 project [TITANIUM](https://titanium-project.eu/) and the Austrian national research project [VIRTRCIME](https://virtcrime-project.info/).
+Currently GraphSense development relies on public research grants. Most importantly the EU H2020 project [TITANIUM](https://titanium-project.eu/) and the Austrian national research projects [VIRTRCIME](https://virtcrime-project.info/) and [KRYPTOMONITOR](https://kryptomonitor-project.info/).
 
 **Q: Why don't you just some other existing cryptocurrency/blockchain analytics tool?**
 
 GraphSense development is very much driven by the needs of our project partners and our own research needs. We found that no existing commercial tool fulfills the most important need, if you want to conduct more advanced cryptocurrency analysis: full control over collected data and the ability to run customized analytics jobs. GraphSense is very much designed for **data-driven cryptocurrency analytics**.
 
 We do, however, make use of an existing open source tool: we wrapped and integrated [BlockSci](https://github.com/citp/BlockSci) in our pipeline.
+
+**Q: I need a certain new feature, can you provide it?**
+
+First of all, let us know what you need, ideally by filing a *feature request* issue in the relevant repository, probably the [GraphSense Dashboard](https://github.com/graphsense/graphsense-dashboard) or the [GraphSense API](https://github.com/graphsense/graphsense-openapi). Alternatively, you can write an email to [contact@graphsense.info](mailto:contact@graphsense.info).
+
+Whether we can implement a feature request depends on whether it fits into our agenda or not. That in turn depends on the research funding model we are currently working on.
 
 
 [spark]: https://spark.apache.org/

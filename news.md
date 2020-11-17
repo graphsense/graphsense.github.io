@@ -4,6 +4,23 @@ title: News
 ---
 
 <h2>
+  Release GraphSense 0.4.5
+  <small class="text-muted">(2020-11-19)</small>
+</h2>
+
+We are happy to announce that the fifth minor release (0.4.5) of the the 0.4 series, has arrived.
+
+This release provides
+
+* a complete rewrite of its REST API, which now follows the [OpenAPI specification](https://www.openapis.org/).
+
+* a [Python API Client](https://github.com/graphsense/graphsense-python) for conducting advanced analytics tasks
+
+* a central ([graphsense-setup](https://github.com/graphsense/graphsense-setup)) repository for installing all required components on a cluster
+
+As a response to the increasing number of requests for our semi-public demo, we also changed the access model. Before it was simple HTTP authentication, which was shared among all users. Now everyone who wants to work with the demo or use the API needs an API token, which can be requested per email (<a href="mailto:contact@graphsense.info">contact@graphsense.info</a>).
+
+<h2>
   Release GraphSense 0.4.4
   <small class="text-muted">(2020-06-16)</small>
 </h2>

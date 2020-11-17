@@ -12,7 +12,7 @@ GraphSense does not store any personal information. All data-points exposed by t
 
 Like most Websites, the graphsense.info site tracks site visits to determine the number of people visiting our pages. Although we record data such as device, Internet browser and operating system, none of this information personally identifies you.
 
-The demo instance [demo.graphsense.info](https://demo.graphsense.info) does not track site visits.
+The demo instance [demo.graphsense.info](https://demo.graphsense.info) counts API requests but does not track site visits.
 
 
 ## How we use Cookies
