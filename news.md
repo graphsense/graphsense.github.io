@@ -16,9 +16,11 @@ This release provides
 
 * a [Python API Client](https://github.com/graphsense/graphsense-python) for conducting advanced analytics tasks
 
-* a central ([graphsense-setup](https://github.com/graphsense/graphsense-setup)) repository for installing all required components on a cluster
+* a central repository ([graphsense-setup](https://github.com/graphsense/graphsense-setup)) for installing all required components using Docker Compose
 
-As a response to the increasing number of requests for our semi-public demo, we also changed the access model. Before it was simple HTTP authentication, which was shared among all users. Now everyone who wants to work with the demo or use the API needs an API token, which can be requested per email (<a href="mailto:contact@graphsense.info">contact@graphsense.info</a>).
+As a response to the increasing number of requests for our semi-public demo, we also changed the access model. Before it was simple HTTP authentication, which was shared among all users. Now everyone who wants to work with the demo or use the API needs an API key, which can be requested per email (<a href="mailto:contact@graphsense.info">contact@graphsense.info</a>).
+
+We further improved our documentation by providing tutorial videos on our new [GraphSense Youtube Channel](https://www.youtube.com/channel/UCNvAmbkaLUkijhealvR1zTQ).
 
 <h2>
   Release GraphSense 0.4.4
