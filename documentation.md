@@ -19,14 +19,8 @@ If you would like to play around with our GraphSense Demo instance, please drop 
 GraphSense supports simple analysis methods with low entry barriers via the GraphSense dashboard, as well as the possibility to carry out advanced analyzes via an API.
 
 <div class="container">
-  <p style="color:red" class="text-center m-auto">
-  	TODO (Bernhard): link 5min video explaining simple analytics via the dashboard
-  </p>
-</div>
-
-<div class="container">
-  <p style="color:red" class="text-center m-auto">
-  	TODO (Matteo): link 5min video explaining advanced analytics via the API
+  <p class="text-center m-auto">
+  	<iframe width="560" height="315" src="https://www.youtube.com/embed/BagxRwv6ykA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </p>
 </div>
 
