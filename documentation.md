@@ -57,9 +57,36 @@ GraphSense processes hundreds of millions transactions, which requires quite som
 
 The GraphSense Dashboard is a Web-app running on the client side (in your browser) only. It just needs a GraphSense REST API endpoint for retrieving data. You can operate your own endpoint or reuse one provided by others. For playing around, you can also use or semi-public [GraphSense Demo](https://demo.graphsense.info).
 
+**Q: Can I run GraphSense in the cloud?**
+
+Technically yes, but we have not tested it yet and most likely it requires some tweaks in the deployment procedures, which are currently designed for on-premises deployment only.
+
+**Q: Why are you running GraphSense on-premise and not in the cloud**
+
+Because we use GraphSense for advanced (research) analysis tasks and move a lot of data, which can easily get very, very expensive in the cloud. In addition, we believe that complete data control and autonomy also require a certain degree of independence from third-party hardware and software services in the long term.
+
 **Q: How can I get access to the GraphSense demo?**
 
 Just drop an email to [contact@graphsense.info](mailto:contact@graphsense.info) and briefly explain **who** you are and **why** you want access to our demo. You will receive access credentials and we will also sign you up for our public GraphSense users mailing list.
+
+<h4>Operation</h4>
+
+**Q: How often is the data updated?**
+
+As often as you parse and ingest relevant raw data (blockchains, exchange rates, etc.) and subsequently run the transformation procedure (see [GraphSense Setup](https://github.com/graphsense/graphsense-setup)). At the moment, this must be triggered manually, but it could be automated using a cron job.
+
+**Q: Does GraphSense support real-time updates?**
+
+Not yet, mostly because we never needed it in our investigations. However, this feature is on our future feature lists.
+
+**Q: How are entity and abuse types assigned to addresses?**
+
+They are assigned manually via [GraphSense TagPacks](https://github.com/graphsense/graphsense-tagpacks).
+
+**Q: How does GraphSense use the labels and categories provided by the dashboard users**
+
+Not at all, because labels, tags, and categories assigned by the user are not sent back to the server. They are only stored on the client-side and not used in any way on the server-side.
+
 
 <h4>Governance & Organization</h4>
 
@@ -69,7 +96,7 @@ GraphSense has a strong research background and development is mainly driven by 
 
 **Q: Who is funding GraphSense?**
 
-Currently GraphSense development relies on public research grants. Most importantly the EU H2020 project [TITANIUM](https://titanium-project.eu/) and the Austrian national research projects [VIRTRCIME](https://virtcrime-project.info/) and [KRYPTOMONITOR](https://kryptomonitor-project.info/).
+Currently GraphSense development relies on funds from the Austrian national research project [KRYPTOMONITOR](https://kryptomonitor-project.info/). Previously it received research funding from the EU H2020 project [TITANIUM](https://titanium-project.eu/) and the Austrian national research project [VIRTRCIME](https://virtcrime-project.info/).
 
 **Q: Why don't you just some other existing cryptocurrency/blockchain analytics tool?**
 
@@ -82,6 +109,14 @@ We do, however, make use of an existing open source tool: we wrapped and integra
 First of all, let us know what you need, ideally by filing a *feature request* issue in the relevant repository, probably the [GraphSense Dashboard](https://github.com/graphsense/graphsense-dashboard) or the [GraphSense API](https://github.com/graphsense/graphsense-openapi). Alternatively, you can write an email to [contact@graphsense.info](mailto:contact@graphsense.info).
 
 Whether we can implement a feature request depends on whether it fits into our agenda or not. That in turn depends on the research funding model we are currently working on.
+
+**Q: What is the GraphSense release plan and roadmap?**
+
+We communicate new and upcoming releases via the [GraphSense users list](https://groups.google.com/g/graphsense-users). Releases 0.4.x will further improve UTXO ledger analytics capabilities. Releases 0.5.x and above will support account model ledgers and, most likely, payment channels.
+
+**Q: Will GraphSense be backward compatible**
+
+Major (e.g., 1.x.x) and minor (x.5.x) releases will not be backward-compatible. For patches (x.x.3) we try to remain backwards compatible as much as possible but neither test nor guarantee this.  
 
 
 [spark]: https://spark.apache.org/
