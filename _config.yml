@@ -23,7 +23,7 @@ url: "https://graphsense.info" # the base hostname & protocol for your site, e.g
 
 repository: "graphsense/graphsense.github.io"
 repo: "https://github.com/graphsense"
-discord: "https://discord.gg/HSaWWyda"
+discord: "https://discord.gg/udweqn3aSd"
 
 # Build settings
 plugins:
