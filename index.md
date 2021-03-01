@@ -46,6 +46,9 @@ title: Home
 
   <p>GraphSense has already been used in several scientific studies to evaluate cryptocurrency data.</p>
 
+  <p>Romiti, M., Victor, F., Moreno-Sanchez, P., Nordholt, P., Haslhofer, B., & Maffei, M. (2021). <strong>Cross-layer deanonymization methods in the lightning protocol.</strong> Financial cryptography and data security (FC 2021).
+  <a href="https://arxiv.org/abs/2007.00764">(pdf)</a></p>
+
   <p>Stütz, R., Gaži, P., Haslhofer, B., & Illum, J. (2020). <strong>Stake shift in major cryptocurrencies: An empirical study.</strong> Financial cryptography and data security (FC 2020).
   <a href="https://arxiv.org/abs/2001.04187">(pdf)</a></p>
 
@@ -75,11 +78,12 @@ title: Home
 <div class="container">
   <p>Some more technical details about GraphSense are described <a href="http://ceur-ws.org/Vol-1695/paper20.pdf">here</a>; please cite as:</p>
 
-  <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@inproceedings{Haslhofer:2016a,
-    title={O Bitcoin Where Art Thou? Insight into Large-Scale Transaction Graphs.},
-    author={Haslhofer, Bernhard and Karl, Roman and Filtz, Erwin},
-    booktitle={SEMANTiCS (Posters, Demos)},
-    year={2016}
+  <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@article{Haslhofer:2021a,
+    title = {GraphSense: A General-Purpose Cryptoasset Analytics Platform}, 
+    author = {Bernhard Haslhofer and Rainer Stütz and Matteo Romiti and Ross King},
+    year = {2021},
+    journal = {Arxiv pre-print},
+    url = {https://arxiv.org/abs/2102.13613}
   }
   </code></pre></div></div>
 </div>
