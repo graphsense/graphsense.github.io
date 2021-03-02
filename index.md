@@ -40,6 +40,24 @@ title: Home
   <p class="text-center m-auto"><img class="w-100" src="{{ "/assets/img/GraphSense_0.4.1-screenshot_detail.png" | relative_url }}" alt="screenshot"></p><p class="text-center">An example Bitcoin address, its connections and statistics.</p>
 </div>
 
+## System Description / White paper
+
+<div class="container">
+
+  <p>Haslhofer, B., Stütz, R., Romiti, M., & King, R. (2021). GraphSense: A general-purpose cryptoasset analytics platform. Arxiv pre-print.
+  <a href="https://arxiv.org/abs/2102.13613">(pdf)</a></p>
+
+  <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@article{Haslhofer:2021a,
+    title = {GraphSense: A General-Purpose Cryptoasset Analytics Platform}, 
+    author = {Bernhard Haslhofer and Rainer Stütz and Matteo Romiti and Ross King},
+    year = {2021},
+    journal = {Arxiv pre-print},
+    url = {https://arxiv.org/abs/2102.13613}
+  }
+  </code></pre></div></div>
+</div>
+
+
 ## Publications
 
 <div class="container">
@@ -72,22 +90,6 @@ title: Home
   International Data Science Conference (DSC 2017), Salzburg, Austria, 2017.
   <a href="https://aic.ai.wu.ac.at/~polleres/publications/filtz-etal-2017IDSC.pdf">(pdf)</a></p>
 </div>
-
-## Citation
-
-<div class="container">
-  <p>Some more technical details about GraphSense are described <a href="http://ceur-ws.org/Vol-1695/paper20.pdf">here</a>; please cite as:</p>
-
-  <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@article{Haslhofer:2021a,
-    title = {GraphSense: A General-Purpose Cryptoasset Analytics Platform}, 
-    author = {Bernhard Haslhofer and Rainer Stütz and Matteo Romiti and Ross King},
-    year = {2021},
-    journal = {Arxiv pre-print},
-    url = {https://arxiv.org/abs/2102.13613}
-  }
-  </code></pre></div></div>
-</div>
-
 
 ## Core Team
 
