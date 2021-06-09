@@ -9,7 +9,7 @@ title: Home
   </p>
 </div>
 
-## Supported assets
+## Supported Assets
 
 <div class="container">
 

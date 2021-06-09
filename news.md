@@ -19,9 +19,9 @@ Other highlights of this release are:
 
 * Attribution Tags: quality improvements; distinctions between entity- and address-level tags
 
-The GraphSense Dashboard demo is still available at: https://demo.graphsense.info
+The GraphSense Dashboard demo is still available at: [https://demo.graphsense.info](https://demo.graphsense.info).
 
-The GraphSense REST OpenAPI is available at: https://api.graphsense.info
+The GraphSense REST OpenAPI is available at: [https://api.graphsense.info](https://api.graphsense.info).
 
 Everyone who wants to work with the demo or use the API needs an API key, which can be requested per email (<a href="mailto:contact@graphsense.info">contact@graphsense.info</a>).
 
