@@ -12,8 +12,8 @@
    height="2500"
    version="1.1"
    id="svg2682"
-   sodipodi:docname="zcash.svg"
-   inkscape:version="0.92.3 (unknown)">
+   sodipodi:docname="zec.svg"
+   inkscape:version="0.92.5 (0.92.5+68)">
   <metadata
      id="metadata2688">
     <rdf:RDF>
@@ -22,12 +22,69 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <defs
-     id="defs2686" />
+     id="defs2686">
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker1162"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path1160"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:none;stroke-width:1pt;stroke-opacity:1;fill:#d2eced;fill-opacity:1"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker1116"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path1114"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:none;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:0.04705882"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker1094"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path1092"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:none;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:0.04705882"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lstart"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path816"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:none;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:0.04705882"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+  </defs>
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -37,15 +94,15 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1441"
-     inkscape:window-height="825"
+     inkscape:window-width="1368"
+     inkscape:window-height="768"
      id="namedview2684"
      showgrid="false"
      inkscape:zoom="0.13350176"
-     inkscape:cx="2093.7464"
+     inkscape:cx="816.60968"
      inkscape:cy="2840.0458"
      inkscape:window-x="65"
-     inkscape:window-y="24"
+     inkscape:window-y="34"
      inkscape:window-maximized="0"
      inkscape:current-layer="svg2682" />
   <path
@@ -53,7 +110,7 @@
      id="path2678"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="scscscscscscscscs"
-     style="fill:#000000;fill-opacity:0.04705882" />
+     style="fill:#d2eced;fill-opacity:1;marker-end:url(#marker1162)" />
   <path
      d="M433 575.7h199.6V676H509.7c2 28.7 3.1 55.3 5.1 83.9H411.4V677H288.5c0-32.8-4.1-65.5 2-96.2 3.1-16.4 21.5-30.7 32.8-45 38.9-46.1 77.8-91.1 117.7-137.2 15.4-17.4 30.7-33.8 48.1-53.2H297.7V245.1h113.6v-83.9h99.3v81.9h123.9c0 33.8 4.1 66.5-2 97.3-3.1 16.4-21.5 30.7-33.8 45-38.9 46.1-77.8 91.1-117.7 137.2-15.2 18.3-30.5 34.6-48 53.1z"
      id="path2680"

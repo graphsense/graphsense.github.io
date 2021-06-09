@@ -174,9 +174,10 @@ svg.slash path {
 
   img {
     width: 100%;
-    @include media-breakpoint-up(xl) {
-      width: 50%;
-    }
+    //@include media-breakpoint-up(xl) {
+      //width: 50%;
+    //}
+    margin-bottom: 1em;
   }
 }
 

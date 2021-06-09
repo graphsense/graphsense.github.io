@@ -9,18 +9,18 @@ title: Home
   </p>
 </div>
 
-## Supported currencies
+## Supported assets
 
 <div class="container">
 
-  <p class="mb-5">GraphSense supports major cryptocurrencies like Bitcoin, Bitcoin Cash, Litecoin, and Zcash as well as other UTXO model currencies.</p>
+  <p class="lead mb-5 text-center">GraphSense supports major cryptocurrencies like Bitcoin, Bitcoin Cash, Litecoin, and Zcash as well as Ethereum.</p>
 
-  <div class="row">
+  <div class="row" style="justify-content:center">
 
     {% for currency in site.data.currencies %}
       {% assign curr = currency[0] %}
       {% assign stats=currency[1] %}
-      {% include currency.html currency=curr %}
+      {% include currency.html stats=stats currency=curr %}
     {% endfor %}
 
   </div>
@@ -30,7 +30,7 @@ title: Home
 
 <ul class="container features d-flex flex-row flex-wrap w-100">
 {% for feature in site.data.features %}
-    <li><i class="{{feature.collection | default: "fa" }} fa-{{ feature.icon }}"></i> <strong>{{ feature.heading }}</strong> <div>{{ feature.text }}</div></li>
+    <li><i class="{{feature.collection | default: "fa" }} fa-{{ feature.icon }}"></i> <strong>{{ feature.heading }}</strong> <div class="lead">{{ feature.text }}</div></li>
 {% endfor %}
 </ul>
 
@@ -96,6 +96,6 @@ title: Home
 <ul class="contributors container d-flex flex-row flex-wrap m-auto justify-content-around">
   <li><img src="{{ "/assets/img/bh.jpeg" | relative_url }}"/><a href="http://bernhardhaslhofer.info/">Bernhard Haslhofer</a></li>
   <li><img src="{{ "/assets/img/rs.png" | relative_url }}"/>Rainer Stütz</li>
-  <li><img src="{{ "/assets/img/romitim.png" | relative_url }}"/><a href="https://matteoromiti.github.io/">Matteo Romiti</a></li>
+  <li><img src="{{ "/assets/img/md.png" | relative_url }}"/><a href="https://mdragaschnig.github.io/"></a>Melitta Dragaschnig</li>
   <li><img src="{{ "/assets/img/mr.jpeg" | relative_url }}"/><a href="https://pi.systems">Matthias Rella</a></li>    
 </ul>

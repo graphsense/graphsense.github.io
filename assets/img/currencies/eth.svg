@@ -15,7 +15,7 @@
    version="1.1"
    id="svg10000"
    inkscape:version="0.92.5 (0.92.5+68)"
-   sodipodi:docname="btc.svg">
+   sodipodi:docname="eth.svg">
   <defs
      id="defs9994" />
   <sodipodi:namedview
@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="15.839192"
-     inkscape:cx="-1.2151535"
-     inkscape:cy="22.415786"
+     inkscape:cx="-0.94988408"
+     inkscape:cy="10.843759"
      inkscape:document-units="mm"
      inkscape:current-layer="g2658"
      showgrid="false"
@@ -66,11 +66,35 @@
          d="M 63.033,39.744 C 58.759,56.887 41.396,67.32 24.251,63.045 7.113,58.771 -3.32,41.407 0.956,24.265 5.228,7.12 22.591,-3.314 39.731,0.96 56.875,5.234 67.307,22.6 63.033,39.744 Z"
          inkscape:connector-curvature="0"
          style="fill:#d2eced;fill-opacity:1" />
-      <path
-         id="path2656"
-         d="M 46.103,27.444 C 46.74,23.186 43.498,20.897 39.065,19.37 l 1.438,-5.768 -3.511,-0.875 -1.4,5.616 c -0.923,-0.23 -1.871,-0.447 -2.813,-0.662 l 1.41,-5.653 -3.509,-0.875 -1.439,5.766 c -0.764,-0.174 -1.514,-0.346 -2.242,-0.527 l 0.004,-0.018 -4.842,-1.209 -0.934,3.75 c 0,0 2.605,0.597 2.55,0.634 1.422,0.355 1.679,1.296 1.636,2.042 l -1.638,6.571 c 0.098,0.025 0.225,0.061 0.365,0.117 -0.117,-0.029 -0.242,-0.061 -0.371,-0.092 l -2.296,9.205 c -0.174,0.432 -0.615,1.08 -1.609,0.834 0.035,0.051 -2.552,-0.637 -2.552,-0.637 l -1.743,4.019 4.569,1.139 c 0.85,0.213 1.683,0.436 2.503,0.646 l -1.453,5.834 3.507,0.875 1.439,-5.772 c 0.958,0.26 1.888,0.5 2.798,0.726 l -1.434,5.745 3.511,0.875 1.453,-5.823 c 5.987,1.133 10.489,0.676 12.384,-4.739 1.527,-4.36 -0.076,-6.875 -3.226,-8.515 2.294,-0.529 4.022,-2.038 4.483,-5.155 z m -8.022,11.249 c -1.085,4.36 -8.426,2.003 -10.806,1.412 l 1.928,-7.729 c 2.38,0.594 10.012,1.77 8.878,6.317 z m 1.086,-11.312 c -0.99,3.966 -7.1,1.951 -9.082,1.457 l 1.748,-7.01 c 1.982,0.494 8.365,1.416 7.334,5.553 z"
-         inkscape:connector-curvature="0"
-         style="fill:#ffffff" />
+      <g
+         id="g880"
+         transform="matrix(1.017219,0,0,1.017219,-123.81367,-67.57031)">
+        <path
+           style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.3171913"
+           id="path3078"
+           d="m 153.166,91.666882 -14.66098,6.663792 14.66098,8.666076 14.66098,-8.666076 z"
+           inkscape:connector-curvature="0" />
+        <path
+           style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.3171913"
+           id="path3094"
+           d="m 138.50514,98.330549 14.66097,8.666071 V 91.666755 74.004358 Z"
+           inkscape:connector-curvature="0" />
+        <path
+           style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.3171913"
+           id="path3110"
+           d="m 153.166,74.004358 v 17.662397 15.329865 l 14.66098,-8.666071 z"
+           inkscape:connector-curvature="0" />
+        <path
+           style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.3171913"
+           id="path3126"
+           d="m 138.50514,101.11065 14.66097,20.65986 v -11.99815 z"
+           inkscape:connector-curvature="0" />
+        <path
+           style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.3171913"
+           id="path3142"
+           d="m 153.166,109.77252 v 11.99815 l 14.6697,-20.65988 z"
+           inkscape:connector-curvature="0" />
+      </g>
     </g>
   </g>
 </svg>
