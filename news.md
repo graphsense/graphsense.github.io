@@ -4,6 +4,30 @@ title: News
 ---
 
 <h2>
+  Release GraphSense 0.5
+  <small class="text-muted">(2021-06-01)</small>
+</h2>
+
+
+We are happy to announce GraphSense 0.5. This major release supports the analysis of Ethereum transactions and thus implements a first important step towards the integration of account model ledgers.
+ 
+Other highlights of this release are:
+
+* Dashboard improvements: colored marking of specific transactions paths; faster path search; a local in-browser tag store for managing added attribution tags
+
+* REST API improvements: faster responses through batch requests; example Jupyter notebooks showcasing how to use the API for cryptoasset investigations
+
+* Attribution Tags: quality improvements; distinctions between entity- and address-level tags
+
+The GraphSense Dashboard demo is still available at: https://demo.graphsense.info
+
+The GraphSense REST OpenAPI is available at: https://api.graphsense.info
+
+Everyone who wants to work with the demo or use the API needs an API key, which can be requested per email (<a href="mailto:contact@graphsense.info">contact@graphsense.info</a>).
+
+
+
+<h2>
   Release GraphSense 0.4.5
   <small class="text-muted">(2020-11-19)</small>
 </h2>
