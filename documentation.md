@@ -98,7 +98,7 @@ GraphSense has a strong research background and development is mainly driven by 
 
 Currently GraphSense development relies on funds from the Austrian national research project [KRYPTOMONITOR](https://kryptomonitor-project.info/). Previously it received research funding from the EU H2020 project [TITANIUM](https://titanium-project.eu/) and the Austrian national research project [VIRTRCIME](https://virtcrime-project.info/).
 
-**Q: Why don't you just some other existing cryptocurrency/blockchain analytics tool?**
+**Q: Why don't you use just some other existing cryptocurrency/blockchain analytics tool?**
 
 GraphSense development is very much driven by the needs of our project partners and our own research needs. We found that no existing commercial tool fulfills the most important need, if you want to conduct more advanced cryptocurrency analysis: full control over collected data and the ability to run customized analytics jobs. GraphSense is very much designed for **data-driven cryptocurrency analytics**.
 
