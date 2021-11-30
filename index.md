@@ -5,7 +5,7 @@ title: Home
 
 <div class="container mt-3">
   <p class="lead text-center">
-    GraphSense is a cryptoasset analytics platform with an emphasis on full data sovereignty, algorithmic transparency, and scalability. GraphSense is open source and free. It provides a dashboard for interactive investigations and, more importantly, full data control for executing advanced analytics tasks.
+    GraphSense is a cryptoasset analytics platform emphasizing full data sovereignty, algorithmic transparency, and scalability. GraphSense is open source and free. It provides a dashboard for interactive investigations and, more importantly, full data control for executing advanced analytics tasks.
   </p>
 </div>
 

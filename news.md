@@ -4,12 +4,30 @@ title: News
 ---
 
 <h2>
+  Release GraphSense 0.5.1
+  <small class="text-muted">(2021-11-30)</small>
+</h2>
+
+We are happy to announce GraphSense 0.5.1. This minor release brings bug fixes, some additional features, improved attribution tags, performance enhancements, and, last but not least, ensures that GraphSense also works after the recent Bitcoin Taproot upgrade.
+
+Some highlights of this release are:
+
+* Dashboard improvements: users can now inspect transactions between entities; request limits are now visible on the dashboard; path search is now faster
+
+* REST API improvements: performance improvements; unified mass data retrieval endpoints into a single “bulk” interface (CSV + JSON)
+
+* Transformation job: faster statistics and graph computation after schema decluttering; upgrade to Apache Spark 3.1.2 and Cassandra 4
+
+* Attribution Tags: additional taxonomy concepts; introduced confidence scores to TagPack schema; added more attribution tags to the public repo, mapped them to entity-level; integrated and tagged Wasabi and Samourai transactions.
+
+
+<h2>
   Release GraphSense 0.5
   <small class="text-muted">(2021-06-01)</small>
 </h2>
 
 
-We are happy to announce GraphSense 0.5. This major release supports the analysis of Ethereum transactions and thus implements a first important step towards the integration of account model ledgers.
+We are happy to announce GraphSense 0.5. This major release supports the analysis of Ethereum transactions and thus implements a first important step towards integrating account model ledgers.
  
 Other highlights of this release are:
 
@@ -32,7 +50,7 @@ Everyone who wants to work with the demo or use the API needs an API key, which 
   <small class="text-muted">(2020-11-19)</small>
 </h2>
 
-We are happy to announce that the fifth minor release (0.4.5) of the the 0.4 series, has arrived.
+We are happy to announce that the fifth minor release (0.4.5) of the 0.4 series, has arrived.
 
 This release provides
 
@@ -51,7 +69,7 @@ We further improved our documentation by providing tutorial videos on our new [G
   <small class="text-muted">(2020-06-16)</small>
 </h2>
 
-We are happy to announce that the fourth minor release (0.4.4) of the the 0.4 series, has arrived.
+We are happy to announce that the fourth minor release (0.4.4) of the 0.4 series, has arrived.
 
 This release provides some bug fixes and minor enhancements, such as:
 
@@ -67,9 +85,9 @@ This release provides some bug fixes and minor enhancements, such as:
   <small class="text-muted">(2020-05-11)</small>
 </h2>
 
-GraphSense 0.4.3 the third minor release of the 0.4 series, has arrived.
+GraphSense 0.4.3, the third minor release of the 0.4 series, has arrived.
 
-This release provides a number of bug fixes, enhancements, and minor features.
+This release provides several bug fixes, enhancements, and minor features.
 
 #### GraphSense Dashboard
 

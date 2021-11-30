@@ -14,8 +14,8 @@
   heading: Programmable
   text: Support for data-driven analytics via the REST API.
 - icon: cube 
-  heading: BlockSci integration
-  text: GraphSense makes use of <a target="_blank" href="https://github.com/citp/BlockSci">BlockSci</a> for parsing blockchains, and filtering CoinJoins.
+  heading: TagPacks
+  text: GraphSense organizes attribution tags in TagPacks, which can <a target="_blank" href="https://github.com/graphsense/graphsense-tagpacks">public</a> or private.
 - icon: tachometer-alt 
   heading: Future-proof
   text: Built on <a target="_blank" href="https://spark.apache.org/">Apache Spark</a> and <a target="_blank" href="http://cassandra.apache.org/">Cassandra</a> for horizontal scalability.
