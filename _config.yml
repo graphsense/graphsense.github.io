@@ -14,10 +14,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Graphsense
-email: "contact@graphsense.info"
+email: "contact@iknaio.com"
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://graphsense.info" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://graphsense.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 #github_username:  jekyll
 

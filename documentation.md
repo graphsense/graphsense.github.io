@@ -2,18 +2,6 @@
 title: Documentation
 ---
 
-<h2>Overview</h2>
-
-The following video gives an overview of what GraphSense is about, what you can do with this platform, and in which direction we are going to develop it further.
-
-<div class="container mb-2">
-  <p class="text-center m-auto">
-		<iframe width="560" height="315" src="https://www.youtube.com/embed/H41LrA3NCo4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </p>
-</div>
-
-If you would like to play around with our GraphSense Demo instance, please drop an email to <a href="mailto:contact@graphsense.info">contact@graphsense.info</a>.
-
 <h2 class="mt-3">Tutorials</h2>
 
 GraphSense supports simple analysis methods with low entry barriers via the GraphSense dashboard and the possibility to carry out advanced analyzes via an API.
@@ -27,7 +15,7 @@ GraphSense supports simple analysis methods with low entry barriers via the Grap
 
 <h2 class="mt-3">Setup and Installation</h2>
 
-<h4>Hardware Requirements</h4>
+<h4>Requirements</h4>
 
 GraphSense can process hundreds of millions of transactions and therefore builds on top of [Apache Spark](spark) and [Cassandra](cassandra), which are highly scalable computing and analytics infrastructures.s
 
@@ -55,7 +43,7 @@ GraphSense processes hundreds of millions of transactions and requires quite som
 
 **Q: Can I run the GraphSense Dashboard without setting up an Apache Spark / Cassandra cluster?**
 
-The GraphSense Dashboard is a Web-app running on the client-side (in your browser) only. It just needs a GraphSense REST API endpoint for retrieving data. You can operate your endpoint or reuse one provided by others. For playing around, you can also use or semi-public [GraphSense Demo](https://demo.graphsense.info).
+The GraphSense Dashboard is a Web-app running on the client-side (in your browser) only. It just needs a GraphSense REST API endpoint for retrieving data. You can operate your endpoint or reuse one provided by others.
 
 
 **Q: Can I run GraphSense in the cloud?**
@@ -68,7 +56,7 @@ Because we use GraphSense for advanced (research) analysis tasks and move a lot 
 
 **Q: How can I get access to the GraphSense demo?**
 
-Just drop an email to [contact@graphsense.info](mailto:contact@graphsense.info) and briefly explain **who** you are and **why** you want access to our demo. You will receive access credentials, and we will also sign you up for our public GraphSense users mailing list.
+Just drop an email to [contact@iknaio.com](mailto:contact@iknaio.com) and briefly explain **who** you are and **why** you want access to our demo. You will receive access credentials, and we will also sign you up for our public GraphSense users mailing list.
 
 <h4>Operation</h4>
 
@@ -88,12 +76,11 @@ They are assigned manually via [GraphSense TagPacks](https://github.com/graphsen
 
 Not at all because labels, tags, and categories assigned by the user are not sent back to the server. They are only stored on the client-side and not used in any way on the server-side.
 
-
 <h4>Governance & Organization</h4>
 
 **Q: Who is behind GraphSense, and who is driving development?**
 
-GraphSense has a strong research background, and development is mainly driven by the GraphSense core team (see [About](about.html)). This team consists mainly of scientists and engineers working for [AIT's Data Science and Artificial Intelligence Research Group](https://www.ait.ac.at/themen/data-science/).
+GraphSense has a strong research background, and development is mainly driven by the GraphSense core team.
 
 **Q: Who is funding GraphSense?**
 
@@ -105,18 +92,9 @@ GraphSense development is very much driven by the needs of our project partners 
 
 **Q: I need a specific new feature, can you provide it?**
 
-First of all, let us know what you need, ideally by filing a *feature request* issue in the relevant repository, probably the [GraphSense Dashboard](https://github.com/graphsense/graphsense-dashboard) or the [GraphSense API](https://github.com/graphsense/graphsense-openapi). Alternatively, you can write an email to [contact@graphsense.info](mailto:contact@graphsense.info).
+First of all, let us know what you need, ideally by filing a *feature request* issue in the relevant repository, probably the [GraphSense Dashboard](https://github.com/graphsense/graphsense-dashboard) or the [GraphSense API](https://github.com/graphsense/graphsense-openapi). Alternatively, you can write an email to [contact@iknaio.com](mailto:contact@iknaio.com).
 
 Whether we can implement a feature request depends on whether it fits into our plan or not. That, in turn, depends on the research funding model we are currently working on.
-
-**Q: What is the GraphSense release plan and roadmap?**
-
-We communicate new and upcoming releases via the [GraphSense users list](https://groups.google.com/g/graphsense-users). For example, Releases 0.4.x improved UTXO ledger analytics capabilities. Releases 0.5.x and above will support account model ledgers and, most likely, payment channels.
-
-**Q: Will GraphSense be backward compatible**
-
-Major (e.g., 1.x.x) and minor (x.5.x) releases will not be backward-compatible. For patches (x.x.3), we try to remain backward compatible as much as possible but neither test nor guarantee this.  
-
 
 [spark]: https://spark.apache.org/
 [cassandra]: https://cassandra.apache.org/

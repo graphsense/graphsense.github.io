@@ -6,3 +6,4 @@ Gemfile.lock
 .*.sw*
 cache
 .vimrc
+.DS_Store

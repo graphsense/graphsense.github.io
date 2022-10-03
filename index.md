@@ -94,8 +94,9 @@ title: Home
 ## Core Team
 
 <ul class="contributors container d-flex flex-row flex-wrap m-auto justify-content-around">
-  <li><img src="{{ "/assets/img/bh.jpeg" | relative_url }}"/><a href="http://bernhardhaslhofer.info/">Bernhard Haslhofer</a></li>
-  <li><img src="{{ "/assets/img/rs.png" | relative_url }}"/>Rainer Stütz</li>
-  <li><img src="{{ "/assets/img/md.png" | relative_url }}"/><a href="https://mdragaschnig.github.io/"></a>Melitta Dragaschnig</li>
-  <li><img src="{{ "/assets/img/mr.jpeg" | relative_url }}"/><a href="https://pi.systems">Matthias Rella</a></li>    
+  <li>Bernhard Haslhofer, Complexity Science Hub Vienna</li>
+  <li>Matthias Rella, Iknaio Cryptoasset Analytics GmbH</li>
+  <li>Melitta Dragaschnig, AIT - Austrian Institute of Technologogy</li>
+  <li>Michael Fröwis, Iknaio Cryptoasset Analytics GmbH</li>
+  <li>Rainer Stütz, Complexity Science Hub Vienna</li>
 </ul>

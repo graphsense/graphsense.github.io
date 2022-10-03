@@ -1,5 +1,7 @@
 MIT License
 
+Copyright (c) 2022 Iknaio Cryptoasset Analytics GmbH
+Copyright (c) 2019 AIT Austrian Institute of Technology
 Copyright (c) 2018 Nicolas Vanhoren
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
