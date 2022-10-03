@@ -4,6 +4,20 @@ title: News
 ---
 
 <h2>
+  Release GraphSense 1.0.0
+  <small class="text-muted">(2022-07-15)</small>
+</h2>
+
+We are happy to announce the first production release of GraphSense!
+
+Some highlights of this release are:
+
+* Complete rewrite of the GraphSense dashboard to allow for third-party add ons on-top of GraphSense.
+
+* Integration of Ethereum account-to-account transactions
+
+
+<h2>
   Release GraphSense 0.5.1
   <small class="text-muted">(2021-11-30)</small>
 </h2>
@@ -37,13 +51,6 @@ Other highlights of this release are:
 
 * Attribution Tags: quality improvements; distinctions between entity- and address-level tags
 
-The GraphSense Dashboard demo is still available at: [https://demo.graphsense.info](https://demo.graphsense.info).
-
-The GraphSense REST OpenAPI is available at: [https://api.graphsense.info](https://api.graphsense.info).
-
-Everyone who wants to work with the demo or use the API needs an API key, which can be requested per email (<a href="mailto:contact@graphsense.info">contact@graphsense.info</a>).
-
-
 
 <h2>
   Release GraphSense 0.4.5
@@ -60,9 +67,8 @@ This release provides
 
 * a central repository ([graphsense-setup](https://github.com/graphsense/graphsense-setup)) for installing all required components using Docker Compose
 
-As a response to the increasing number of requests for our semi-public demo, we also changed the access model. Before it was simple HTTP authentication, which was shared among all users. Now everyone who wants to work with the demo or use the API needs an API key, which can be requested per email (<a href="mailto:contact@graphsense.info">contact@graphsense.info</a>).
+As a response to the increasing number of requests for our semi-public demo, we also changed the access model. Before it was simple HTTP authentication, which was shared among all users. Now everyone who wants to work with the demo or use the API needs an API key, which can be requested per email (<a href="mailto:contact@iknaio.com">contact@iknaio.com</a>).
 
-We further improved our documentation by providing tutorial videos on our new [GraphSense Youtube Channel](https://www.youtube.com/channel/UCNvAmbkaLUkijhealvR1zTQ).
 
 <h2>
   Release GraphSense 0.4.4
