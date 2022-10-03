@@ -34,12 +34,6 @@ title: Home
 {% endfor %}
 </ul>
 
-## Example
-
-<div class="container">
-  <p class="text-center m-auto"><img class="w-100" src="{{ "/assets/img/GraphSense_0.4.1-screenshot_detail.png" | relative_url }}" alt="screenshot"></p><p class="text-center">An example Bitcoin address, its connections and statistics.</p>
-</div>
-
 ## System Description / White paper
 
 <div class="container">

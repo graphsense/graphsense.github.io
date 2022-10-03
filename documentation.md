@@ -2,17 +2,6 @@
 title: Documentation
 ---
 
-<h2 class="mt-3">Tutorials</h2>
-
-GraphSense supports simple analysis methods with low entry barriers via the GraphSense dashboard and the possibility to carry out advanced analyzes via an API.
-
-<div class="container">
-  <p class="text-center m-auto">
-  	<iframe width="560" height="315" src="https://www.youtube.com/embed/BagxRwv6ykA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </p>
-</div>
-
-
 <h2 class="mt-3">Setup and Installation</h2>
 
 <h4>Requirements</h4>
