@@ -13,8 +13,16 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Graphsense
+title: "Graphsense Cryptoasset Analytics Platform"
 email: "contact@iknaio.com"
+
+tagline: "Graphsense | An open source cryptoasset analytics platform"
+
+description: >
+  GraphSense is a cryptoasset analytics platform emphasizing full data sovereignty,
+  algorithmic transparency, and scalability. GraphSense is open source and free.
+  It provides a dashboard for interactive investigations and, more importantly,
+  full data control for executing advanced analytics tasks.  
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://graphsense.github.io" # the base hostname & protocol for your site, e.g. http://example.com
@@ -36,7 +44,6 @@ header_pages:
   - index.md
   - news.md
   - documentation.md
-  - about.md
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
