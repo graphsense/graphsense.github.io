@@ -56,7 +56,13 @@ title: Home
 
 <div class="container">
 
-  <p>GraphSense has already been used in several scientific studies to evaluate cryptocurrency data.</p>
+  <p>GraphSense has already supported several scientific studies:</p>
+
+  <p>Stütz, R., Stockinger, J., Haslhofer, B., Moreno-Sanchez, P., & Maffei, M. (2022). <strong>Adoption and actual privacy of decentralized CoinJoin implementations in bitcoin.</strong> Proceedings of the 4st ACM conference on advances in financial technologies, AFT 2022, boston, september 19-22, 2022.
+  <a href="https://arxiv.org/abs/2109.10229">(pdf)</a></p>
+
+  <p>Kappos, G., Yousaf, H., Stütz, R., Rollet, S., Haslhofer, B., & Meiklejohn, S. (2022). <strong>How to peel a million: Validating and expanding bitcoin clusters.</strong> 31st USENIX security symposium (USENIX security 22).
+  <a href="https://www.usenix.org/conference/usenixsecurity22/presentation/kappos">(pdf)</a></p>
 
   <p>Romiti, M., Victor, F., Moreno-Sanchez, P., Nordholt, P., Haslhofer, B., & Maffei, M. (2021). <strong>Cross-layer deanonymization methods in the lightning protocol.</strong> Financial cryptography and data security (FC 2021).
   <a href="https://arxiv.org/abs/2007.00764">(pdf)</a></p>

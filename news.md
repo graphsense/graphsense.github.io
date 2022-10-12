@@ -4,6 +4,25 @@ title: News
 ---
 
 <h2>
+  Release GraphSense 22.10
+  <small class="text-muted">(2022-10-22)</small>
+</h2>
+ 
+We are happy to announce our new GraphSense release!
+
+Thanks to all users who provided feedback, suggested new features, and helped us improve the overall user experience! Some highlights of this release are:
+
+* Data: Cryptoasset addresses are now synchronized periodically with the supported blockchains, which is an essential first step for real-time analytics. The Ethereum client has been updated and works with the recent proof-of-stake merge.
+
+* Dashboard improvements: address-level tracing is now more intuitive; one can remove nodes using the DEL button; shadows indicating duplicate occurrences of address or entity nodes can be enabled/disabled, etc.
+
+To access the most recent version of GraphSense, hosted by Iknaio (https://ikna.io), please use the following endpoints:
+ 
+Dashboard: https://app.ikna.io
+REST API: https://api.ikna.io
+
+
+<h2>
   Release GraphSense 1.0.0
   <small class="text-muted">(2022-07-15)</small>
 </h2>
