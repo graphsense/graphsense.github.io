@@ -5,7 +5,7 @@ title: Home
 
 <div class="container mt-3">
   <p class="lead text-center">
-    GraphSense is a cryptoasset analytics platform emphasizing full data sovereignty, algorithmic transparency, and scalability. GraphSense is open-source and free. It provides a dashboard for interactive investigations and, more importantly, complete data control for executing advanced, data-driven cryptoasset analytics tasks.
+    GraphSense is a cryptoasset analytics platform emphasizing full data sovereignty, algorithmic transparency, and scalability. GraphSense is open-source and free. It provides a dashboard for interactive investigations and, more importantly, complete data control for automatizing cryptoasset analytics workflows.
   </p>
 </div>
 
@@ -13,7 +13,7 @@ title: Home
 
 <div class="container">
 
-  <p class="lead mb-5 text-center">GraphSense supports major cryptocurrencies like Bitcoin, Bitcoin Cash, Litecoin, and Zcash as well as Ethereum.</p>
+  <p class="lead mb-5 text-center">The GraphSense system design supports UTXO- (e.g., Bitcoin) and account-model (e.g., Ethereum) ledgers. Currently, adapters are available for major cryptocurrencies like Bitcoin, Bitcoin Cash, Litecoin, Zcash, and Ethereum. Additional ledgers can be integrated by implementing a lightweight adapter component.</p>
 
   <div class="row" style="justify-content:center">
 
@@ -52,7 +52,7 @@ title: Home
 </div>
 
 
-## Publications
+## Scientific Studies
 
 <div class="container">
 
