@@ -97,6 +97,7 @@ title: Home
 * Rainer Stütz, [Complexity Science Hub Vienna][csh]
 * Matthias Rella, [Iknaio Cryptoasset Analytics GmbH][iknaio]
 * Michael Fröwis, [Iknaio Cryptoasset Analytics GmbH][iknaio]
+* Artemiy Malyshau, [Iknaio Cryptoasset Analytics GmbH][iknaio]
 * Melitta Dragaschnig, [AIT - Austrian Institute of Technologogy][ait]
 
 [csh][https://www.csh.ac.at/]
