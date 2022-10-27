@@ -93,13 +93,13 @@ title: Home
 
 ## Core Team
 
-* Bernhard Haslhofer, [Complexity Science Hub Vienna][csh]
-* Rainer Stütz, [Complexity Science Hub Vienna][csh]
-* Matthias Rella, [Iknaio Cryptoasset Analytics GmbH][iknaio]
-* Michael Fröwis, [Iknaio Cryptoasset Analytics GmbH][iknaio]
-* Artemiy Malyshau, [Iknaio Cryptoasset Analytics GmbH][iknaio]
-* Melitta Dragaschnig, [AIT - Austrian Institute of Technologogy][ait]
-
-[csh][https://www.csh.ac.at/]
-[ait][https://www.ait.ac.at/en/]
-[iknaio][https://www.ikna.io/]
+<div class="container">
+  <ul>
+    <li>Bernhard Haslhofer, <a href="https://www.csh.ac.at/" target="_blank">Complexity Science Hub Vienna</a></li>
+    <li>Rainer Stütz, <a href="https://www.csh.ac.at/" target="_blank">Complexity Science Hub Vienna</a></li>
+    <li>Matthias Rella, <a href="https://www.ikna.io/" target="_blank">Iknaio Cryptoasset Analytics GmbH</a></li>
+    <li>Michael Fröwis, <a href="https://www.ikna.io/" target="_blank">Iknaio Cryptoasset Analytics GmbH</a></li>
+    <li>Artemiy Malyshau, <a href="https://www.ikna.io/" target="_blank">Iknaio Cryptoasset Analytics GmbH</a></li>
+    <li>Melitta Dragaschnig, <a href="https://www.ait.ac.at/" target="_blank">AIT - Austrian Insitute of Technology GmbH</a></li>
+  </ul>
+</div>
