@@ -37,6 +37,22 @@ Some highlights of this release are:
 
 
 <h2>
+  Release GraphSense 0.5.2
+  <small class="text-muted">(2022-03-30)</small>
+</h2>
+
+
+We are happy to announce GraphSense 0.5.2. This minor release includes some bug fixes. A special focus
+was on redesigning the tagpack handling, decoupling it from GraphSense transformations and introducing TagStores:  
+
+* tags are maintained in a dedicated PostgreSQL datastore (as opposed to Cassandra like in previous releases)
+* multiple TagStores are supported by the Dashboard
+* private TagPacks (with restricted access) are possible
+* making new tagpacks available for GraphSense end users is much faster because the TagPack processing is now decoupled from the GraphSense transformations
+
+
+
+<h2>
   Release GraphSense 0.5.1
   <small class="text-muted">(2021-11-30)</small>
 </h2>
