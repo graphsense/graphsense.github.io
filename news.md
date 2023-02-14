@@ -4,6 +4,20 @@ title: News
 ---
 
 <h2>
+  Release GraphSense 23.01
+  <small class="text-muted">(2023-02-14)</small>
+</h2>
+
+We are pleased to announce the latest release of GraphSense, version 23.01.
+
+This update brings support for three major stable coins on the Ethereum platform: USDT, USDC, and WETH, with flows in these currencies annotated alongside Ether flows in the user interface. Additionally, smart contracts are now clearly marked with a cog symbol and thus are visible for the user.
+
+Check out our walk-through video at https://youtu.be/UukSvbAUIh4 to learn more about the key changes. To access the latest version of GraphSense, visit our dashboard at https://app.ikna.io or our REST API at https://api.ikna.io, hosted by Iknaio.
+
+Our open-source software is available for viewing at https://graphsense.github.io. We're also working on the next release, which will introduce real world actors to extend our annotation system for even more accurate information about cryptocurrency addresses.
+
+
+<h2>
   Release GraphSense 22.10
   <small class="text-muted">(2022-10-22)</small>
 </h2>
