@@ -99,7 +99,8 @@ title: Home
     <li>Rainer Stütz, <a href="https://www.csh.ac.at/" target="_blank">Complexity Science Hub Vienna</a></li>
     <li>Matthias Rella, <a href="https://www.ikna.io/" target="_blank">Iknaio Cryptoasset Analytics GmbH</a></li>
     <li>Michael Fröwis, <a href="https://www.ikna.io/" target="_blank">Iknaio Cryptoasset Analytics GmbH</a></li>
-    <li>Artemiy Malyshau, <a href="https://www.ikna.io/" target="_blank">Iknaio Cryptoasset Analytics GmbH</a></li>
+    <li>Thomas Niedermayer, <a href="https://www.ikna.io/" target="_blank">Iknaio Cryptoasset Analytics GmbH</a></li>
     <li>Melitta Dragaschnig, <a href="https://www.ait.ac.at/" target="_blank">AIT - Austrian Insitute of Technology GmbH</a></li>
+    <li>Michael Seidl, <a href="https://www.ait.ac.at/" target="_blank">AIT - Austrian Insitute of Technology GmbH</a></li>
   </ul>
 </div>

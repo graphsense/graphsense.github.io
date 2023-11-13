@@ -116,7 +116,7 @@ This release provides
 
 * a central repository ([graphsense-setup](https://github.com/graphsense/graphsense-setup)) for installing all required components using Docker Compose
 
-As a response to the increasing number of requests for our semi-public demo, we also changed the access model. Before it was simple HTTP authentication, which was shared among all users. Now everyone who wants to work with the demo or use the API needs an API key, which can be requested per email (<a href="mailto:contact@iknaio.com">contact@iknaio.com</a>).
+As a response to the increasing number of requests for our semi-public demo, we also changed the access model. Before it was simple HTTP authentication, which was shared among all users. Now everyone who wants to work with the demo or use the API needs an API key, which can be requested per email (<a href="mailto:contact@ikna.io">contact@ikna.io</a>).
 
 
 <h2>

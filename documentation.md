@@ -45,17 +45,17 @@ Because we use GraphSense for advanced (research) analysis tasks and move a lot 
 
 **Q: How can I get access to the GraphSense demo?**
 
-Just drop an email to [contact@iknaio.com](mailto:contact@iknaio.com) and briefly explain **who** you are and **why** you want access to our demo. You will receive access credentials, and we will also sign you up for our public GraphSense users mailing list.
+Just drop an email to [contact@ikna.io](mailto:contact@ikna.io) and briefly explain **who** you are and **why** you want access to our demo. You will receive access credentials, and we will also sign you up for our public GraphSense users mailing list.
 
 <h4>Operation</h4>
 
 **Q: How often is the data updated?**
 
-That depends on how often you parse and ingest relevant raw data (blockchains, exchange rates, etc.) and subsequently run the transformation procedure (see [GraphSense Setup](https://github.com/graphsense/graphsense-setup)). We currently trigger this manually for demo purposes, but it could be automated using a cron job.
+That depends on how often you parse and ingest relevant raw data (blockchains, exchange rates, etc.) and subsequently run the transformation procedure. The [GraphSense Lib](https://github.com/graphsense/graphsense-lib) repository allows to do contentious updates without running the full transformation (see delta-updates). We currently trigger this manually for demo purposes, but it could be automated using a cron job.
 
 **Q: Does GraphSense support real-time updates?**
 
-Not yet, mainly because we never needed it in our investigations. However, this feature is on our future feature lists.
+Using the ingest and delta-update features of [GraphSense Lib](https://github.com/graphsense/graphsense-lib) a near real-time system can be built.
 
 **Q: How are entity and abuse types assigned to addresses?**
 
@@ -81,7 +81,7 @@ GraphSense development is very much driven by the needs of our project partners 
 
 **Q: I need a specific new feature, can you provide it?**
 
-First of all, let us know what you need, ideally by filing a *feature request* issue in the relevant repository, probably the [GraphSense Dashboard](https://github.com/graphsense/graphsense-dashboard) or the [GraphSense API](https://github.com/graphsense/graphsense-openapi). Alternatively, you can write an email to [contact@iknaio.com](mailto:contact@iknaio.com).
+First of all, let us know what you need, ideally by filing a *feature request* issue in the relevant repository, probably the [GraphSense Dashboard](https://github.com/graphsense/graphsense-dashboard) or the [GraphSense API](https://github.com/graphsense/graphsense-openapi). Alternatively, you can write an email to [contact@ikna.io](mailto:contact@ikna.io).
 
 Whether we can implement a feature request depends on whether it fits into our plan or not. That, in turn, depends on the research funding model we are currently working on.
 
