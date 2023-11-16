@@ -16,13 +16,8 @@ In our production environment, we use an Apache Spark/Cassandra cluster with the
 
 All nodes are connected via **10Gbit ethernet** interfaces and a corresponding switch. With this setup,  the computation time to create the address and entity graph using the transformation component is currently \~13h for Bitcoin.
 
-In our previous setup, we used just four worker nodes, which can be seen as a minimal requirement to run the transformation pipeline for larger blockchains like Bitcoin.
+If you do not want to host GraphSense youself, consider using the hosted service offered by [Iknaio Cryptoasset Analytics GmbH](https://ikna.io).
 
-<h4>Setting up the Software</h4>
-
-To be able to set up GraphSense with all its components more efficiently on a cluster, we offer a central repository ([graphsense-setup](https://github.com/graphsense/graphsense-setup)) to control the setup procedure.
-
-<h2 class="mt-3">Frequently Asked Questions</h2>
 
 <h4>Setup & Architecture</h4>
 
@@ -34,7 +29,6 @@ GraphSense processes hundreds of millions of transactions and requires quite som
 
 The GraphSense Dashboard is a Web-app running on the client-side (in your browser) only. It just needs a GraphSense REST API endpoint for retrieving data. You can operate your endpoint or reuse one provided by others.
 
-
 **Q: Can I run GraphSense in the cloud?**
 
 Technically yes, but we have not tested it yet, and most likely, it requires some tweaks in the deployment procedures, which are currently designed for on-premises deployment only.
@@ -45,13 +39,13 @@ Because we use GraphSense for advanced (research) analysis tasks and move a lot 
 
 **Q: How can I get access to the GraphSense demo?**
 
-Just drop an email to [contact@ikna.io](mailto:contact@ikna.io) and briefly explain **who** you are and **why** you want access to our demo. You will receive access credentials, and we will also sign you up for our public GraphSense users mailing list.
+[Iknaio Cryptoasset Analytics GmbH](https://ikna.io) is a company run by the core developers of GraphSense. It provides GraphSense-as-a-Service and you can get free access. Just drop an email to [contact@ikna.io](mailto:contact@ikna.io) and briefly explain **who** you are and **why** you want access to our demo. You will receive access an API key and will also be signed up for further information.
 
 <h4>Operation</h4>
 
 **Q: How often is the data updated?**
 
-That depends on how often you parse and ingest relevant raw data (blockchains, exchange rates, etc.) and subsequently run the transformation procedure. The [GraphSense Lib](https://github.com/graphsense/graphsense-lib) repository allows to do contentious updates without running the full transformation (see delta-updates). We currently trigger this manually for demo purposes, but it could be automated using a cron job.
+GraphSense itself is just a piece of software; or actually several pieces. [Iknaio](https://ikna.io) provides a hosted version and updates the data near real-time.
 
 **Q: Does GraphSense support real-time updates?**
 
@@ -69,11 +63,12 @@ Not at all because labels, tags, and categories assigned by the user are not sen
 
 **Q: Who is behind GraphSense, and who is driving development?**
 
-GraphSense has a strong research background, and development is mainly driven by the GraphSense core team.
+GraphSense has a strong research background, and development is mainly driven by the GraphSense core team. [Iknaio Cryptoasset Analytics GmbH](https://ikna.io) is run by the creators of GraphSense and offers GraphSense as a hosted service.
 
 **Q: Who is funding GraphSense?**
 
-Currently, GraphSense development relies on funds from the Austrian national research project [KRYPTOMONITOR](https://kryptomonitor-project.info/). Previously it received research funding from the EU H2020 project [TITANIUM](https://titanium-project.eu/) and the Austrian national research project [VIRTRCIME](https://virtcrime-project.info/).
+Currently, GraphSense development relies on contributions from its core developers, who are working for [Iknaio Cryptoasset Analytics GmbH](https://ikna.io), the [Complexity Science Hub Vienna](https://csh.ac.at), and the [AIT - Austrian Institute of Technology](https://www.ait.ac.at).
+
 
 **Q: Why don't you just use some other existing cryptocurrency/blockchain analytics tool?**
 

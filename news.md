@@ -4,6 +4,18 @@ title: News
 ---
 
 <h2>
+  Release GraphSense 23.06
+  <small class="text-muted">(2023-06-30)</small>
+</h2>
+
+We're pleased to announce the release of GraphSense v.23.06, featuring additional attribution tags, improved backend stability, and a refreshed user interface, now known as "Pathfinder".
+
+GraphSense remains open-source and can be accessed at our GitHub repository (https://github.com/graphsense). Future updates will focus on refining the UI and adding more datasets.
+
+Institutional users can take advantage of our new add-ons for case deconfliction and automated tracing. If you're interested in testing these, send an email to [mailto:contact@ikna.io](ikna.io).
+
+
+<h2>
   Release GraphSense 23.01
   <small class="text-muted">(2023-02-14)</small>
 </h2>
