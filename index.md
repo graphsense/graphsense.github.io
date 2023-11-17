@@ -89,18 +89,25 @@ title: Home
   <strong>Evolution of the Bitcoin Address Graph - An Exploratory Longitudinal Study.</strong>
   International Data Science Conference (DSC 2017), Salzburg, Austria, 2017.
   <a href="https://aic.ai.wu.ac.at/~polleres/publications/filtz-etal-2017IDSC.pdf">(pdf)</a></p>
+  
 </div>
 
 ## Core Team
 
 <div class="container">
-  <ul>
-    <li>Bernhard Haslhofer, <a href="https://www.csh.ac.at/" target="_blank">Complexity Science Hub Vienna</a></li>
-    <li>Rainer Stütz, <a href="https://www.csh.ac.at/" target="_blank">Complexity Science Hub Vienna</a></li>
-    <li>Matthias Rella, <a href="https://www.ikna.io/" target="_blank">Iknaio Cryptoasset Analytics GmbH</a></li>
-    <li>Michael Fröwis, <a href="https://www.ikna.io/" target="_blank">Iknaio Cryptoasset Analytics GmbH</a></li>
-    <li>Thomas Niedermayer, <a href="https://www.ikna.io/" target="_blank">Iknaio Cryptoasset Analytics GmbH</a></li>
-    <li>Melitta Dragaschnig, <a href="https://www.ait.ac.at/" target="_blank">AIT - Austrian Insitute of Technology GmbH</a></li>
-    <li>Michael Seidl, <a href="https://www.ait.ac.at/" target="_blank">AIT - Austrian Insitute of Technology GmbH</a></li>
-  </ul>
+
+  <p>Bernhard Haslhofer, <a href="https://www.csh.ac.at/" target="_blank">Complexity Science Hub Vienna</a></p>
+
+  <p>Rainer Stütz, <a href="https://www.csh.ac.at/" target="_blank">Complexity Science Hub Vienna</a></p>
+  
+  <p>Matthias Rella, <a href="https://www.ikna.io/" target="_blank">Iknaio Cryptoasset Analytics GmbH</a></p>
+  
+  <p>Michael Fröwis, <a href="https://www.ikna.io/" target="_blank">Iknaio Cryptoasset Analytics GmbH</a></p>
+  
+  <p>Thomas Niedermayer, <a href="https://www.ikna.io/" target="_blank">Iknaio Cryptoasset Analytics GmbH</a></p>
+  
+  <p>Melitta Dragaschnig, <a href="https://www.ait.ac.at/" target="_blank">AIT - Austrian Insitute of Technology GmbH</a></p>
+  
+  <p>Michael Seidl, <a href="https://www.ait.ac.at/" target="_blank">AIT - Austrian Insitute of Technology GmbH</a></p>
+
 </div>
