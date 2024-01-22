@@ -10,7 +10,7 @@ title: News
 
 We take great pleasure in announcing GraphSense v24.01.
 
-This latest release incorporates tracing and tracking capabilities for [Tron](https://tron.network/) network into the GraphSense platform. In addition to monitoring flows in TRX, the primary currency of the Tron network, we offer comprehensive support for widely used tokens such as USDT, USDC, and WTRX. This enhancement underscores our commitment to expanding the functionality of the GraphSense platform and catering to a broader spectrum of digital assets.
+This latest release incorporates tracing and tracking capabilities for the [Tron network](https://tron.network/) into the GraphSense platform. In addition to monitoring flows in TRX, the primary currency of the Tron network, we offer comprehensive support for widely used tokens such as USDT, USDC, and WTRX. This enhancement underscores our commitment to expanding the functionality of the GraphSense platform and catering to a broader spectrum of digital assets.
 
 <h2>
   Release GraphSense 23.09
