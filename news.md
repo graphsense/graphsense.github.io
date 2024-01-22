@@ -4,6 +4,24 @@ title: News
 ---
 
 <h2>
+  Release GraphSense 24.01
+  <small class="text-muted">(2024-01-22)</small>
+</h2>
+
+We take great pleasure in announcing GraphSense v24.01.
+
+This latest release incorporates tracing and tracking capabilities for [Tron](https://tron.network/) network into the GraphSense platform. In addition to monitoring flows in TRX, the primary currency of the Tron network, we offer comprehensive support for widely used tokens such as USDT, USDC, and WTRX. This enhancement underscores our commitment to expanding the functionality of the GraphSense platform and catering to a broader spectrum of digital assets.
+
+<h2>
+  Release GraphSense 23.09
+  <small class="text-muted">(2023-09-20)</small>
+</h2>
+
+We are pleased to announce the release of GraphSense v23.09. 
+
+This release is centered on the resolution of usability issues and the implementation of stability improvements. Additionally, our team has diligently worked towards simplifying the development and deployment setup, aiming to facilitate a more seamless process for both initial setup and contributions. This release underscores our commitment to elevating the accessibility and resilience of GraphSense for all users and contributors.
+
+<h2>
   Release GraphSense 23.06
   <small class="text-muted">(2023-06-30)</small>
 </h2>
