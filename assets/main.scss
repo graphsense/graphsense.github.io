@@ -15,6 +15,8 @@ $xl3: 1.875rem;
 $xl2: 1.5rem;
 $sm: .875rem;
 
+$heading-color: #6bc2c2;
+
 .text-sm {
   font-size: $sm;
 }
@@ -146,7 +148,7 @@ svg.slash path {
   padding-bottom: 1.5rem;
   width: 100%;
   text-align: center;
-  color: #6bc2c2;
+  color: $heading-color;
   @extend .text-3xl;
   margin-bottom: 1rem;
   margin-top: 1.5rem;
@@ -338,7 +340,7 @@ td {
 
 thead th {
     color: #ffffff;
-    background: #4FC3A1;
+    background: $heading-color;
 }
 
 
