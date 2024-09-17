@@ -307,3 +307,110 @@ ul.contributors li {
   background: rgba(0,0,0,0.5);
   z-index: 1;
 }
+
+
+/* TABLE */
+
+.table-wrapper{
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.2);
+    @extend .mb-3;
+}
+
+table {
+    border-radius: 5px;
+    font-weight: normal;
+    border: 1px solid #F8F8F8;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 100%;
+    white-space: nowrap;
+    background-color: white;
+}
+
+td, th {
+    text-align: left;
+    padding: 8px;
+}
+
+td {
+    border-right: 1px solid #f8f8f8;
+}
+
+thead th {
+    color: #ffffff;
+    background: #4FC3A1;
+}
+
+
+thead th:nth-child(odd) {
+    color: #ffffff;
+    background: #324960;
+}
+
+tr:nth-child(even) {
+    background: #F8F8F8;
+}
+
+@include media-breakpoint-down(md) {
+    table {
+        display: block;
+        width: 100%;
+    }
+     .table-wrapper:before{
+        content: "Scroll horizontally >";
+        display: block;
+        text-align: right;
+        font-size: 11px;
+        color: white;
+        padding: 0 0 10px;
+    }
+    table thead, table tbody, table thead th {
+        display: block;
+    }
+    table thead th:last-child{
+        border-bottom: none;
+    }
+    table thead {
+        float: left;
+    }
+    table tbody {
+        width: auto;
+        position: relative;
+        overflow-x: auto;
+    }
+    table td, table th {
+        padding: 20px .625em .625em .625em;
+        height: 60px;
+        vertical-align: middle;
+        box-sizing: border-box;
+        overflow-x: hidden;
+        overflow-y: auto;
+        width: 120px;
+        text-overflow: ellipsis;
+    }
+    table thead th {
+        text-align: left;
+        border-bottom: 1px solid #f7f7f9;
+    }
+    table tbody tr {
+        display: table-cell;
+    }
+    table tbody tr:nth-child(odd) {
+        background: none;
+    }
+    table tr:nth-child(even) {
+        background: transparent;
+    }
+    table tr td:nth-child(odd) {
+        background: #F8F8F8;
+        border-right: 1px solid #E6E4E4;
+    }
+    table tr td:nth-child(even) {
+        border-right: 1px solid #E6E4E4;
+    }
+    table tbody td {
+        display: block;
+        text-align: center;
+    }
+}
+
