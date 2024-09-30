@@ -12,16 +12,16 @@ As the crypto space continues to grow in both volume and complexity, it is evide
 
 <div class="table-wrapper" markdown="1">
 
-| Time          | Topic                                                                     | Speaker                               |
-|---------------|---------------------------------------------------------------------------|---------------------------------------|
-| 09:00 - 09:15 | Welcome                                                                   |                                       |
-| 09:15 - 09:30 | Vision and Future                                             | [Bernhard Haslhofer](https://bernhardhaslhofer.info/)<br>([CSH](https://www.csh.ac.at/))           |
-| 09:30 - 10:00 | Digital crime never comes alone | Mark van Staalduinen<br>([CFLW](https://cflw.com/))        |
-| 10:00 - 10:30 | Coffee break                                                              |                                       |
-| 10:30 - 11:00 | Off-chain transaction data to become transparent under CARF:<br>How to quickly check every crypto user for potential tax liabilities | Florian Wimmer                                  |
-| 11:00 - 11:30 | It's easier if you own a bank:<br>some lessons learned from large-scale money laundering in traditional banking | Friedrich Lindenberg |
-| 11:30 - 12:00 | Automated Analysis - the Future of Mass Data Processing in the Field of Cryptanalysis | Barbara Krüll<br>([ZCB Bamberg](https://www.justiz.bayern.de/gerichte-und-behoerden/generalstaatsanwaltschaft/bamberg/spezial_1.php))        |
-| 12:00 - 13:00 | Lunch                                                       |                                       |
+| Time          | Topic                                                                     | 
+|---------------|---------------------------------------------------------------------------|
+| 09:00 - 09:15 | Welcome                                                                   |
+| 09:15 - 09:30 | Vision and Future<br>*[Bernhard Haslhofer](https://bernhardhaslhofer.info/) ([CSH](https://www.csh.ac.at/))* |
+| 09:30 - 10:00 | Digital crime never comes alone<br>*Mark van Staalduinen ([CFLW](https://cflw.com/))*        |
+| 10:00 - 10:30 | Coffee break                                                              |
+| 10:30 - 11:00 | Off-chain transaction data to become transparent under CARF:<br>How to quickly check every crypto user for potential tax liabilities<br>*Florian Wimmer*                                  |
+| 11:00 - 11:30 | It's easier if you own a bank:<br>some lessons learned from large-scale money laundering in traditional banking<br>*Friedrich Lindenberg* |
+| 11:30 - 12:00 | Automated Analysis - the Future of Mass Data Processing in the Field of Cryptanalysis<br>*Barbara Krüll ([ZCB Bamberg](https://www.justiz.bayern.de/gerichte-und-behoerden/generalstaatsanwaltschaft/bamberg/spezial_1.php))*        |
+| 12:00 - 13:00 | Lunch                                                       |
 
 </div>
 
@@ -33,11 +33,11 @@ In this session, our development team will showcase the latest advancements in G
 
 <div class="table-wrapper" markdown="1">
 
-| Time          | Topic                                               | Speaker            |
-|---------------|-----------------------------------------------------|--------------------|
-| 13:00 - 13:30 | New dashboard: Iknaio Pathfinder           | Michael Fröwis<br>([Iknaio](https://www.ikna.io/))|
-| 13:30 - 14:00 | Iknaio QuickLock | Thomas Niedermeyer<br>([Iknaio](https://www.ikna.io/))     |
-| 14:00 - 14:30 | Coffee break                                        |                    |
-| 14:30 - 15:00 | Wrap up                | Bernhard Haslhofer<br>([CSH](https://www.csh.ac.at/)) |
+| Time          | Topic                                               |
+|---------------|-----------------------------------------------------|
+| 13:00 - 13:30 | New dashboard: Iknaio Pathfinder<br>Michael Fröwis ([Iknaio](https://www.ikna.io/))           | 
+| 13:30 - 14:00 | Iknaio QuickLock<br>Thomas Niedermeyer ([Iknaio](https://www.ikna.io/))     | 
+| 14:00 - 14:30 | Coffee break                                        |
+| 14:30 - 15:00 | Wrap up<br>Bernhard Haslhofer ([CSH](https://www.csh.ac.at/))                | 
 
 </div>

@@ -325,7 +325,6 @@ table {
     border-collapse: collapse;
     width: 100%;
     max-width: 100%;
-    white-space: nowrap;
     background-color: white;
 }
 
@@ -353,6 +352,13 @@ tr:nth-child(even) {
     background: #F8F8F8;
 }
 
+tr td:first-child {
+    width: 1%;
+    white-space: nowrap;
+    vertical-align: top;
+}
+
+/*
 @include media-breakpoint-down(md) {
     table {
         display: block;
@@ -416,3 +422,4 @@ tr:nth-child(even) {
     }
 }
 
+*/
