@@ -35,9 +35,9 @@ In this session, our development team will showcase the latest advancements in G
 
 | Time          | Topic                                               |
 |---------------|-----------------------------------------------------|
-| 13:00 - 13:30 | New dashboard: Iknaio Pathfinder<br>Michael Fröwis ([Iknaio](https://www.ikna.io/))           | 
-| 13:30 - 14:00 | Iknaio QuickLock<br>Thomas Niedermeyer ([Iknaio](https://www.ikna.io/))     | 
+| 13:00 - 13:30 | New dashboard: Iknaio Pathfinder<br>*Michael Fröwis ([Iknaio](https://www.ikna.io/))*           | 
+| 13:30 - 14:00 | Iknaio QuickLock<br>*Thomas Niedermeyer ([Iknaio](https://www.ikna.io/))*     | 
 | 14:00 - 14:30 | Coffee break                                        |
-| 14:30 - 15:00 | Wrap up<br>Bernhard Haslhofer ([CSH](https://www.csh.ac.at/))                | 
+| 14:30 - 15:00 | Wrap up<br>*Bernhard Haslhofer ([CSH](https://www.csh.ac.at/))*                | 
 
 </div>

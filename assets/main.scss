@@ -15,7 +15,8 @@ $xl3: 1.875rem;
 $xl2: 1.5rem;
 $sm: .875rem;
 
-$heading-color: #6bc2c2;
+$brand-color: #6bc2c2;
+$h1-color: #324960;
 
 .text-sm {
   font-size: $sm;
@@ -107,6 +108,10 @@ body {
   }
 }
 
+h1 {
+    color: $h1-color;
+}
+
 .page-container {
   width: 80%;
   @extend .mx-auto;
@@ -148,7 +153,7 @@ svg.slash path {
   padding-bottom: 1.5rem;
   width: 100%;
   text-align: center;
-  color: $heading-color;
+  color: $brand-color;
   @extend .text-3xl;
   margin-bottom: 1rem;
   margin-top: 1.5rem;
@@ -313,6 +318,8 @@ ul.contributors li {
 
 /* TABLE */
 
+$table-grey: $gray-700;
+
 .table-wrapper{
     box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.2);
     @extend .mb-3;
@@ -338,25 +345,38 @@ td {
 }
 
 thead th {
-    color: #ffffff;
-    background: $heading-color;
+    color: $white;
+    background: $brand-color;
 }
 
 
 thead th:nth-child(odd) {
-    color: #ffffff;
-    background: #324960;
+    color: $white;
+    background: $h1-color;
 }
 
 tr:nth-child(even) {
-    background: #F8F8F8;
+    background: $gray-100;
 }
 
 tr td:first-child {
     width: 1%;
     white-space: nowrap;
     vertical-align: top;
+    color: $table-grey;
 }
+
+tr td:last-child {
+    font-weight: bold;
+    color: $gray-900;
+
+    em, em a[href] {
+        color: $table-grey;
+        font-weight: normal;
+        font-style: normal;
+    }
+}
+
 
 /*
 @include media-breakpoint-down(md) {
