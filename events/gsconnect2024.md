@@ -34,10 +34,12 @@ In this session, our development team will showcase the latest advancements in G
 
 <div class="table-wrapper" markdown="1">
 
+
+
 | Time          | Topic                                               |
 |---------------|-----------------------------------------------------|
-| 13:00 - 13:30 | New dashboard: Iknaio Pathfinder<br>*Michael Fröwis (<a href="https://www.ikna.io/" target="_blank">Iknaio</a>)*           | 
-| 13:30 - 14:00 | Iknaio QuickLock<br>*Thomas Niedermeyer (<a href="https://www.ikna.io/" target="_blank">Iknaio</a>)*     | 
+| 13:00 - 13:30 | Introducing Pathfinder 2.0: Powerful Tracing Tool for Everyone<br>*Michael Fröwis (<a href="https://www.ikna.io/" target="_blank">Iknaio</a>)*           | 
+| 13:30 - 14:00 | Introducing QuickLock: Tracing and Reporting Flows of Funds Automatically<br>*Thomas Niedermeyer (<a href="https://www.ikna.io/" target="_blank">Iknaio</a>)*     | 
 | 14:00 - 14:30 | Coffee break                                        |
 | 14:30 - 15:00 | Wrap up<br>*Bernhard Haslhofer (<a href="https://www.csh.ac.at/" target="_blank">CSH</a>)*                | 
 
