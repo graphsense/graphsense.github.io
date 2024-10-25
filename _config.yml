@@ -43,7 +43,7 @@ plugins:
 header_pages:
   - index.md
   - news.md
-  - events/gsconnect2024.md
+    #- events/gsconnect2024.md
   - documentation.md
 
 # Exclude from processing.
