@@ -14,12 +14,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {%- seo -%}
+  <link rel="stylesheet" href="{{ '/assets/css/bootstrap.min.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
-  <link rel="stylesheet" href="{{ '/assets/fontawesome/css/all.min.css' | relative_url }}"></link>
+  <link rel="stylesheet" href="{{ '/assets/fontawesome/css/all.min.css' | relative_url }}">
   {%- feed_meta -%}
   {% if jekyll.environment == "development" %}
   <script src="https://livejs.com/live.js"></script>
   {% endif %}
-  <script src="{{ '/assets/javascript/bootstrap/jquery.min.js' | relative_url }}"></script>
-  <script src="{{ '/assets/javascript/bootstrap/bootstrap.bundle.min.js' | relative_url }}"></script>
+  <!-- Bootstrap 5 JavaScript (no jQuery required) -->
+  <script src="{{ '/assets/javascript/bootstrap5/bootstrap.bundle.min.js' | relative_url }}"></script>
 </head>

@@ -1,83 +1,91 @@
+@use "variables" as v;
+
 // This is the place to place Bootstrap-related CSS customizations.
-// As example you can start by importing the _bootswatch.scss file from one of the
-// theme provided by https://bootswatch.com .
-
-// Minty 4.3.1
-// Bootswatch
-
-// Variables ===================================================================
-
-//$web-font-path: "https://fonts.googleapis.com/css?family=Montserrat" !default;
-//@import url($web-font-path);
+// Updated for Bootstrap 5 compatibility with modern @use syntax
 
 // Navbar ======================================================================
 
 .navbar {
-  font-family: $headings-font-family;
+  font-family: v.$headings-font-family;
+}
+
+// Override Bootstrap 5 navbar-dark colors to match GraphSense theme
+.navbar-dark .navbar-nav .nav-link {
+  color: v.$light;
+
+  &:hover,
+  &:focus {
+    color: v.$secondary;
+  }
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .show > .nav-link {
+  color: v.$white;
 }
 
 .bg-dark {
-  background-color: $secondary !important;
+  background-color: v.$secondary !important;
 }
 
 .border-dark {
-  border-color: $secondary !important;
+  border-color: v.$secondary !important;
 }
 
 // Buttons =====================================================================
 
 .btn {
-  font-family: $headings-font-family;
+  font-family: v.$headings-font-family;
 
   &,
   &:hover {
-    color: $white;
+    color: v.$white;
   }
 
   &-light,
   &-light:hover {
-    color: $gray-700;
+    color: v.$gray-700;
   }
 
   &-link,
   &-link:hover {
-    color: $primary;
+    color: v.$primary;
   }
 
   &-link.disabled:hover {
-    color: $gray-600;
+    color: v.$gray-600;
   }
 
   &-outline-primary {
-    color: $primary;
+    color: v.$primary;
   }
 
   &-outline-secondary {
-    color: $secondary;
+    color: v.$secondary;
   }
 
   &-outline-success {
-    color: $success;
+    color: v.$success;
   }
 
   &-outline-info {
-    color: $info;
+    color: v.$info;
   }
 
   &-outline-warning {
-    color: $warning;
+    color: v.$warning;
   }
 
   &-outline-danger {
-    color: $danger;
+    color: v.$danger;
   }
 
   &-outline-dark {
-    color: $dark;
+    color: v.$dark;
   }
 
   &-outline-light {
-    color: $light;
+    color: v.$light;
   }
 }
 
@@ -98,55 +106,55 @@
 
   &-primary {
     &, > th, > td {
-      background-color: $primary;
+      background-color: v.$primary;
     }
   }
 
   &-secondary {
     &, > th, > td {
-      background-color: $secondary;
+      background-color: v.$secondary;
     }
   }
 
   &-light {
     &, > th, > td {
-      background-color: $light;
+      background-color: v.$light;
     }
   }
 
   &-dark {
     &, > th, > td {
-      background-color: $dark;
+      background-color: v.$dark;
     }
   }
 
   &-success {
     &, > th, > td {
-      background-color: $success;
+      background-color: v.$success;
     }
   }
 
   &-info {
     &, > th, > td {
-      background-color: $info;
+      background-color: v.$info;
     }
   }
 
   &-danger {
     &, > th, > td {
-      background-color: $danger;
+      background-color: v.$danger;
     }
   }
 
   &-warning {
     &, > th, > td {
-      background-color: $warning;
+      background-color: v.$warning;
     }
   }
 
   &-active {
     &, > th, > td {
-      background-color: $table-active-bg;
+      background-color: var(--bs-table-active-bg);
     }
   }
 
@@ -154,85 +162,85 @@
 
     .table-primary:hover {
       &, > th, > td {
-        background-color: darken($primary, 5%);
+        background-color: color-mix(in srgb, v.$primary, black 5%);
       }
     }
 
     .table-secondary:hover {
       &, > th, > td {
-        background-color: darken($secondary, 5%);
+        background-color: color-mix(in srgb, v.$secondary, black 5%);
       }
     }
 
     .table-light:hover {
       &, > th, > td {
-        background-color: darken($light, 5%);
+        background-color: color-mix(in srgb, v.$light, black 5%);
       }
     }
 
     .table-dark:hover {
       &, > th, > td {
-        background-color: darken($dark, 5%);
+        background-color: color-mix(in srgb, v.$dark, black 5%);
       }
     }
 
     .table-success:hover {
       &, > th, > td {
-        background-color: darken($success, 5%);
+        background-color: color-mix(in srgb, v.$success, black 5%);
       }
     }
 
     .table-info:hover {
       &, > th, > td {
-        background-color: darken($info, 5%);
+        background-color: color-mix(in srgb, v.$info, black 5%);
       }
     }
 
     .table-danger:hover {
       &, > th, > td {
-        background-color: darken($danger, 5%);
+        background-color: color-mix(in srgb, v.$danger, black 5%);
       }
     }
 
     .table-warning:hover {
       &, > th, > td {
-        background-color: darken($warning, 5%);
+        background-color: color-mix(in srgb, v.$warning, black 5%);
       }
     }
 
     .table-active:hover {
       &, > th, > td {
-        background-color: $table-active-bg;
+        background-color: var(--bs-table-active-bg);
       }
     }
   }
 
   .thead-dark th {
-    background-color: $primary;
-    border-color: $table-border-color;
-    font-family: $headings-font-family;
+    background-color: v.$primary;
+    border-color: v.$table-border-color;
+    font-family: v.$headings-font-family;
   }
 }
 
 // Forms =======================================================================
 
 legend {
-  font-family: $headings-font-family;
+  font-family: v.$headings-font-family;
 }
 
 // Navs ========================================================================
 
 .dropdown-menu {
-  font-family: $font-family-sans-serif;
+  font-family: v.$font-family-sans-serif;
 }
 
 .breadcrumb {
   a {
-    color: $navbar-dark-color;
+    color: v.$navbar-dark-color;
   }
 
   a:hover {
-    color: $white;
+    color: v.$white;
     text-decoration: none;
   }
 }
@@ -240,7 +248,7 @@ legend {
 // Indicators ==================================================================
 
 .alert {
-  color: $white;
+  color: v.$white;
 
   h1, h2, h3, h4, h5, h6 {
     color: inherit;
@@ -248,54 +256,54 @@ legend {
 
   a,
   .alert-link {
-    color: $white;
+    color: v.$white;
   }
 
   &-primary {
     &, > th, > td {
-      background-color: $primary;
+      background-color: v.$primary;
     }
   }
 
   &-secondary {
     &, > th, > td {
-      background-color: $secondary;
+      background-color: v.$secondary;
     }
   }
 
   &-success {
     &, > th, > td {
-      background-color: $success;
+      background-color: v.$success;
     }
   }
 
   &-info {
     &, > th, > td {
-      background-color: $info;
+      background-color: v.$info;
     }
   }
 
   &-danger {
     &, > th, > td {
-      background-color: $danger;
+      background-color: v.$danger;
     }
   }
 
   &-warning {
     &, > th, > td {
-      background-color: $warning;
+      background-color: v.$warning;
     }
   }
 
   &-dark {
     &, > th, > td {
-      background-color: $dark;
+      background-color: v.$dark;
     }
   }
 
   &-light {
     &, > th, > td {
-      background-color: $light;
+      background-color: v.$light;
     }
   }
 
@@ -303,16 +311,16 @@ legend {
     &,
     & a:not(.btn),
     & .alert-link {
-      color: $body-color;
+      color: v.$body-color;
     }
   }
 }
 
 .badge {
-  color: $white;
+  color: v.$white;
 
   &-light {
-    color: $gray-700;
+    color: v.$gray-700;
   }
 }
 

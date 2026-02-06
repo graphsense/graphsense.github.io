@@ -1,6 +1,13 @@
-VOLUMES=--volume="${PWD}/cache/bundle:/usr/local/bundle:Z"  --volume="${PWD}/cache/gem:/usr/gem:Z" --volume="${PWD}:/srv/jekyll:z"
+.PHONY: install serve build clean
 
+install:
+	bundle install
 
-watch :
-	-[ ! -e "${PWD}/cache" ] && docker run ${VOLUMES} jekyll/jekyll jekyll build 
-	docker run -p 3400:4000 ${VOLUMES} jekyll/jekyll jekyll serve
+serve:
+	bundle exec jekyll serve --livereload
+
+build:
+	bundle exec jekyll build
+
+clean:
+	rm -rf _site .jekyll-cache

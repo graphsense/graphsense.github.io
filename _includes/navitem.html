@@ -1,7 +1,7 @@
 <li class="nav-item position-relative">
-  <a class="nav-link text-right" href="{{ include.url | relative_url }}">
+  <a class="nav-link text-end" href="{{ include.url | relative_url }}">
     {% if include.icon %}
-    <i class="{{include.icon}} pr-1"></i>
+    <i class="{{include.icon}} pe-1"></i>
     {% endif %}
     {{ include.title | escape }}
   </a>

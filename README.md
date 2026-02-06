@@ -1,20 +1,99 @@
-# Graphsense Website
+# GraphSense Website
 
-This is based on [https://github.com/nicolas-van/bootstrap-4-github-pages](https://github.com/nicolas-van/bootstrap-4-github-pages).
+This repository contains the source code for [graphsense.org](https://graphsense.org), the official website for the GraphSense cryptoasset analytics platform.
 
-A [Bootstrap 4](https://getbootstrap.com/) project for [Github Pages](https://pages.github.com/) and [Jekyll](https://jekyllrb.com/).
+The site is built with [Jekyll](https://jekyllrb.com/) and [Bootstrap 5](https://getbootstrap.com/), and is hosted on GitHub Pages.
 
-* A full Bootstrap 4 theme usable both on Github Pages and with a standalone Jekyll.
-* Recompiles Bootstrap from SCSS files, which allows to customize Bootstrap's variables and use Bootstrap themes.
-* Full support of Bootstrap's JavaScript plugins.
-* Supports all features of Github Pages and Jekyll.
+## Local Development
 
-[See the website for demonstration and documentation](https://nicolas-van.github.io/bootstrap-4-github-pages/).
+### Prerequisites
 
-## Development
+You need Ruby 3.2 or later. We recommend using [chruby](https://github.com/postmodern/chruby) with [ruby-install](https://github.com/postmodern/ruby-install) for Ruby version management.
 
-Having Docker installed run `make watch` and point your browser to `localhost:4000`.
+#### macOS
 
-## Statistics
+1. Install chruby and ruby-install:
+   ```bash
+   brew install chruby ruby-install
+   ```
 
-Run `make REST_ENDPOINT=http://example.com stats` to fetch the latest Graphsense statistics and commit them.
+2. Add to your shell config (`~/.zshrc` or `~/.bashrc`):
+   ```bash
+   source /opt/homebrew/opt/chruby/share/chruby/chruby.sh
+   source /opt/homebrew/opt/chruby/share/chruby/auto.sh
+   ```
+
+3. Restart your terminal, then install Ruby:
+   ```bash
+   ruby-install ruby 3.2
+   ```
+
+4. The `.ruby-version` file will automatically select the correct Ruby version.
+
+### Setup
+
+Install dependencies:
+```bash
+make install
+```
+
+### Run locally
+
+```bash
+make serve
+```
+
+The site will be available at http://localhost:4000
+
+### Build
+
+To build the static site without serving:
+```bash
+make build
+```
+
+Output is generated in the `_site/` directory.
+
+### Clean
+
+Remove generated files:
+```bash
+make clean
+```
+
+## Deployment
+
+The site is automatically deployed to GitHub Pages when changes are pushed to the `master` branch.
+
+### How it works
+
+1. Push commits to the `master` branch
+2. GitHub Actions runs the workflow defined in `.github/workflows/deploy.yml`
+3. The workflow builds the Jekyll site and deploys it to GitHub Pages
+4. Changes appear on [graphsense.org](https://graphsense.org) within a few minutes
+
+### GitHub Pages configuration
+
+To enable deployment on a fork or new repository:
+
+1. Go to repository **Settings** > **Pages**
+2. Under **Build and deployment**, set **Source** to **GitHub Actions**
+3. Push to `master` to trigger deployment
+
+## Project Structure
+
+```
+├── _config.yml          # Jekyll configuration
+├── _data/               # YAML data files (currencies, features)
+├── _includes/           # Reusable HTML components
+├── _layouts/            # Page templates
+├── _sass/               # SCSS stylesheets
+├── assets/              # Static assets (CSS, JS, fonts, images)
+├── index.md             # Homepage
+├── news.md              # News page
+└── documentation.md     # Documentation page
+```
+
+## License
+
+See [LICENSE.md](LICENSE.md) for details.

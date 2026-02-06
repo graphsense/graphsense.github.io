@@ -2,14 +2,89 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-@import "variables";
-@import "bootstrap/bootstrap";
-@import "syntax-highlighting";
-@import "bootstrap-4-jekyll/bootstrap-4-jekyll";
-@import "bootstrap_customization";
-@import "fonts/Octarine-Bold/fonts.css";
-@import "fonts/Octarine-Light/fonts.css";
+// Use modern @use syntax - no deprecation warnings
+@use "../_sass/variables" as v;
+@use "../_sass/syntax-highlighting";
+@use "../_sass/bootstrap_customization";
 
+// Override Bootstrap 5 container widths to match original theme
+// Original values: sm: 540px, md: 640px, lg: 720px, xl: 992px
+@media (min-width: 576px) {
+  .container, .container-sm {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container, .container-sm, .container-md {
+    max-width: 640px;
+  }
+}
+@media (min-width: 992px) {
+  .container, .container-sm, .container-md, .container-lg {
+    max-width: 720px;
+  }
+}
+@media (min-width: 1200px) {
+  .container, .container-sm, .container-md, .container-lg, .container-xl {
+    max-width: 992px;
+  }
+}
+
+// Override Bootstrap 5 CSS custom properties with GraphSense theme
+:root {
+  // GraphSense theme colors
+  --bs-primary: #6bc2c2;
+  --bs-secondary: #d2eced;
+  --bs-success: #56CC9D;
+  --bs-info: #6CC3D5;
+  --bs-warning: #FFCE67;
+  --bs-danger: #FF7851;
+  --bs-light: #c0e2e1;
+  --bs-dark: #71a1a5;
+
+  // RGB versions for rgba() usage
+  --bs-primary-rgb: 107, 194, 194;
+  --bs-secondary-rgb: 210, 236, 237;
+  --bs-success-rgb: 86, 204, 157;
+  --bs-info-rgb: 108, 195, 213;
+  --bs-warning-rgb: 255, 206, 103;
+  --bs-danger-rgb: 255, 120, 81;
+  --bs-light-rgb: 192, 226, 225;
+  --bs-dark-rgb: 113, 161, 165;
+
+  // Body colors
+  --bs-body-color: #888;
+  --bs-body-bg: #fff;
+
+  // Link colors
+  --bs-link-color: #6bc2c2;
+  --bs-link-hover-color: #56a3a3;
+}
+
+// Custom fonts
+@font-face {
+  font-family: 'Conv_Octarine-Bold';
+  src: url('fonts/Octarine-Bold/fonts/Octarine-Bold.eot');
+  src: local('Octarine-Bold'),
+       url('fonts/Octarine-Bold/fonts/Octarine-Bold.woff') format('woff'),
+       url('fonts/Octarine-Bold/fonts/Octarine-Bold.ttf') format('truetype'),
+       url('fonts/Octarine-Bold/fonts/Octarine-Bold.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Conv_Octarine-Light';
+  src: url('fonts/Octarine-Light/fonts/Octarine-Light.eot');
+  src: local('Octarine-Light'),
+       url('fonts/Octarine-Light/fonts/Octarine-Light.woff') format('woff'),
+       url('fonts/Octarine-Light/fonts/Octarine-Light.ttf') format('truetype'),
+       url('fonts/Octarine-Light/fonts/Octarine-Light.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+// Custom sizing variables
 $xl5: 3rem;
 $xl3: 1.875rem;
 $xl2: 1.5rem;
@@ -65,22 +140,23 @@ $h1-color: #324960;
   filter: drop-shadow(0 0 5px rgba(255,255,255,0.5));
   margin: 2rem;
   width: 80%;
+  font-size: $xl2;
 
-  @include media-breakpoint-up(md) {
+  @media (min-width: v.$breakpoint-md) {
     width: 60%;
   }
-  @extend .text-2xl;
-  @include media-breakpoint-up(lg) {
+  @media (min-width: v.$breakpoint-lg) {
     font-size: $xl3;
   }
 }
 
-a[href] {
+// Link styles - exclude navbar links
+a[href]:not(.nav-link):not(.navbar-brand) {
   color: #000;
   text-decoration: underline;
 }
 
-a[href]:hover {
+a[href]:not(.nav-link):not(.navbar-brand):hover {
   text-decoration: none;
 }
 
@@ -98,7 +174,7 @@ body {
   background-position-y: 20%;
   background-repeat: no-repeat;
   background-color: black;
-  color: $light;
+  color: v.$light;
   .logo {
     height: 6rem;
   }
@@ -114,7 +190,8 @@ h1 {
 
 .page-container {
   width: 80%;
-  @extend .mx-auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -133,10 +210,10 @@ svg.slash path {
 .splash .logo {
   filter: drop-shadow(0 0 20px rgba(0,0,0,0.8));
   width: 80%;
-  @include media-breakpoint-up(md) {
+  @media (min-width: v.$breakpoint-md) {
     width: 60%;
   }
-  @include media-breakpoint-up(lg) {
+  @media (min-width: v.$breakpoint-lg) {
     width: 40%;
   }
 }
@@ -154,7 +231,7 @@ svg.slash path {
   width: 100%;
   text-align: center;
   color: $brand-color;
-  @extend .text-3xl;
+  font-size: $xl3;
   margin-bottom: 1rem;
   margin-top: 1.5rem;
 }
@@ -162,14 +239,14 @@ svg.slash path {
 .currency {
   h3 {
     font-family: Conv_Octarine-Light;
-    @extend .text-3xl;
+    font-size: $xl3;
     width: auto;
     text-align: center;
     padding-top: .5rem;
     padding-bottom: 1rem;
     border-bottom-width: 1px;
     border-bottom-style: solid;
-    border-color: $dark;
+    border-color: v.$dark;
     font-weight: 100;
   }
 
@@ -181,9 +258,6 @@ svg.slash path {
 
   img {
     width: 100%;
-    //@include media-breakpoint-up(xl) {
-      //width: 50%;
-    //}
     margin-bottom: 1em;
   }
 }
@@ -209,16 +283,23 @@ svg.slash path {
   display: table-cell
 }
 
+// Static page styles
 .static-page p {
-  @apply mb-3 mt-2
+  margin-bottom: 0.75rem;
+  margin-top: 0.5rem;
 }
 
 .static-page pre {
-  @apply p-4 shadow-md border border-grey-light overflow-auto
+  padding: 1rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  border: 1px solid #dee2e6;
+  overflow: auto;
 }
 
 .static-page img.example {
-  @apply my-2 shadow-md
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
 }
 
 footer {
@@ -232,7 +313,7 @@ footer {
   margin-top: 1.5rem;
   padding: 1rem;
   color: #717f85;
-  @extend .text-sm;
+  font-size: $sm;
   width: 100%;
   background-color: #f3f3f3;
 }
@@ -243,36 +324,36 @@ footer {
 }
 
 ul.features li {
-  @extend .d-flex; 
-  @extend .flex-column; 
-  @extend .align-items-center;
-  @extend .mb-4; 
-  @extend .text-center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  text-align: center;
   width: 100%;
-  @include media-breakpoint-up(md) {
+  @media (min-width: v.$breakpoint-md) {
     width: 50%;
   }
   i {
-    @extend .text-5xl;
-    @extend .rounded-circle; 
-    @extend .mb-3;
-    color: $secondary;
-    background-color: $primary;
+    font-size: $xl5;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    color: v.$secondary;
+    background-color: v.$primary;
     width: 90px;
     height: 90px;
     line-height: 88px;
   }
   strong {
-    @extend .text-2xl;
-    @extend .mb-3;
+    font-size: $xl2;
+    margin-bottom: 1rem;
   }
 }
 
 
 ul.contributors li {
-  @extend .d-flex; 
-  @extend .flex-column;
-  @extend .align-items-center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   img {
     width: 100px;
     border-radius: 100%;
@@ -318,11 +399,11 @@ ul.contributors li {
 
 /* TABLE */
 
-$table-grey: $gray-700;
+$table-grey: v.$gray-700;
 
 .table-wrapper{
     box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.2);
-    @extend .mb-3;
+    margin-bottom: 1rem;
 }
 
 table {
@@ -345,18 +426,18 @@ td {
 }
 
 thead th {
-    color: $white;
+    color: v.$white;
     background: $brand-color;
 }
 
 
 thead th:nth-child(odd) {
-    color: $white;
+    color: v.$white;
     background: $h1-color;
 }
 
 tr:nth-child(even) {
-    background: $gray-100;
+    background: v.$gray-100;
 }
 
 tr td:first-child {
@@ -368,7 +449,7 @@ tr td:first-child {
 
 tr td:last-child {
     font-weight: bold;
-    color: $gray-900;
+    color: v.$gray-900;
 
     em, em a[href] {
         color: $table-grey;
@@ -377,69 +458,9 @@ tr td:last-child {
     }
 }
 
-
-/*
-@include media-breakpoint-down(md) {
-    table {
-        display: block;
-        width: 100%;
-    }
-     .table-wrapper:before{
-        content: "Scroll horizontally >";
-        display: block;
-        text-align: right;
-        font-size: 11px;
-        color: white;
-        padding: 0 0 10px;
-    }
-    table thead, table tbody, table thead th {
-        display: block;
-    }
-    table thead th:last-child{
-        border-bottom: none;
-    }
-    table thead {
-        float: left;
-    }
-    table tbody {
-        width: auto;
-        position: relative;
-        overflow-x: auto;
-    }
-    table td, table th {
-        padding: 20px .625em .625em .625em;
-        height: 60px;
-        vertical-align: middle;
-        box-sizing: border-box;
-        overflow-x: hidden;
-        overflow-y: auto;
-        width: 120px;
-        text-overflow: ellipsis;
-    }
-    table thead th {
-        text-align: left;
-        border-bottom: 1px solid #f7f7f9;
-    }
-    table tbody tr {
-        display: table-cell;
-    }
-    table tbody tr:nth-child(odd) {
-        background: none;
-    }
-    table tr:nth-child(even) {
-        background: transparent;
-    }
-    table tr td:nth-child(odd) {
-        background: #F8F8F8;
-        border-right: 1px solid #E6E4E4;
-    }
-    table tr td:nth-child(even) {
-        border-right: 1px solid #E6E4E4;
-    }
-    table tbody td {
-        display: block;
-        text-align: left;
-    }
+// Jekyll Bootstrap integration
+.page-content {
+  img {
+    max-width: 100%;
+  }
 }
-
-*/
