@@ -6,11 +6,27 @@ The site is built with [Jekyll](https://jekyllrb.com/) and [Bootstrap 5](https:/
 
 ## Local Development
 
-### Prerequisites
+Choose one of the following options:
 
-You need Ruby 3.2 or later. We recommend using [chruby](https://github.com/postmodern/chruby) with [ruby-install](https://github.com/postmodern/ruby-install) for Ruby version management.
+### Option 1: Docker (recommended)
 
-#### macOS
+Requires [Docker](https://docs.docker.com/get-docker/).
+
+Build the image:
+```bash
+make docker-build
+```
+
+Run the local server:
+```bash
+make docker-serve
+```
+
+The site will be available at http://localhost:4000
+
+### Option 2: Native Ruby (macOS)
+
+Requires Ruby 3.2+. We recommend using [chruby](https://github.com/postmodern/chruby) with [ruby-install](https://github.com/postmodern/ruby-install).
 
 1. Install chruby and ruby-install:
    ```bash
@@ -28,37 +44,19 @@ You need Ruby 3.2 or later. We recommend using [chruby](https://github.com/postm
    ruby-install ruby 3.2
    ```
 
-4. The `.ruby-version` file will automatically select the correct Ruby version.
-
-### Setup
-
-Install dependencies:
-```bash
-make install
-```
-
-### Run locally
-
-```bash
-make serve
-```
+4. Install dependencies and run:
+   ```bash
+   make install
+   make serve
+   ```
 
 The site will be available at http://localhost:4000
 
-### Build
+### Other Commands
 
-To build the static site without serving:
 ```bash
-make build
-```
-
-Output is generated in the `_site/` directory.
-
-### Clean
-
-Remove generated files:
-```bash
-make clean
+make build     # Build static site to _site/
+make clean     # Remove generated files
 ```
 
 ## Deployment
