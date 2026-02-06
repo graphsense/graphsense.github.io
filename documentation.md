@@ -13,7 +13,7 @@ Check out their tutorials at: [https://ikna.io/docs](https://ikna.io/docs)
 
 <h4>Requirements</h4>
 
-GraphSense must process billions of transactions and therefore builds on top of [Apache Spark](spark) and [Cassandra](cassandra), which are highly scalable computing and analytics infrastructures.s
+GraphSense must process billions of transactions and therefore builds on top of [Apache Spark][spark] and [Cassandra][cassandra], which are highly scalable computing and analytics infrastructures.
 
 In our production environment, we use an Apache Spark/Cassandra cluster with the following Hardware components:
 
@@ -28,7 +28,7 @@ If you do not want to host GraphSense youself, consider using the hosted service
 
 **Q: Can I run GraphSense on my local computer or a Raspberry Pi?**
 
-GraphSense processes billions of transactions and requires quite some RAM and disk space. Unfortunately, your computer most likely doesn't have enough hardware resources for processing and storing vast amounts of transactions and derived statics. You can, however, run each component in development mode, just as we do it. Please check the README files in each repository.s
+GraphSense processes billions of transactions and requires quite some RAM and disk space. Unfortunately, your computer most likely doesn't have enough hardware resources for processing and storing vast amounts of transactions and derived statistics. You can, however, run each component in development mode, just as we do it. Please check the README files in each repository.
 
 **Q: Can I run the GraphSense Dashboard without setting up an Apache Spark / Cassandra cluster?**
 
@@ -81,7 +81,7 @@ GraphSense development is very much driven by the needs of our project partners 
 
 **Q: I need a specific new feature, can you provide it?**
 
-First of all, let us know what you need, ideally by filing a *feature request* issue in the relevant repository, probably the [GraphSense Dashboard](https://github.com/graphsense/graphsense-dashboard) or the [GraphSense API](https://github.com/graphsense/graphsense-openapi). Alternatively, you can write an email to [contact@ikna.io](mailto:contact@graphsense.org).
+First of all, let us know what you need, ideally by filing a *feature request* issue in the relevant repository, probably the [GraphSense Dashboard](https://github.com/graphsense/graphsense-dashboard) or the [GraphSense API](https://github.com/graphsense/graphsense-openapi). Alternatively, you can write an email to [contact@ikna.io](mailto:contact@ikna.io).
 
 Whether we can implement a feature request depends on whether it fits into our plan or not. That, in turn, depends on the research funding model we are currently working on.
 

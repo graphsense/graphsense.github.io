@@ -30,7 +30,7 @@ We're pleased to announce the release of GraphSense v.23.06, featuring additiona
 
 GraphSense remains open-source and can be accessed at our GitHub repository (https://github.com/graphsense). Future updates will focus on refining the UI and adding more datasets.
 
-Institutional users can take advantage of our new add-ons for case deconfliction and automated tracing. If you're interested in testing these, send an email to [mailto:contact@ikna.io](ikna.io).
+Institutional users can take advantage of our new add-ons for case deconfliction and automated tracing. If you're interested in testing these, send an email to [contact@ikna.io](mailto:contact@ikna.io).
 
 
 <h2>
