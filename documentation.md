@@ -4,9 +4,9 @@ title: Documentation
 
 <h2 class="mt-3">Tutorials</h2>
 
-[Iknaio](https://ikna.io) is a company providing services around GraphSense and also produced some tutorial videos demonstrating how to use the dashboard.
+[Iknaio](https://www.iknaio.com) is a company providing services around GraphSense and also produced some tutorial videos demonstrating how to use the dashboard.
 
-Check out their tutorials at: [https://ikna.io/docs](https://ikna.io/docs)
+Check out their tutorials at: [https://www.iknaio.com/docs](https://www.iknaio.com/docs)
 
 
 <h2 class="mt-3">Setup and Installation</h2>
@@ -22,7 +22,7 @@ In our production environment, we use an Apache Spark/Cassandra cluster with the
 
 All nodes are connected via bonded 40Gbit ethernet interfaces and a corresponding switch.
 
-If you do not want to host GraphSense youself, consider using the hosted service offered by [Iknaio Cryptoasset Analytics GmbH](https://ikna.io).
+If you do not want to host GraphSense youself, consider using the hosted service offered by [Iknaio Cryptoasset Analytics GmbH](https://www.iknaio.com).
 
 <h4>Setup & Architecture</h4>
 
@@ -44,13 +44,13 @@ Because we use GraphSense for advanced (research) analysis tasks and move a lot 
 
 **Q: How can I get access to the GraphSense demo?**
 
-[Iknaio Cryptoasset Analytics GmbH](https://ikna.io) is a company run by the core developers of GraphSense. It provides GraphSense-as-a-Service and you can get free access. Just drop an email to <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#99;&#111;&#110;&#116;&#97;&#99;&#116;&#64;&#103;&#114;&#97;&#112;&#104;&#115;&#101;&#110;&#115;&#101;&#46;&#111;&#114;&#103;">contact&#64;graphsense&#46;org</a> and briefly explain **who** you are and **why** you want access to our demo. You will receive access an API key and will also be signed up for further information.
+[Iknaio Cryptoasset Analytics GmbH](https://www.iknaio.com) is a company run by the core developers of GraphSense. It provides GraphSense-as-a-Service and you can get free access. Just drop an email to <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#99;&#111;&#110;&#116;&#97;&#99;&#116;&#64;&#103;&#114;&#97;&#112;&#104;&#115;&#101;&#110;&#115;&#101;&#46;&#111;&#114;&#103;">contact&#64;graphsense&#46;org</a> and briefly explain **who** you are and **why** you want access to our demo. You will receive access an API key and will also be signed up for further information.
 
 <h4>Operation</h4>
 
 **Q: How often is the data updated?**
 
-GraphSense itself is just a piece of software; or actually several pieces. [Iknaio](https://ikna.io) provides a hosted version and updates the data near real-time.
+GraphSense itself is just a piece of software; or actually several pieces. [Iknaio](https://www.iknaio.com) provides a hosted version and updates the data near real-time.
 
 **Q: Does GraphSense support real-time updates?**
 
@@ -68,11 +68,11 @@ Not at all because labels, tags, and categories assigned by the user are not sen
 
 **Q: Who is behind GraphSense, and who is driving development?**
 
-GraphSense has a strong research background, and development is mainly driven by the GraphSense core team. [Iknaio Cryptoasset Analytics GmbH](https://ikna.io) is run by the creators of GraphSense and, for instance, offers GraphSense as a hosted service.
+GraphSense has a strong research background, and development is mainly driven by the GraphSense core team. [Iknaio Cryptoasset Analytics GmbH](https://www.iknaio.com) is run by the creators of GraphSense and, for instance, offers GraphSense as a hosted service.
 
 **Q: Who is funding GraphSense?**
 
-Currently, GraphSense development relies on contributions from its core developers, who are working for [Iknaio Cryptoasset Analytics GmbH](https://ikna.io), the [Complexity Science Hub Vienna](https://csh.ac.at), and the [AIT - Austrian Institute of Technology](https://www.ait.ac.at).
+Currently, GraphSense development relies on contributions from its core developers, who are working for [Iknaio Cryptoasset Analytics GmbH](https://www.iknaio.com), the [Complexity Science Hub Vienna](https://csh.ac.at), and the [AIT - Austrian Institute of Technology](https://www.ait.ac.at).
 
 
 **Q: Why don't you just use some other existing cryptocurrency/blockchain analytics tool?**
