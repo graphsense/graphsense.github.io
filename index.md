@@ -73,7 +73,7 @@ title: Home
   <p>Haslhofer, B., Hanslbauer, C., Fröwis, M., & Goger, T. (2023). <strong>Increasing the efficiency of cryptoasset investigations by connecting the cases.</strong> APWG Symposium on Electronic Crime Research (eCrime 2023).
   <a href="https://docs.apwg.org/ecrimeresearch/2023/20240328851329400.pdf">(pdf)</a></p>
 
-  <p>Stütz, R., Stockinger, J., Haslhofer, B., Moreno-Sanchez, P., & Maffei, M. (2022). <strong>Adoption and actual privacy of decentralized CoinJoin implementations in bitcoin.</strong> Proceedings of the 4st ACM conference on advances in financial technologies, AFT 2022, boston, september 19-22, 2022.
+  <p>Stütz, R., Stockinger, J., Haslhofer, B., Moreno-Sanchez, P., & Maffei, M. (2022). <strong>Adoption and actual privacy of decentralized CoinJoin implementations in bitcoin.</strong> Proceedings of the 4th ACM Conference on Advances in Financial Technologies (AFT 2022).
   <a href="https://arxiv.org/abs/2109.10229">(pdf)</a></p>
 
   <p>Kappos, G., Yousaf, H., Stütz, R., Rollet, S., Haslhofer, B., & Meiklejohn, S. (2022). <strong>How to peel a million: Validating and expanding bitcoin clusters.</strong> 31st USENIX security symposium (USENIX security 22).
@@ -85,24 +85,16 @@ title: Home
   <p>Stütz, R., Gaži, P., Haslhofer, B., & Illum, J. (2020). <strong>Stake shift in major cryptocurrencies: An empirical study.</strong> Financial cryptography and data security (FC 2020).
   <a href="https://arxiv.org/abs/2001.04187">(pdf)</a></p>
 
-  <p>Paquet-Clouston, M., Romiti, M., Haslhofer, B., Charvat, T.
-  <strong>Spams meet Cryptocurrencies: Sextortion in the Bitcoin Ecosystem</strong>
-  Advances in Financial Technologies, 2019.
+  <p>Paquet-Clouston, M., Romiti, M., Haslhofer, B., & Charvat, T. (2019). <strong>Spams meet Cryptocurrencies: Sextortion in the Bitcoin Ecosystem.</strong> Advances in Financial Technologies (AFT 2019).
   <a href="https://arxiv.org/abs/1908.01051">(pdf)</a></p>
 
-  <p>Romiti, M., Judmayer, A., Zamyatin, A., Haslhofer, B.
-  <strong>A Deep Dive into Bitcoin Mining Pools: An Empirical Analysis of Mining Shares.</strong>
-  Workshop on the Economics of Information Security, 2019.
+  <p>Romiti, M., Judmayer, A., Zamyatin, A., & Haslhofer, B. (2019). <strong>A Deep Dive into Bitcoin Mining Pools: An Empirical Analysis of Mining Shares.</strong> Workshop on the Economics of Information Security (WEIS 2019).
   <a href="https://arxiv.org/abs/1905.05999">(pdf)</a></p>
 
-  <p>Paquet-Clouston, M., Haslhofer, B., & Dupont, B.
-  <strong>Ransomware payments in the bitcoin ecosystem.</strong>
-  Journal of Cybersecurity, 5 (1).
-  <a href="http://arxiv.org/abs/1804.04080">(pdf)</a></p>
+  <p>Paquet-Clouston, M., Haslhofer, B., & Dupont, B. (2019). <strong>Ransomware payments in the bitcoin ecosystem.</strong> Journal of Cybersecurity, 5(1).
+  <a href="https://arxiv.org/abs/1804.04080">(pdf)</a></p>
 
-  <p>Filtz, E., Polleres, A., Karl, R., Haslhofer, B.:
-  <strong>Evolution of the Bitcoin Address Graph - An Exploratory Longitudinal Study.</strong>
-  International Data Science Conference (DSC 2017), Salzburg, Austria, 2017.
+  <p>Filtz, E., Polleres, A., Karl, R., & Haslhofer, B. (2017). <strong>Evolution of the Bitcoin Address Graph - An Exploratory Longitudinal Study.</strong> International Data Science Conference (DSC 2017).
   <a href="https://aic.ai.wu.ac.at/~polleres/publications/filtz-etal-2017IDSC.pdf">(pdf)</a></p>
   
 </div>

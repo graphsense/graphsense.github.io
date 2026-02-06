@@ -18,7 +18,7 @@
   text: GraphSense organizes attribution tags in TagPacks, which can be <a target="_blank" href="https://github.com/graphsense/graphsense-tagpacks">public</a> or private.
 - icon: tachometer-alt 
   heading: Future-proof
-  text: Built on <a target="_blank" href="https://spark.apache.org/">Apache Spark</a> and <a target="_blank" href="http://cassandra.apache.org/">Cassandra</a> for horizontal scalability.
+  text: Built on <a target="_blank" href="https://spark.apache.org/">Apache Spark</a> and <a target="_blank" href="https://cassandra.apache.org/">Cassandra</a> for horizontal scalability.
 - collection: fab # the fontawesome collection for brands
   icon: github 
   heading: Open source
