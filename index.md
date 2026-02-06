@@ -58,6 +58,21 @@ title: Home
 
   <p>GraphSense has already supported several scientific studies:</p>
 
+  <p>Stütz, R., Stifter, N., Dragaschnig, M., Haslhofer, B., & Judmayer, A. (2026). <strong>Reuse of Public Keys Across UTXO and Account-Based Cryptocurrencies.</strong> arXiv preprint.
+  <a href="https://arxiv.org/abs/2601.19500">(pdf)</a></p>
+
+  <p>Avice, R., Haslhofer, B., Li, Z., & Zhou, J. (2026). <strong>Linking cryptoasset attribution tags to knowledge graph entities: An LLM-based approach.</strong> Financial Cryptography and Data Security (FC 2026).
+  <a href="https://fc25.ifca.ai/preproceedings/74.pdf">(pdf)</a></p>
+
+  <p>Saggese, P., Segalla, E., Sigmund, M., Raunig, B., Zangerl, F., & Haslhofer, B. (2024). <strong>Assessing the solvency of virtual asset service providers: Are current standards sufficient?</strong> Applied Economics.
+  <a href="https://www.tandfonline.com/doi/abs/10.1080/00036846.2024.2396640">(pdf)</a></p>
+
+  <p>Niedermayer, T., Saggese, P., & Haslhofer, B. (2024). <strong>Detecting financial bots on the Ethereum blockchain.</strong> Companion Proceedings of the ACM Web Conference 2024.
+  <a href="https://doi.org/10.1145/3589335.3651959">(pdf)</a></p>
+
+  <p>Haslhofer, B., Hanslbauer, C., Fröwis, M., & Goger, T. (2023). <strong>Increasing the efficiency of cryptoasset investigations by connecting the cases.</strong> APWG Symposium on Electronic Crime Research (eCrime 2023).
+  <a href="https://docs.apwg.org/ecrimeresearch/2023/20240328851329400.pdf">(pdf)</a></p>
+
   <p>Stütz, R., Stockinger, J., Haslhofer, B., Moreno-Sanchez, P., & Maffei, M. (2022). <strong>Adoption and actual privacy of decentralized CoinJoin implementations in bitcoin.</strong> Proceedings of the 4st ACM conference on advances in financial technologies, AFT 2022, boston, september 19-22, 2022.
   <a href="https://arxiv.org/abs/2109.10229">(pdf)</a></p>
 
