@@ -13,11 +13,11 @@ title: Home
 
 <div class="container">
 
-  <p>GraphSense originated in 2015 as a publicly funded research project at the [Austrian Institute of Technology (AIT)](https://www.ait.ac.at), led by [Bernhard Haslhofer](https://bernhardhaslhofer.info/) as Principal Investigator. Since then, development has been carried out in collaboration with the [Complexity Science Hub Vienna](https://www.csh.ac.at) and has been supported by several public funding programs, including the Austrian FFG ([IKT der Zukunft](https://iktderzukunft.at/en/projects/graph-sense.php), [KIRAS](https://www.kiras.at/)), and the EU Horizon 2020 program ([TITANIUM](https://www.titanium-project.eu/)).</p>
+  <p>GraphSense originated in 2015 as a publicly funded research project at the <a href="https://www.ait.ac.at" target="_blank">Austrian Institute of Technology (AIT)</a>, led by <a href="https://bernhardhaslhofer.info/" target="_blank">Bernhard Haslhofer</a> as Principal Investigator. Since then, development has been carried out in collaboration with the <a href="https://www.csh.ac.at" target="_blank">Complexity Science Hub Vienna</a> and has been supported by several public funding programs, including the Austrian FFG (<a href="https://iktderzukunft.at/en/projects/graph-sense.php" target="_blank">IKT der Zukunft</a>, <a href="https://www.kiras.at/" target="_blank">KIRAS</a>), and the EU Horizon 2020 program (<a href="https://www.titanium-project.eu/" target="_blank">TITANIUM</a>).</p>
 
-  <p>In 2021, the core development team founded [Iknaio Cryptoasset Analytics GmbH](https://www.iknaio.com) to provide GraphSense as a hosted service with near real-time data updates and to develop additional operational tools — such as [Pathfinder](https://www.iknaio.com/platform), [CaseConnect](https://www.iknaio.com/platform#caseconnect), and [QuickLock](https://www.iknaio.com/platform#quicklock) — on top of the open-source platform.</p>
+  <p>In 2021, the core development team founded <a href="https://www.iknaio.com" target="_blank">Iknaio Cryptoasset Analytics GmbH</a> to provide GraphSense as a hosted service with near real-time data updates and to develop additional operational tools — such as <a href="https://www.iknaio.com/platform" target="_blank">Pathfinder</a>, <a href="https://www.iknaio.com/platform#caseconnect" target="_blank">CaseConnect</a>, and <a href="https://www.iknaio.com/platform#quicklock" target="_blank">QuickLock</a> — on top of the open-source platform.</p>
 
-  <p>GraphSense itself remains fully open-source and [MIT-licensed](https://github.com/graphsense). Iknaio is the commercial service and development partner; the two are complementary, not competing.</p>
+  <p>GraphSense itself remains fully open-source and <a href="https://github.com/graphsense" target="_blank">MIT-licensed</a>. Iknaio is the commercial service and development partner; the two are complementary, not competing.</p>
 
 </div>
 
