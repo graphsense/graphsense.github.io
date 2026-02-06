@@ -30,7 +30,7 @@ We're pleased to announce the release of GraphSense v.23.06, featuring additiona
 
 GraphSense remains open-source and can be accessed at our GitHub repository (https://github.com/graphsense). Future updates will focus on refining the UI and adding more datasets.
 
-Institutional users can take advantage of our new add-ons for case deconfliction and automated tracing. If you're interested in testing these, send an email to [contact@ikna.io](mailto:contact@ikna.io).
+Institutional users can take advantage of our new add-ons for case deconfliction and automated tracing. If you're interested in testing these, send an email to <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#99;&#111;&#110;&#116;&#97;&#99;&#116;&#64;&#103;&#114;&#97;&#112;&#104;&#115;&#101;&#110;&#115;&#101;&#46;&#111;&#114;&#103;">contact&#64;graphsense&#46;org</a>.
 
 
 <h2>
@@ -146,7 +146,7 @@ This release provides
 
 * a central repository ([graphsense-setup](https://github.com/graphsense/graphsense-setup)) for installing all required components using Docker Compose
 
-As a response to the increasing number of requests for our semi-public demo, we also changed the access model. Before it was simple HTTP authentication, which was shared among all users. Now everyone who wants to work with the demo or use the API needs an API key, which can be requested per email (<a href="mailto:contact@ikna.io">contact@ikna.io</a>).
+As a response to the increasing number of requests for our semi-public demo, we also changed the access model. Before it was simple HTTP authentication, which was shared among all users. Now everyone who wants to work with the demo or use the API needs an API key, which can be requested per email (<a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#99;&#111;&#110;&#116;&#97;&#99;&#116;&#64;&#103;&#114;&#97;&#112;&#104;&#115;&#101;&#110;&#115;&#101;&#46;&#111;&#114;&#103;">contact&#64;graphsense&#46;org</a>).
 
 
 <h2>

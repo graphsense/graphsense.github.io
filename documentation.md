@@ -44,7 +44,7 @@ Because we use GraphSense for advanced (research) analysis tasks and move a lot 
 
 **Q: How can I get access to the GraphSense demo?**
 
-[Iknaio Cryptoasset Analytics GmbH](https://ikna.io) is a company run by the core developers of GraphSense. It provides GraphSense-as-a-Service and you can get free access. Just drop an email to [contact@ikna.io](mailto:contact@ikna.io) and briefly explain **who** you are and **why** you want access to our demo. You will receive access an API key and will also be signed up for further information.
+[Iknaio Cryptoasset Analytics GmbH](https://ikna.io) is a company run by the core developers of GraphSense. It provides GraphSense-as-a-Service and you can get free access. Just drop an email to <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#99;&#111;&#110;&#116;&#97;&#99;&#116;&#64;&#103;&#114;&#97;&#112;&#104;&#115;&#101;&#110;&#115;&#101;&#46;&#111;&#114;&#103;">contact&#64;graphsense&#46;org</a> and briefly explain **who** you are and **why** you want access to our demo. You will receive access an API key and will also be signed up for further information.
 
 <h4>Operation</h4>
 
@@ -81,7 +81,7 @@ GraphSense development is very much driven by the needs of our project partners 
 
 **Q: I need a specific new feature, can you provide it?**
 
-First of all, let us know what you need, ideally by filing a *feature request* issue in the relevant repository, probably the [GraphSense Dashboard](https://github.com/graphsense/graphsense-dashboard) or the [GraphSense API](https://github.com/graphsense/graphsense-openapi). Alternatively, you can write an email to [contact@ikna.io](mailto:contact@ikna.io).
+First of all, let us know what you need, ideally by filing a *feature request* issue in the relevant repository, probably the [GraphSense Dashboard](https://github.com/graphsense/graphsense-dashboard) or the [GraphSense API](https://github.com/graphsense/graphsense-openapi). Alternatively, you can write an email to <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#99;&#111;&#110;&#116;&#97;&#99;&#116;&#64;&#103;&#114;&#97;&#112;&#104;&#115;&#101;&#110;&#115;&#101;&#46;&#111;&#114;&#103;">contact&#64;graphsense&#46;org</a>.
 
 Whether we can implement a feature request depends on whether it fits into our plan or not. That, in turn, depends on the research funding model we are currently working on.
 
