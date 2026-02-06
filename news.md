@@ -4,33 +4,81 @@ title: News
 ---
 
 <h2>
+  Release GraphSense 25.11
+  <small class="text-muted">(2025-11-06)</small>
+</h2>
+
+This release introduces cross-chain tag derivation and improved search capabilities for flexible address lookups.
+
+* Tags are now derived across chains when addresses share the same public key
+* Enhanced search with support for short address prefixes/postfixes (e.g., 0x33d0...8f65)
+* New tag concepts: funder, deployer, white_list, black_list, gov_white_list
+* Added schema migration support for Cassandra
+* Improved tag summary with transformation support before digest computation
+
+
+<h2>
+  Release GraphSense 25.09
+  <small class="text-muted">(2025-09-04)</small>
+</h2>
+
+This release adds a unified services layer and integrates tagpack-tool functionality directly into graphsense-lib.
+
+* Added services layer moved from gs-rest for better code organization
+* Integrated tagpack-tool and gs-tagstore-cli functionality
+* Improved swap and bridge decoding support
+* THORChain bridge transaction handling
+
+
+<h2>
+  Release GraphSense 24.08
+  <small class="text-muted">(2024-08-20)</small>
+</h2>
+
+This release modernizes the data pipeline with Delta Lake integration for more efficient raw data handling.
+
+* Raw data export now uses Delta Lake instead of CSV for better performance
+* Streamlined delta lake CLI commands for ingest and optimization
+* Removed disk-cache dependency for cleaner architecture
+* Direct Delta Lake access for Tron and Ethereum delta updates
+
+
+<h2>
   Release GraphSense 24.01
   <small class="text-muted">(2024-01-22)</small>
 </h2>
 
-We take great pleasure in announcing GraphSense v24.01.
+This release adds full support for the Tron network, including TRX and major tokens like USDT, USDC, and WTRX.
 
-This latest release incorporates tracing and tracking capabilities for the [Tron network](https://tron.network/) into the GraphSense platform. In addition to monitoring flows in TRX, the primary currency of the Tron network, we offer comprehensive support for widely used tokens such as USDT, USDC, and WTRX. This enhancement underscores our commitment to expanding the functionality of the GraphSense platform and catering to a broader spectrum of digital assets.
+* Added Tron (TRX) blockchain support
+* Integrated USDT, USDC, and WTRX token tracking on Tron
+* Extended multi-chain analytics capabilities
+
 
 <h2>
   Release GraphSense 23.09
   <small class="text-muted">(2023-09-20)</small>
 </h2>
 
-We are pleased to announce the release of GraphSense v23.09. 
+This release focuses on usability improvements and simplified deployment procedures for easier setup and contribution.
 
-This release is centered on the resolution of usability issues and the implementation of stability improvements. Additionally, our team has diligently worked towards simplifying the development and deployment setup, aiming to facilitate a more seamless process for both initial setup and contributions. This release underscores our commitment to elevating the accessibility and resilience of GraphSense for all users and contributors.
+* Resolved multiple usability issues reported by users
+* Simplified development and deployment setup
+* Improved system stability and resilience
+* Enhanced documentation for contributors
+
 
 <h2>
   Release GraphSense 23.06
   <small class="text-muted">(2023-06-30)</small>
 </h2>
 
-We're pleased to announce the release of GraphSense v.23.06, featuring additional attribution tags, improved backend stability, and a refreshed user interface, now known as "Pathfinder".
+This release introduces the refreshed "Pathfinder" user interface along with additional attribution tags and backend stability improvements.
 
-GraphSense remains open-source and can be accessed at our GitHub repository (https://github.com/graphsense). Future updates will focus on refining the UI and adding more datasets.
-
-Institutional users can take advantage of our new add-ons for case deconfliction and automated tracing. If you're interested in testing these, send an email to <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#99;&#111;&#110;&#116;&#97;&#99;&#116;&#64;&#103;&#114;&#97;&#112;&#104;&#115;&#101;&#110;&#115;&#101;&#46;&#111;&#114;&#103;">contact&#64;graphsense&#46;org</a>.
+* Launched new "Pathfinder" dashboard interface
+* Added new attribution tags
+* Improved backend stability
+* New add-ons for case deconfliction and automated tracing (for institutional users)
 
 
 <h2>
@@ -38,32 +86,26 @@ Institutional users can take advantage of our new add-ons for case deconfliction
   <small class="text-muted">(2023-02-14)</small>
 </h2>
 
-We are pleased to announce the latest release of GraphSense, version 23.01.
+This release adds support for major stablecoins on Ethereum and introduces smart contract visibility in the dashboard.
 
-This update brings support for three major stable coins on the Ethereum platform: USDT, USDC, and WETH, with flows in these currencies annotated alongside Ether flows in the user interface. Additionally, smart contracts are now clearly marked with a cog symbol and thus are visible for the user.
-
-Check out our walk-through video at https://youtu.be/UukSvbAUIh4 to learn more about the key changes. To access the latest version of GraphSense, visit our dashboard at https://app.ikna.io or our REST API at https://api.ikna.io, hosted by Iknaio.
-
-Our open-source software is available for viewing at https://graphsense.github.io. We're also working on the next release, which will introduce real world actors to extend our annotation system for even more accurate information about cryptocurrency addresses.
+* Added USDT, USDC, and WETH token support on Ethereum
+* Token flows now annotated alongside Ether flows in the UI
+* Smart contracts marked with a cog symbol for easy identification
+* Check out the [walk-through video](https://youtu.be/UukSvbAUIh4) for key changes
 
 
 <h2>
   Release GraphSense 22.10
   <small class="text-muted">(2022-10-22)</small>
 </h2>
- 
-We are happy to announce our new GraphSense release!
 
-Thanks to all users who provided feedback, suggested new features, and helped us improve the overall user experience! Some highlights of this release are:
+This release introduces periodic blockchain synchronization and improves dashboard usability with new interaction features.
 
-* Data: Cryptoasset addresses are now synchronized periodically with the supported blockchains, which is an essential first step for real-time analytics. The Ethereum client has been updated and works with the recent proof-of-stake merge.
-
-* Dashboard improvements: address-level tracing is now more intuitive; one can remove nodes using the DEL button; shadows indicating duplicate occurrences of address or entity nodes can be enabled/disabled, etc.
-
-To access the most recent version of GraphSense, hosted by Iknaio (https://ikna.io), please use the following endpoints:
- 
-Dashboard: https://app.ikna.io
-REST API: https://api.ikna.io
+* Cryptoasset addresses now synchronized periodically with blockchains
+* Updated Ethereum client for post-merge proof-of-stake compatibility
+* Address-level tracing made more intuitive
+* Node removal via DEL button
+* Duplicate node shadows can be toggled on/off
 
 
 <h2>
@@ -71,12 +113,9 @@ REST API: https://api.ikna.io
   <small class="text-muted">(2022-07-15)</small>
 </h2>
 
-We are happy to announce the first production release of GraphSense!
+The first production release of GraphSense, featuring a completely rewritten dashboard and Ethereum integration.
 
-Some highlights of this release are:
-
-* Complete rewrite of the GraphSense dashboard to allow for third-party add ons on-top of GraphSense.
-
+* Complete dashboard rewrite enabling third-party add-ons
 * Integration of Ethereum account-to-account transactions
 
 
@@ -85,15 +124,12 @@ Some highlights of this release are:
   <small class="text-muted">(2022-03-30)</small>
 </h2>
 
+This release redesigns tagpack handling with a new TagStore architecture for faster and more flexible tag management.
 
-We are happy to announce GraphSense 0.5.2. This minor release includes some bug fixes. A special focus
-was on redesigning the tagpack handling, decoupling it from GraphSense transformations and introducing TagStores:  
-
-* tags are maintained in a dedicated PostgreSQL datastore (as opposed to Cassandra like in previous releases)
-* multiple TagStores are supported by the Dashboard
-* private TagPacks (with restricted access) are possible
-* making new tagpacks available for GraphSense end users is much faster because the TagPack processing is now decoupled from the GraphSense transformations
-
+* Tags now maintained in dedicated PostgreSQL datastore (replacing Cassandra)
+* Multiple TagStores supported by the Dashboard
+* Private TagPacks with restricted access now possible
+* Faster TagPack availability (decoupled from transformations)
 
 
 <h2>
@@ -101,17 +137,12 @@ was on redesigning the tagpack handling, decoupling it from GraphSense transform
   <small class="text-muted">(2021-11-30)</small>
 </h2>
 
-We are happy to announce GraphSense 0.5.1. This minor release brings bug fixes, some additional features, improved attribution tags, performance enhancements, and, last but not least, ensures that GraphSense also works after the recent Bitcoin Taproot upgrade.
+This release brings performance enhancements, improved attribution tags, and compatibility with the Bitcoin Taproot upgrade.
 
-Some highlights of this release are:
-
-* Dashboard improvements: users can now inspect transactions between entities; request limits are now visible on the dashboard; path search is now faster
-
-* REST API improvements: performance improvements; unified mass data retrieval endpoints into a single “bulk” interface (CSV + JSON)
-
-* Transformation job: faster statistics and graph computation after schema decluttering; upgrade to Apache Spark 3.1.2 and Cassandra 4
-
-* Attribution Tags: additional taxonomy concepts; introduced confidence scores to TagPack schema; added more attribution tags to the public repo, mapped them to entity-level; integrated and tagged Wasabi and Samourai transactions.
+* Dashboard: transaction inspection between entities, visible request limits, faster path search
+* REST API: performance improvements, unified "bulk" interface for mass data retrieval (CSV + JSON)
+* Transformation: faster statistics and graph computation, upgraded to Spark 3.1.2 and Cassandra 4
+* Tags: confidence scores added, Wasabi and Samourai transactions integrated and tagged
 
 
 <h2>
@@ -119,16 +150,12 @@ Some highlights of this release are:
   <small class="text-muted">(2021-06-01)</small>
 </h2>
 
+A major release adding Ethereum transaction analysis as the first step towards integrating account-model ledgers.
 
-We are happy to announce GraphSense 0.5. This major release supports the analysis of Ethereum transactions and thus implements a first important step towards integrating account model ledgers.
- 
-Other highlights of this release are:
-
-* Dashboard improvements: colored marking of specific transactions paths; faster path search; a local in-browser tag store for managing added attribution tags
-
-* REST API improvements: faster responses through batch requests; example Jupyter notebooks showcasing how to use the API for cryptoasset investigations
-
-* Attribution Tags: quality improvements; distinctions between entity- and address-level tags
+* Ethereum transaction analysis support
+* Dashboard: colored transaction path marking, faster path search, local in-browser tag store
+* REST API: faster batch requests, example Jupyter notebooks for investigations
+* Tags: quality improvements, entity- and address-level tag distinctions
 
 
 <h2>
@@ -136,17 +163,12 @@ Other highlights of this release are:
   <small class="text-muted">(2020-11-19)</small>
 </h2>
 
-We are happy to announce that the fifth minor release (0.4.5) of the 0.4 series, has arrived.
+This release introduces a complete REST API rewrite following the OpenAPI specification and a new Python client.
 
-This release provides
-
-* a complete rewrite of its REST API, which now follows the [OpenAPI specification](https://www.openapis.org/).
-
-* a [Python API Client](https://github.com/graphsense/graphsense-python) for conducting advanced analytics tasks
-
-* a central repository ([graphsense-setup](https://github.com/graphsense/graphsense-setup)) for installing all required components using Docker Compose
-
-As a response to the increasing number of requests for our semi-public demo, we also changed the access model. Before it was simple HTTP authentication, which was shared among all users. Now everyone who wants to work with the demo or use the API needs an API key, which can be requested per email (<a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#99;&#111;&#110;&#116;&#97;&#99;&#116;&#64;&#103;&#114;&#97;&#112;&#104;&#115;&#101;&#110;&#115;&#101;&#46;&#111;&#114;&#103;">contact&#64;graphsense&#46;org</a>).
+* REST API rewritten to follow [OpenAPI specification](https://www.openapis.org/)
+* [Python API Client](https://github.com/graphsense/graphsense-python) for advanced analytics
+* Central [graphsense-setup](https://github.com/graphsense/graphsense-setup) repository for Docker Compose installation
+* New API key-based access model (request via <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#99;&#111;&#110;&#116;&#97;&#99;&#116;&#64;&#103;&#114;&#97;&#112;&#104;&#115;&#101;&#110;&#115;&#101;&#46;&#111;&#114;&#103;">contact&#64;graphsense&#46;org</a>)
 
 
 <h2>
@@ -154,15 +176,11 @@ As a response to the increasing number of requests for our semi-public demo, we 
   <small class="text-muted">(2020-06-16)</small>
 </h2>
 
-We are happy to announce that the fourth minor release (0.4.4) of the 0.4 series, has arrived.
+This release adds Tag Coherence scoring and improved entity visualization features.
 
-This release provides some bug fixes and minor enhancements, such as:
-
-* A Tag Coherence score as an indicator for heuristic clustering reliability
-
-* Automated connection of entities on the GraphSense Dashboard
-
-* Audit trails can be exported as PDF report
+* Tag Coherence score for heuristic clustering reliability
+* Automated entity connection on the Dashboard
+* Audit trails exportable as PDF reports
 
 
 <h2>
@@ -170,32 +188,20 @@ This release provides some bug fixes and minor enhancements, such as:
   <small class="text-muted">(2020-05-11)</small>
 </h2>
 
-GraphSense 0.4.3, the third minor release of the 0.4 series, has arrived.
+This release brings address annotation, TagPack management, and infrastructure improvements.
 
-This release provides several bug fixes, enhancements, and minor features.
+**Dashboard:**
+* Address annotation with TagPack import/export
+* Local investigation logging for court-proof evidence
+* Transaction details in entity graph relations
+* Cross-ledger address/entity statistics
+* Fine-grained path search conditions (e.g., totalReceived)
 
-#### GraphSense Dashboard
+**TagPacks:**
+* [INTERPOL Dark Web and Virtual Assets](https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/) taxonomy concepts
+* Dedicated [TagPack Management Tool](https://github.com/graphsense/graphsense-tagpack-tool)
 
-* Annotate addresses and import/export tag packs
-
-* Log investigation interactions locally (required for court-proof evidence)
-
-* Inspect transaction details in entity graph relations
-
-* Compute address / entity statistics summaries across ledgers
-
-* Search transaction path using more fine-grained conditions (e.g., totalReceived)
-
-#### TagPacks
-
-* Use concepts from agreed-upon taxonomies (e.g., [INTERPOL Dark Web and Virtual Assets](https://interpol-innovation-centre.github.io/DW-VA-Taxonomy/)) in TagPack descriptions.
-
-* Validate and insert TagPacks using a dedicated [TagPack Management Tool](https://github.com/graphsense/graphsense-tagpack-tool)
-
-#### Back-end Infrastructure
-
-* Build and run components using [Docker Compose](https://docs.docker.com/compose/)
-
-* Upgrade to Scala 2.12, Spark 2.4.5
-
-* Reintegration of clustering library into transformation
+**Infrastructure:**
+* Docker Compose build and deployment
+* Upgraded to Scala 2.12, Spark 2.4.5
+* Clustering library reintegrated into transformation
