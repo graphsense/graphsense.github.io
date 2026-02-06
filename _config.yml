@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "Graphsense Cryptoasset Analytics Platform"
+title: "GraphSense Cryptoasset Analytics Platform"
 email: "contact@graphsense.org"
 
-tagline: "Graphsense | An open source cryptoasset analytics platform"
+tagline: "GraphSense | An open source cryptoasset analytics platform"
 
 description: >
   GraphSense is a cryptoasset analytics platform emphasizing full data sovereignty,
@@ -31,6 +31,12 @@ url: "https://graphsense.org" # the base hostname & protocol for your site, e.g.
 
 repository: "graphsense/graphsense.github.io"
 repo: "https://github.com/graphsense"
+
+# Social sharing / SEO
+# TODO: Create og-image.png (1200x630px) for social sharing
+# og_image: /assets/img/og-image.png
+twitter:
+  card: summary
 # discord: "https://discord.gg/udweqn3aSd"
 
 # Build settings

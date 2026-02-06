@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Documentation
+description: GraphSense documentation, setup guides, tutorials, and FAQ. Learn how to use the open-source cryptoasset analytics platform or access the hosted service.
 ---
 
 ## About GraphSense and Iknaio
