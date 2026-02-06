@@ -1,6 +1,7 @@
 ---
 layout: page
 title: News & Releases
+nav_title: News
 description: Latest GraphSense releases, updates, and announcements. Stay informed about new features, supported cryptocurrencies, and platform improvements.
 ---
 

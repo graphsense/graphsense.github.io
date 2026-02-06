@@ -14,7 +14,8 @@
         {%- for path in page_paths -%}
           {%- assign my_page = site.pages | where: "path", path | first -%}
           {%- if my_page.title -%}
-          {% include navitem.html title=my_page.title url=my_page.url %}
+            {%- assign nav_title = my_page.nav_title | default: my_page.title -%}
+            {% include navitem.html title=nav_title url=my_page.url %}
           {%- endif -%}
         {% endfor -%}
         {% include navitem.html title="On Github" url=site.repo icon="fab fa-github" %}
