@@ -105,9 +105,5 @@ title: Home
   <p>Michael Fröwis, <a href="https://www.ikna.io/" target="_blank">Iknaio Cryptoasset Analytics GmbH</a></p>
   
   <p>Thomas Niedermayer, <a href="https://www.ikna.io/" target="_blank">Iknaio Cryptoasset Analytics GmbH</a></p>
-  
-  <p>Melitta Dragaschnig, <a href="https://www.ait.ac.at/" target="_blank">AIT - Austrian Insitute of Technology GmbH</a></p>
-  
-  <p>Michael Seidl, <a href="https://www.ait.ac.at/" target="_blank">AIT - Austrian Insitute of Technology GmbH</a></p>
 
 </div>
