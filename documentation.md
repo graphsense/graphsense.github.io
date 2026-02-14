@@ -155,7 +155,6 @@ has been supported by a series of public research grants:
 - **TITANIUM** (2017–2020) — EU Horizon 2020
 - **VIRTCRIME** (2018–2020) — FFG KIRAS
 - **KRYPTOMONITOR** — FFG KIRAS
-- **Austrian Blockchain Center** (2019–2023) — FFG COMET
 - **DeFiTrace** (2023–2025)
 
 **Q: Why not use an existing cryptocurrency analytics tool?**
