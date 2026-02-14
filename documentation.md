@@ -4,8 +4,6 @@ title: Documentation
 description: GraphSense documentation, setup guides, tutorials, and FAQ. Learn how to use the open-source cryptoasset analytics platform or access the hosted service.
 ---
 
-# Documentation
-
 ## About GraphSense and Iknaio
 
 GraphSense is an open-source cryptoasset analytics platform, first developed in
@@ -13,7 +11,9 @@ GraphSense is an open-source cryptoasset analytics platform, first developed in
 now maintained in collaboration with the
 [Complexity Science Hub Vienna](https://www.csh.ac.at).
 
-[Iknaio Cryptoasset Analytics GmbH](https://www.iknaio.com) was founded in 2021 by the creators of GraphSense. It provides GraphSense as a hosted service with near real-time data updates and develops commercial extensions — such as
+[Iknaio Cryptoasset Analytics GmbH](https://www.iknaio.com) was founded in 2021
+by the creators of GraphSense. It provides GraphSense as a hosted service with
+near real-time data updates and develops commercial extensions — such as
 Pathfinder, CaseConnect, QuickLock, and TaxReport — built on top of the
 open-source platform.
 
@@ -140,7 +140,7 @@ client side only and are never sent to the server.
 GraphSense has a strong research background. Development is driven by the
 GraphSense core team, whose members work for
 [Iknaio Cryptoasset Analytics GmbH](https://www.iknaio.com), the
-[Complexity Science Hub Vienna](https://csh.ac.at), and the
+[Complexity Science Hub Vienna](https://www.csh.ac.at), and the
 [AIT — Austrian Institute of Technology](https://www.ait.ac.at). Iknaio was
 founded in 2021 by the creators of GraphSense and provides the platform as a
 hosted service along with commercial extensions.
