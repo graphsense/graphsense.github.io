@@ -9,7 +9,7 @@ description: GraphSense documentation, setup guides, tutorials, and FAQ. Learn h
 GraphSense is an open-source cryptoasset analytics platform, first developed in
 2015 at the [Austrian Institute of Technology (AIT)](https://www.ait.ac.at) and
 now maintained in collaboration with the
-[Complexity Science Hub Vienna](https://www.csh.ac.at).
+[Complexity Science Hub](https://www.csh.ac.at).
 
 [Iknaio Cryptoasset Analytics GmbH](https://www.iknaio.com) was founded in 2021
 by the creators of GraphSense. It provides GraphSense as a hosted service with
@@ -19,7 +19,7 @@ open-source platform.
 
 **In short:** GraphSense is the open-source software stack (MIT-licensed).
 Iknaio is the company that operates, maintains, and extends it commercially.
-Development is jointly driven by Iknaio, the Complexity Science Hub Vienna, and
+Development is jointly driven by Iknaio, the Complexity Science Hub, and
 AIT.
 
 | | GraphSense | Iknaio |
@@ -140,7 +140,7 @@ client side only and are never sent to the server.
 GraphSense has a strong research background. Development is driven by the
 GraphSense core team, whose members work for
 [Iknaio Cryptoasset Analytics GmbH](https://www.iknaio.com), the
-[Complexity Science Hub Vienna](https://www.csh.ac.at), and the
+[Complexity Science Hub](https://www.csh.ac.at), and the
 [AIT — Austrian Institute of Technology](https://www.ait.ac.at). Iknaio was
 founded in 2021 by the creators of GraphSense and provides the platform as a
 hosted service along with commercial extensions.
@@ -148,7 +148,7 @@ hosted service along with commercial extensions.
 **Q: Who is funding GraphSense?**
 
 GraphSense development relies on contributions from its core developers at
-Iknaio, the Complexity Science Hub Vienna, and AIT. Historically, development
+Iknaio, the Complexity Science Hub, and AIT. Historically, development
 has been supported by a series of public research grants:
 
 - **GraphSense** (2015–2017) — FFG IKT der Zukunft
