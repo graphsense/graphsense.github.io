@@ -464,3 +464,14 @@ tr td:last-child {
     max-width: 100%;
   }
 }
+
+// Heading spacing on content pages
+.container {
+  h2 {
+    margin-top: 2.5rem;
+  }
+
+  h3 {
+    margin-top: 2rem;
+  }
+}
