@@ -157,7 +157,6 @@ has been supported by a series of public research grants:
 - **KRYPTOMONITOR** — FFG KIRAS
 - **Austrian Blockchain Center** (2019–2023) — FFG COMET
 - **DeFiTrace** (2023–2025)
-- **DEFIANCE** (2025–2028)
 
 **Q: Why not use an existing cryptocurrency analytics tool?**
 
