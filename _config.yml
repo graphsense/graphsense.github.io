@@ -61,6 +61,9 @@ exclude:
   - node_modules
   - update_boostrap.sh
   - cache
+  - README.md
+  - LICENSE.md
+  - CLAUDE.md
 
 titles_from_headings:
   enabled: false
