@@ -117,9 +117,9 @@ description: GraphSense is an open-source cryptoasset analytics platform for Bit
 
 <div class="container">
 
-  <p>Bernhard Haslhofer, <a href="https://www.csh.ac.at/" target="_blank">Complexity Science Hub Vienna</a></p>
+  <p>Bernhard Haslhofer, <a href="https://www.csh.ac.at/" target="_blank">Complexity Science Hub</a></p>
 
-  <p>Rainer Stütz, <a href="https://www.csh.ac.at/" target="_blank">Complexity Science Hub Vienna</a></p>
+  <p>Rainer Stütz, <a href="https://www.csh.ac.at/" target="_blank">Complexity Science Hub</a></p>
   
   <p>Matthias Rella, <a href="https://www.iknaio.com/" target="_blank">Iknaio Cryptoasset Analytics GmbH</a></p>
   
