@@ -27,7 +27,7 @@ AIT.
 | **What** | Open-source analytics platform | Commercial service & extensions |
 | **License** | MIT | Proprietary (extensions) |
 | **Access** | Self-hosted via [GitHub](https://github.com/graphsense) | Hosted at [app.iknaio.com](https://app.iknaio.com) / [api.iknaio.com](https://api.iknaio.com) |
-| **Scope** | Core analytics engine, REST API, dashboard, TagPacks | Pathfinder, CaseConnect, QuickLock, TaxReport, managed infrastructure |
+| **Scope** | [graphsense-lib](https://github.com/graphsense/graphsense-lib) (analytics engine & REST API), [graphsense-dashboard](https://github.com/graphsense/graphsense-dashboard) (web UI), TagPacks | Pathfinder, CaseConnect, QuickLock, TaxReport, managed infrastructure |
 
 ## Getting Started
 
@@ -48,8 +48,53 @@ The complete GraphSense software stack is available on
 [GitHub](https://github.com/graphsense) under the MIT license. Self-hosting
 gives you full data sovereignty and the ability to run custom analytics jobs.
 
-See the [Setup and Installation](#setup-and-installation) section below for
-hardware requirements and deployment guidance.
+GraphSense consists of two main components:
+
+#### GraphSense Lib — Backend & Analytics Engine
+
+[**graphsense-lib**](https://github.com/graphsense/graphsense-lib) is a Python
+toolkit that powers the core of the GraphSense platform. It handles blockchain
+data ingestion, transformation, and serves the REST API.
+
+- **Data ingestion** from cryptocurrency nodes (UTXO- and account-based chains)
+- **Data transformation** with delta-update support for near real-time operation
+- **REST API** (FastAPI-based) for querying addresses, transactions, entities,
+  and exchange rates
+- **TagPack management** for cryptocurrency address attribution
+- **Exchange-rate fetching** from multiple sources (CoinDesk, CoinMarketCap)
+
+Requires Python ≥ 3.10 and a Cassandra cluster as storage backend.
+Install via `uv add graphsense-lib[all]`.
+See the [graphsense-lib README](https://github.com/graphsense/graphsense-lib)
+for configuration and deployment details.
+
+#### GraphSense Dashboard — Web Interface
+
+[**graphsense-dashboard**](https://github.com/graphsense/graphsense-dashboard)
+is a web-based GUI built in Elm for interactive cryptocurrency analysis. It
+connects to a GraphSense REST API endpoint and runs entirely in the browser.
+
+- **Interactive exploration** of addresses, transactions, and entities
+- **Plugin system** for extending functionality with custom views
+- **Custom themes** for branding and visual customisation
+- **Docker support** for containerised deployment
+
+Requires NodeJS. Run `make serve` for development or `make build` to produce a
+production build. Docker Compose deployment is also supported.
+See the [graphsense-dashboard README](https://github.com/graphsense/graphsense-dashboard)
+for setup instructions.
+
+#### Hardware Requirements
+
+GraphSense processes billions of transactions and requires substantial
+resources. In our production environment we use a Cassandra cluster with:
+
+- 1 master node: AMD EPYC 2.85 GHz (24 cores), 256 GB RAM, 3 × 3.2 TB + 1 × 12.8 TB NVMe SSD
+- 8 worker nodes: AMD EPYC 2.85 GHz (24 cores), 256 GB RAM, 3 × 3.2 TB NVMe SSD
+
+All nodes are connected via bonded 40 Gbit ethernet.
+A typical personal computer does not have sufficient resources for a full
+deployment, but each component can be run individually in development mode.
 
 ## Tutorials
 
@@ -58,120 +103,39 @@ to use the GraphSense dashboard and API.
 
 Check out the tutorials at: <https://www.iknaio.com/learning>
 
-## Setup and Installation
-
-### Requirements
-
-GraphSense must process billions of transactions and therefore builds on top of
-[Apache Spark](https://spark.apache.org/) and
-[Cassandra](https://cassandra.apache.org/), which are highly scalable computing
-and analytics infrastructures.
-
-In our production environment, we use an Apache Spark/Cassandra cluster with the
-following hardware components:
-
-- 1 master node: AMD Single-CPU Server, AMD EPYC 2.85 GHz (24 cores), 256 GB RAM, 3 × 3.2 TB NVMe SSD, 1 × 12.8 TB NVMe SSD
-- 8 worker nodes: AMD Single-CPU Server, AMD EPYC 2.85 GHz (24 cores), 256 GB RAM, 3 × 3.2 TB NVMe SSD
-
-All nodes are connected via bonded 40Gbit ethernet interfaces and a
-corresponding switch.
-
-If you do not want to host GraphSense yourself, consider using the
-[hosted service offered by Iknaio](#option-1-hosted-service-via-iknaio).
-
 ## Frequently Asked Questions
-
-### Setup & Architecture
-
-**Q: Can I run GraphSense on my local computer or a Raspberry Pi?**
-
-GraphSense processes billions of transactions and requires substantial RAM and
-disk space. A typical personal computer does not have sufficient hardware
-resources. You can, however, run each component in development mode. Please
-check the README files in each
-[repository](https://github.com/graphsense).
-
-**Q: Can I run the GraphSense Dashboard without setting up an Apache Spark / Cassandra cluster?**
-
-The GraphSense Dashboard is a web application running on the client side (in
-your browser). It only needs a GraphSense REST API endpoint for retrieving data.
-You can operate your own endpoint or use the one provided by
-[Iknaio](https://www.iknaio.com).
 
 **Q: Can I run GraphSense in the cloud?**
 
 Technically yes, but deployment procedures are currently designed for
 on-premises environments and may require adaptation for cloud providers.
-
-**Q: Why do you run GraphSense on-premises and not in the cloud?**
-
-We use GraphSense for advanced research analysis tasks and move large volumes of
-data, which can become expensive in cloud environments. We also consider that
-complete data control and autonomy require a degree of independence from
-third-party infrastructure in the long term.
-
-### Operation
-
-**Q: How often is the data updated?**
-
-GraphSense is software; update frequency depends on the operator. The
-[Iknaio-hosted instance](https://www.iknaio.com) updates data near real-time.
+We run on-premises because we move large volumes of data (which gets expensive
+in the cloud) and value full independence from third-party infrastructure.
 
 **Q: Does GraphSense support real-time updates?**
 
 Yes. Using the ingest and delta-update features of
-[GraphSense Lib](https://github.com/graphsense/graphsense-lib), a near
-real-time system can be built.
+[graphsense-lib](https://github.com/graphsense/graphsense-lib), a near
+real-time system can be built. Update frequency depends on the operator — the
+[Iknaio-hosted instance](https://www.iknaio.com) updates data near real-time.
 
 **Q: How are entity and abuse types assigned to addresses?**
 
 They are assigned manually via
 [GraphSense TagPacks](https://github.com/graphsense/graphsense-tagpacks).
-
-**Q: How does GraphSense use the labels and categories provided by dashboard users?**
-
-It does not. Labels, tags, and categories assigned by the user are stored on the
-client side only and are never sent to the server.
-
-### Governance & Organisation
-
-**Q: Who is behind GraphSense, and who is driving development?**
-
-GraphSense has a strong research background. Development is driven by the
-GraphSense core team, whose members work for
-[Iknaio Cryptoasset Analytics GmbH](https://www.iknaio.com), the
-[Complexity Science Hub](https://www.csh.ac.at), and the
-[AIT — Austrian Institute of Technology](https://www.ait.ac.at). Iknaio was
-founded in 2021 by the creators of GraphSense and provides the platform as a
-hosted service along with commercial extensions.
+Labels and tags created by dashboard users are stored on the client side only
+and are never sent to the server.
 
 **Q: Who is funding GraphSense?**
 
-GraphSense development relies on contributions from its core developers at
-Iknaio, the Complexity Science Hub, and AIT. Historically, development
-has been supported by a series of public research grants:
-
-- **GraphSense** (2015–2017) — FFG IKT der Zukunft
-- **TITANIUM** (2017–2020) — EU Horizon 2020
-- **VIRTCRIME** (2018–2020) — FFG KIRAS
-- **KRYPTOMONITOR** — FFG KIRAS
-- **DeFiTrace** (2023–2025)
-
-**Q: Why not use an existing cryptocurrency analytics tool?**
-
-GraphSense development is driven by the needs of project partners and our own
-research. No existing commercial tool provides the combination we consider
-essential for advanced analysis: complete control over collected data and the
-ability to run customised analytics jobs. GraphSense is designed for
-data-driven cryptoasset analytics.
+Development relies on contributions from the core team at Iknaio, the
+Complexity Science Hub, and AIT. It has also been supported by public research
+grants including TITANIUM (EU Horizon 2020), VIRTCRIME (FFG KIRAS),
+KRYPTOMONITOR (FFG KIRAS), and DeFiTrace (2023–2025).
 
 **Q: I need a specific new feature — can you provide it?**
 
-Let us know what you need, ideally by filing a *feature request* issue in the
-relevant repository (e.g., the
-[GraphSense Dashboard](https://github.com/graphsense/graphsense-dashboard) or
-the [GraphSense REST API](https://github.com/graphsense/graphsense-REST)).
-Alternatively, write to
-[contact@graphsense.org](mailto:contact@graphsense.org). Whether we can
-implement a feature depends on whether it aligns with our research and
-development roadmap.
+File a *feature request* issue in
+[graphsense-lib](https://github.com/graphsense/graphsense-lib) or
+[graphsense-dashboard](https://github.com/graphsense/graphsense-dashboard),
+or write to [contact@graphsense.org](mailto:contact@graphsense.org).
