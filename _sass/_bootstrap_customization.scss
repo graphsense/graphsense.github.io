@@ -56,8 +56,25 @@
     color: v.$gray-600;
   }
 
+  &-primary {
+    background-color: v.$primary;
+    border-color: v.$primary;
+
+    &:hover {
+      background-color: color-mix(in srgb, v.$primary, black 15%);
+      border-color: color-mix(in srgb, v.$primary, black 15%);
+    }
+  }
+
   &-outline-primary {
     color: v.$primary;
+    border-color: v.$primary;
+
+    &:hover {
+      background-color: v.$primary;
+      border-color: v.$primary;
+      color: v.$white;
+    }
   }
 
   &-outline-secondary {

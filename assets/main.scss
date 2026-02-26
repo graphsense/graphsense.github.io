@@ -151,12 +151,12 @@ $h1-color: #324960;
 }
 
 // Link styles - exclude navbar links
-a[href]:not(.nav-link):not(.navbar-brand) {
+a[href]:not(.nav-link):not(.navbar-brand):not(.btn) {
   color: #000;
   text-decoration: underline;
 }
 
-a[href]:not(.nav-link):not(.navbar-brand):hover {
+a[href]:not(.nav-link):not(.navbar-brand):not(.btn):hover {
   text-decoration: none;
 }
 
