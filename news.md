@@ -6,6 +6,52 @@ description: Latest GraphSense releases, updates, and announcements. Stay inform
 ---
 
 <h2>
+  Release GraphSense 26.04
+  <small class="text-muted">(2026-04-10)</small>
+</h2>
+
+This release introduces coinjoin and change address detection heuristics for UTXO transactions, along with mixing transaction visualization in the dashboard.
+
+* Coinjoin detection heuristics for UTXO transactions
+* Change address detection heuristics with configurable options
+* Mixing transaction detection and visualization in the dashboard
+* Indirect tags support (tags inherited through cluster membership)
+* Cross-chain address indicator on address nodes
+* Privacy analysis link for BTC transactions
+* Infinite scrolling tags table
+
+
+<h2>
+  Release GraphSense 26.03
+  <small class="text-muted">(2026-03-12)</small>
+</h2>
+
+This release adds a new FastAPI-based REST API module and improves export workflows and cluster visualization in the dashboard.
+
+* New FastAPI-based REST API module in graphsense-lib
+* Unified export options dialog in the dashboard
+* Highlight cluster sibling addresses on hover
+* Supported token currencies loaded on startup
+* Added Python 3.12 and 3.13 support, dropped Python 3.9
+
+
+<h2>
+  Release GraphSense 26.01
+  <small class="text-muted">(2026-01-30)</small>
+</h2>
+
+This release brings a major dashboard UX overhaul with graph export capabilities, multi-node annotation, and Spanish language support.
+
+* Export graph as PDF and PNG with web worker offloading for better performance
+* Download graph transactions as CSV with fees
+* Display both fiat and crypto values on graph
+* Annotate multiple nodes at once
+* Spanish translation added
+* Improved collision detection and node spacing
+* Better UTXO edge label readability
+
+
+<h2>
   Release GraphSense 25.11
   <small class="text-muted">(2025-11-06)</small>
 </h2>
