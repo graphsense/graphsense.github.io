@@ -10,9 +10,9 @@
 - icon: code-branch 
   heading: Find paths
   text: Automatically search for transaction paths connecting two nodes.
-- icon: terminal 
+- icon: terminal
   heading: Programmable
-  text: Support for data-driven analytics via the REST API.
+  text: Support for data-driven analytics via the <a href="/documentation#graphsense-lib--backend--analytics-engine">REST API</a>.
 - icon: cube 
   heading: TagPacks
   text: GraphSense organizes attribution tags in TagPacks, which can be <a target="_blank" href="https://github.com/graphsense/graphsense-tagpacks">public</a> or private.
@@ -20,6 +20,6 @@
   heading: Future-proof
   text: Built on <a target="_blank" href="https://spark.apache.org/">Apache Spark</a> and <a target="_blank" href="https://cassandra.apache.org/">Cassandra</a> for horizontal scalability.
 - collection: fab # the fontawesome collection for brands
-  icon: github 
+  icon: github
   heading: Open source
-  text: The complete software stack is open source and MIT licensed.
+  text: The complete software stack is open source and <a href="/documentation#option-2-self-hosted">MIT licensed</a>.

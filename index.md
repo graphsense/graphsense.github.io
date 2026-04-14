@@ -32,7 +32,7 @@ description: GraphSense is an open-source cryptoasset analytics platform for Bit
 
 <div class="container">
 
-  <p class="lead mb-5 text-center">The GraphSense system design supports UTXO- (e.g., Bitcoin) and account-model (e.g., Ethereum, Tron) ledgers. Currently, adapters are available for major cryptocurrencies like Bitcoin, Bitcoin Cash, Litecoin, Zcash, Ethereum and Tron. Additional ledgers can be integrated by implementing a lightweight adapter component.</p>
+  <p class="lead mb-5 text-center">The GraphSense system design supports UTXO- (e.g., Bitcoin) and account-model (e.g., Ethereum, Tron) ledgers. Currently, adapters are available for major cryptocurrencies like Bitcoin, Bitcoin Cash, Litecoin, Zcash, Ethereum and Tron. Additional ledgers can be integrated by implementing a <a href="/documentation#graphsense-lib--backend--analytics-engine">lightweight adapter component</a>.</p>
 
   <div class="row" style="justify-content:center">
 
@@ -52,6 +52,10 @@ description: GraphSense is an open-source cryptoasset analytics platform for Bit
     <li><i class="{{feature.collection | default: "fa" }} fa-{{ feature.icon }}"></i> <strong>{{ feature.heading }}</strong> <div class="lead">{{ feature.text }}</div></li>
 {% endfor %}
 </ul>
+
+<div class="text-center mt-3 mb-5">
+  <a href="/documentation" class="btn btn-outline-primary">Read the full documentation &rarr;</a>
+</div>
 
 ## System Description / White paper
 
