@@ -13,11 +13,11 @@ description: Latest GraphSense releases, updates, and announcements. Stay inform
 This release introduces coinjoin and change address detection heuristics for UTXO transactions, along with mixing transaction visualization in the dashboard.
 
 * Coinjoin detection heuristics for UTXO transactions
-* Change address detection heuristics with configurable options
+* Change address detection heuristics with configurable options (<a href="https://www.iknaio.com/insights/change-detection/" target="_blank" rel="noopener">read more</a>)
 * Mixing transaction detection and visualization in the dashboard
 * Indirect tags support (tags inherited through cluster membership)
-* Cross-chain address indicator on address nodes
-* Privacy analysis link for BTC transactions
+* Cross-chain address indicator on address nodes (<a href="https://www.iknaio.com/insights/cross-chain-kexy-reuse/" target="_blank" rel="noopener">read more</a>)
+* Privacy analysis link for BTC transactions (<a href="https://www.iknaio.com/insights/address-types/" target="_blank" rel="noopener">read more</a>)
 * Infinite scrolling tags table
 
 
@@ -58,7 +58,7 @@ This release brings a major dashboard UX overhaul with graph export capabilities
 
 This release introduces cross-chain tag derivation and improved search capabilities for flexible address lookups.
 
-* Tags are now derived across chains when addresses share the same public key
+* Tags are now derived across chains when addresses share the same public key (<a href="https://www.iknaio.com/insights/cross-chain-kexy-reuse/" target="_blank" rel="noopener">read more</a>)
 * Enhanced search with support for short address prefixes/postfixes (e.g., 0x33d0...8f65)
 * New tag concepts: funder, deployer, white_list, black_list, gov_white_list
 * Added schema migration support for Cassandra
@@ -74,7 +74,7 @@ This release adds a unified services layer and integrates tagpack-tool functiona
 
 * Added services layer moved from gs-rest for better code organization
 * Integrated tagpack-tool and gs-tagstore-cli functionality
-* Improved swap and bridge decoding support
+* Improved swap and bridge decoding support (<a href="https://www.iknaio.com/insights/tracing-dexs-bridges-cross-chain-clusters/" target="_blank" rel="noopener">read more</a>)
 * THORChain bridge transaction handling
 
 
@@ -98,7 +98,7 @@ This release modernizes the data pipeline with Delta Lake integration for more e
 
 This release adds full support for the Tron network, including TRX and major tokens like USDT, USDC, and WTRX.
 
-* Added Tron (TRX) blockchain support
+* Added Tron (TRX) blockchain support (<a href="https://www.iknaio.com/insights/iknaio-graphsense-v24-01-tron-network-update/" target="_blank" rel="noopener">read more</a>)
 * Integrated USDT, USDC, and WTRX token tracking on Tron
 * Extended multi-chain analytics capabilities
 
@@ -126,7 +126,7 @@ This release introduces the refreshed "Pathfinder" user interface along with add
 * Launched new "Pathfinder" dashboard interface
 * Added new attribution tags
 * Improved backend stability
-* New add-ons for case deconfliction and automated tracing (for institutional users)
+* New add-ons for case deconfliction and automated tracing (for institutional users) (<a href="https://www.iknaio.com/insights/improving-cryptoasset-investigations-by-connecting-cases/" target="_blank" rel="noopener">read more</a>)
 
 
 <h2>
