@@ -1,0 +1,98 @@
+{%- comment -%}
+  Emits schema.org JSON-LD blocks. jekyll-seo-tag already emits a generic
+  WebSite block. This partial adds Organization + SoftwareApplication on the
+  homepage and FAQPage on the documentation page so search/AI engines can
+  extract structured facts.
+{%- endcomment -%}
+{%- if page.layout == "home" -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "GraphSense",
+  "url": "{{ site.url }}/",
+  "logo": "{{ site.url }}/assets/img/logo.svg",
+  "email": "{{ site.email }}",
+  "description": "Open-source cryptoasset analytics platform.",
+  "sameAs": [
+    "https://github.com/graphsense",
+    "https://arxiv.org/abs/2102.13613"
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "GraphSense",
+  "url": "{{ site.url }}/",
+  "applicationCategory": "SecurityApplication",
+  "operatingSystem": "Linux",
+  "softwareVersion": "{{ site.current_version }}",
+  "datePublished": "{{ site.current_version_date }}",
+  "license": "https://opensource.org/licenses/MIT",
+  "description": "GraphSense is an open-source cryptoasset analytics platform for Bitcoin, Ethereum, Tron, and other UTXO and account-model ledgers. Provides an interactive dashboard and a programmable REST API for investigations and analytics.",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "author": {
+    "@type": "Organization",
+    "name": "GraphSense contributors",
+    "url": "https://github.com/graphsense"
+  },
+  "codeRepository": "https://github.com/graphsense"
+}
+</script>
+{%- endif -%}
+{%- if page.url contains "documentation" -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can I run GraphSense in the cloud?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Technically yes, but deployment procedures are currently designed for on-premises environments and may require adaptation for cloud providers. We run on-premises because we move large volumes of data (which gets expensive in the cloud) and value full independence from third-party infrastructure."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does GraphSense support real-time updates?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Using the ingest and delta-update features of graphsense-lib, a near real-time system can be built. Update frequency depends on the operator; the Iknaio-hosted instance updates data near real-time."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How are entity and abuse types assigned to addresses?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "They are assigned manually via GraphSense TagPacks. Labels and tags created by dashboard users are stored on the client side only and are never sent to the server."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who is funding GraphSense?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Development relies on contributions from the core team at Iknaio, the Complexity Science Hub, and AIT. It has also been supported by public research grants including TITANIUM (EU Horizon 2020), VIRTCRIME (FFG KIRAS), KRYPTOMONITOR (FFG KIRAS), and DeFiTrace (2023 to 2025)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "I need a specific new feature; can you provide it?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "File a feature request issue in graphsense-lib or graphsense-dashboard, or write to contact@graphsense.org."
+      }
+    }
+  ]
+}
+</script>
+{%- endif -%}

@@ -1,6 +1,6 @@
 ---
 layout: home
-title: GraphSense - Open Source Cryptoasset Analytics
+title: Open-Source Cryptoasset Analytics for Bitcoin, Ethereum, and Tron
 nav_title: Home
 description: GraphSense is an open-source cryptoasset analytics platform for Bitcoin, Ethereum, and Tron. Full data sovereignty, algorithmic transparency, and scalability.
 ---

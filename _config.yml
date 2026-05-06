@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "GraphSense Cryptoasset Analytics Platform"
+title: "GraphSense"
 email: "contact@graphsense.org"
 
 tagline: "GraphSense | An open source cryptoasset analytics platform"
@@ -22,7 +22,11 @@ description: >
   GraphSense is a cryptoasset analytics platform emphasizing full data sovereignty,
   algorithmic transparency, and scalability. GraphSense is open source and free.
   It provides a dashboard for interactive investigations and, more importantly,
-  full data control for executing advanced analytics tasks.  
+  full data control for executing advanced analytics tasks.
+
+# Used by structured data; bump on every release
+current_version: "26.04"
+current_version_date: "2026-04-10"
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://graphsense.org" # the base hostname & protocol for your site, e.g. http://example.com

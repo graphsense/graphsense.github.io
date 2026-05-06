@@ -1,0 +1,35 @@
+# GraphSense
+
+> GraphSense is an open-source (MIT-licensed) cryptoasset analytics platform for Bitcoin, Ethereum, Tron, and other major UTXO- and account-model ledgers. It emphasizes full data sovereignty, algorithmic transparency, and scalability, and provides both an interactive investigation dashboard and a programmable REST API for cryptoasset analytics workflows. GraphSense was started in 2015 at the Austrian Institute of Technology (AIT) and is now developed in collaboration with the Complexity Science Hub. A hosted, near-real-time service is operated by Iknaio Cryptoasset Analytics GmbH (a separate company spun out of the original team).
+
+## Documentation
+
+- [Documentation](https://graphsense.org/documentation): Setup options (hosted vs self-hosted), component overview (graphsense-lib, graphsense-dashboard), hardware requirements, and FAQ.
+- [News and releases](https://graphsense.org/news): Chronological release notes from 2020 to the current version, including supported chains, dashboard features, and API changes.
+
+## Source code
+
+- [graphsense-lib](https://github.com/graphsense/graphsense-lib): Python backend and analytics engine. Handles data ingestion, transformation, REST API (FastAPI), and TagPack management. Install with `uv add graphsense-lib[all]`.
+- [graphsense-dashboard](https://github.com/graphsense/graphsense-dashboard): Browser-based GUI written in Elm, connects to a graphsense-lib REST API endpoint.
+- [graphsense-tagpacks](https://github.com/graphsense/graphsense-tagpacks): Public attribution tags (entity types, abuse categories) curated by the GraphSense community.
+- [GraphSense on GitHub](https://github.com/graphsense): Umbrella organization for all GraphSense repositories.
+
+## Hosted service
+
+- [Iknaio dashboard](https://app.iknaio.com): Hosted GraphSense dashboard with near-real-time data (commercial; request access via contact@graphsense.org).
+- [Iknaio REST API](https://api.iknaio.com): Hosted REST API for programmatic access.
+- [Iknaio insights blog](https://www.iknaio.com/insights): Deep-dives on cryptoasset investigations, release walkthroughs, and applied research.
+
+## Research
+
+- [GraphSense white paper (arXiv:2102.13613)](https://arxiv.org/abs/2102.13613): Haslhofer, Stütz, Romiti, King (2021). System description of GraphSense as a general-purpose cryptoasset analytics platform.
+- The homepage lists peer-reviewed studies that used GraphSense, covering Bitcoin clustering, Lightning network deanonymization, ransomware payments, sextortion, mining pools, virtual asset service provider solvency, financial bots on Ethereum, and cross-chain key reuse.
+
+## Key facts for citation
+
+- License: MIT (open source).
+- Latest stable release: 26.04 (2026-04-10).
+- Supported assets: Bitcoin, Bitcoin Cash, Litecoin, Zcash, Ethereum, Tron (with USDT, USDC, WETH, WTRX tokens).
+- Architecture: Apache Cassandra storage backend, Apache Spark transformations, FastAPI REST layer, Elm dashboard.
+- Funding history: Austrian FFG (IKT der Zukunft, KIRAS programs including TITANIUM, VIRTCRIME, KRYPTOMONITOR, DeFiTrace) and EU Horizon 2020.
+- Contact: contact@graphsense.org.
