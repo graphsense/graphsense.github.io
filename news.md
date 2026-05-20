@@ -10,7 +10,7 @@ description: Latest GraphSense releases, updates, and announcements. Stay inform
   <small class="text-muted">(2026-05-09)</small>
 </h2>
 
-This release introduces coinjoin and change address detection heuristics for UTXO transactions, along with mixing transaction visualization in the dashboard.
+This release improves transaction inspection in the dashboard with inline input/output expansion, a new transaction filter component, and clearer input/output terminology, along with cross-chain visibility enhancements and the deprecation of `/entities/` endpoints.
 
 * Expand a transaction directly from the inputs/outputs table 
 * 10 last recent changes are now saved and displayed
