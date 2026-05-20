@@ -17,7 +17,7 @@ This release improves transaction inspection in the dashboard with inline input/
 * New transaction filter component with tx-based quickfilters.
 * Renamed "Sending/receiving addresses" to "Inputs/Outputs"
 * Deprecated `/entities/` endpoints in favor of `/clusters/` 
-* Cross-chain list shows a "more info" button that opens the public key table; collapsed cross-chain entries show three dots with a tooltip
+* Cross-chain list shows a "more info" button that opens the public key table; collapsed cross-chain entries show three dots with a tooltip (<a href="https://www.iknaio.com/insights/cross-chain-kexy-reuse/" target="_blank" rel="noopener">read more</a>)
 * Plenty of fixes and minor improvements
 
 
@@ -28,9 +28,9 @@ This release improves transaction inspection in the dashboard with inline input/
 
 This release introduces coinjoin and change address detection heuristics for UTXO transactions, along with mixing transaction visualization in the dashboard.
 
-* Coinjoin detection heuristics for UTXO transactions
+* Coinjoin detection heuristics for UTXO transactions (<a href="https://www.iknaio.com/insights/coinjoin-detection/" target="_blank" rel="noopener">read more</a>)
 * Change address detection heuristics with configurable options (<a href="https://www.iknaio.com/insights/change-detection/" target="_blank" rel="noopener">read more</a>)
-* Mixing transaction detection and visualization in the dashboard
+* Mixing transaction detection and visualization in the dashboard (<a href="https://www.iknaio.com/insights/coinjoin-detection/" target="_blank" rel="noopener">read more</a>)
 * Indirect tags support (tags inherited through cluster membership)
 * Cross-chain address indicator on address nodes (<a href="https://www.iknaio.com/insights/cross-chain-kexy-reuse/" target="_blank" rel="noopener">read more</a>)
 * Privacy analysis link for BTC transactions (<a href="https://www.iknaio.com/insights/address-types/" target="_blank" rel="noopener">read more</a>)
