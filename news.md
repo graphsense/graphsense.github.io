@@ -6,6 +6,22 @@ description: Latest GraphSense releases, updates, and announcements. Stay inform
 ---
 
 <h2>
+  Release GraphSense 26.05
+  <small class="text-muted">(2026-05-09)</small>
+</h2>
+
+This release introduces coinjoin and change address detection heuristics for UTXO transactions, along with mixing transaction visualization in the dashboard.
+
+* Expand a transaction directly from the inputs/outputs table 
+* 10 last recent changes are now saved and displayed
+* New transaction filter component with tx-based quickfilters.
+* Renamed "Sending/receiving addresses" to "Inputs/Outputs"
+* Deprecated `/entities/` endpoints in favor of `/clusters/` 
+* Cross-chain list shows a "more info" button that opens the public key table; collapsed cross-chain entries show three dots with a tooltip
+* Plenty of fixes and minor improvements
+
+
+<h2>
   Release GraphSense 26.04
   <small class="text-muted">(2026-04-10)</small>
 </h2>
