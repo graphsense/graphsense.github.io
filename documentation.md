@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Documentation
-description: GraphSense documentation, setup guides, tutorials, and FAQ. Learn how to use the open-source cryptoasset analytics platform or access the hosted service.
+title: Blockchain Analytics Documentation & Setup Guide
+nav_title: Documentation
+description: Setup guides, tutorials, and FAQ for GraphSense, the open-source platform for blockchain and cryptoasset analytics. Self-host the stack or use the hosted service.
 ---
 
 ## About GraphSense and Iknaio
