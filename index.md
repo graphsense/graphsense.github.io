@@ -7,7 +7,7 @@ description: GraphSense is an open-source cryptoasset analytics platform for Bit
 
 <div class="container mt-3">
   <p class="lead text-center">
-    GraphSense is a cryptoasset analytics platform emphasizing full data sovereignty, algorithmic transparency, and scalability. GraphSense is open-source and free. It provides a dashboard for interactive investigations and, more importantly, complete data control for automatizing cryptoasset analytics workflows.
+    GraphSense is a cryptoasset analytics platform emphasizing full data sovereignty, algorithmic transparency, and scalability. It provides a dashboard for interactive investigations and, more importantly, complete data control for automating cryptoasset analytics workflows. GraphSense is developed mainly by <a href="https://www.iknaio.com" target="_blank">Iknaio</a> in close collaboration with the <a href="https://www.csh.ac.at" target="_blank">Complexity Science Hub</a> — and also offered by Iknaio as a <a href="https://app.iknaio.com" target="_blank" rel="noopener noreferrer">hosted service</a> — while remaining fully open-source and free.
   </p>
 
   <div class="text-center mt-4 mb-3">
@@ -16,15 +16,15 @@ description: GraphSense is an open-source cryptoasset analytics platform for Bit
   </div>
 </div>
 
-## Origin & Background
+## Development & Origin
 
 <div class="container">
 
-  <p>GraphSense originated in 2015 as a publicly funded research project at the <a href="https://www.ait.ac.at" target="_blank">Austrian Institute of Technology (AIT)</a>, led by <a href="https://bernhardhaslhofer.info/" target="_blank">Bernhard Haslhofer</a> as Principal Investigator. Since then, development has been carried out in collaboration with the <a href="https://www.csh.ac.at" target="_blank">Complexity Science Hub</a> and has been supported by several public funding programs, including the Austrian FFG (<a href="https://iktderzukunft.at/en/projects/graph-sense.php" target="_blank">IKT der Zukunft</a>, <a href="https://www.kiras.at/" target="_blank">KIRAS</a>), and the EU Horizon 2020 program (<a href="https://www.titanium-project.eu/" target="_blank">TITANIUM</a>).</p>
+  <p>GraphSense is developed mainly by <a href="https://www.iknaio.com" target="_blank">Iknaio Cryptoasset Analytics GmbH</a> in close collaboration with the <a href="https://www.csh.ac.at" target="_blank">Complexity Science Hub</a>. Iknaio was founded in 2021 by the project's core development team and runs GraphSense as a fully managed <a href="https://app.iknaio.com" target="_blank" rel="noopener noreferrer">hosted service</a>, so teams can use it without operating their own infrastructure. Iknaio also builds additional operational tools — such as <a href="https://www.iknaio.com/platform" target="_blank">Pathfinder</a>, <a href="https://www.iknaio.com/platform#caseconnect" target="_blank">CaseConnect</a>, and <a href="https://www.iknaio.com/platform#quicklock" target="_blank">QuickLock</a> — on top of the open-source platform, and offers services tailored to customer needs.</p>
 
-  <p>In 2021, the core development team founded <a href="https://www.iknaio.com" target="_blank">Iknaio Cryptoasset Analytics GmbH</a> to provide GraphSense as a hosted service with near real-time data updates and to develop additional operational tools — such as <a href="https://www.iknaio.com/platform" target="_blank">Pathfinder</a>, <a href="https://www.iknaio.com/platform#caseconnect" target="_blank">CaseConnect</a>, and <a href="https://www.iknaio.com/platform#quicklock" target="_blank">QuickLock</a> — on top of the open-source platform.</p>
+  <p>GraphSense originated in 2015 as a publicly funded research project at the <a href="https://www.ait.ac.at" target="_blank">Austrian Institute of Technology (AIT)</a>, led by <a href="https://bernhardhaslhofer.info/" target="_blank">Bernhard Haslhofer</a> as Principal Investigator. It grew out of several research projects supported by public funding programs, including the Austrian FFG (<a href="https://iktderzukunft.at/en/projects/graph-sense.php" target="_blank">IKT der Zukunft</a>, <a href="https://www.kiras.at/" target="_blank">KIRAS</a>), and the EU Horizon 2020 program (<a href="https://www.titanium-project.eu/" target="_blank">TITANIUM</a>).</p>
 
-  <p>GraphSense itself remains fully open-source and <a href="https://github.com/graphsense" target="_blank">MIT-licensed</a>. Iknaio is the commercial service and development partner; the two are complementary, not competing.</p>
+  <p>GraphSense itself remains fully open-source and <a href="https://github.com/graphsense" target="_blank">MIT-licensed</a>. Iknaio is its commercial service and development partner; the two are complementary, not competing.</p>
 
 </div>
 
