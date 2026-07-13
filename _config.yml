@@ -25,8 +25,8 @@ description: >
   full data control for executing advanced analytics tasks.
 
 # Used by structured data; bump on every release
-current_version: "26.04"
-current_version_date: "2026-04-10"
+current_version: "26.07"
+current_version_date: "2026-07-13"
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://graphsense.org" # the base hostname & protocol for your site, e.g. http://example.com

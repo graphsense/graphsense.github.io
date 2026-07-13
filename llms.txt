@@ -28,7 +28,7 @@
 ## Key facts for citation
 
 - License: MIT (open source).
-- Latest stable release: 26.04 (2026-04-10).
+- Latest stable release: 26.07 (2026-07-13).
 - Supported assets: Bitcoin, Bitcoin Cash, Litecoin, Zcash, Ethereum, Tron (with USDT, USDC, WETH, WTRX tokens).
 - Architecture: Apache Cassandra storage backend, Apache Spark transformations, FastAPI REST layer, Elm dashboard.
 - Funding history: Austrian FFG (IKT der Zukunft, KIRAS programs including TITANIUM, VIRTCRIME, KRYPTOMONITOR, DeFiTrace) and EU Horizon 2020.

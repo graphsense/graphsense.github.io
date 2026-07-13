@@ -6,6 +6,38 @@ description: Latest GraphSense releases, updates, and announcements. Stay inform
 ---
 
 <h2>
+  Release GraphSense 26.07
+  <small class="text-muted">(2026-07-13)</small>
+</h2>
+
+This release introduces CaseConnect 3.0, a rebuilt interface for spotting connections between cryptoasset investigations, along with Romanian language support and an improved relationship graph in the dashboard.
+
+* CaseConnect 3.0: connected cases in a sortable table with connection types, bulk address import, and background connection computation (<a href="https://www.iknaio.com/insights/iknaio-caseconnect-3/" target="_blank" rel="noopener">read more</a>)
+* Romanian language support in the dashboard
+* Improved relationship graph with clearer layout, movable edges, and better handling of large graphs
+* Highlighted selected nodes and edges for faster orientation
+* Exchange rates now stay up to date, including over weekends
+* Taproot addresses validate correctly when adding tags
+* More robust data updates protect against inconsistencies after interrupted updates
+* Plenty of fixes and minor improvements
+
+
+<h2>
+  Release GraphSense 26.06
+  <small class="text-muted">(2026-06-01)</small>
+</h2>
+
+This release adds two new ways to work with GraphSense outside the dashboard: an MCP interface that lets AI assistants query GraphSense in natural language, and a new `graphsense` command-line client for bulk requests and automation.
+
+* MCP interface built into the GraphSense API for AI assistants (e.g., Mistral Le Chat) (<a href="https://www.iknaio.com/insights/graphsense-mcp-le-chat/" target="_blank" rel="noopener">read more</a>)
+* New `graphsense` command-line client for automating forensics workflows (<a href="https://www.iknaio.com/insights/graphsense-commandline/" target="_blank" rel="noopener">read more</a>)
+* On-graph search for addresses, clusters, and transactions with keyboard navigation and smart edge dimming
+* Recent searches saved and grouped by currency
+* Faster rendering and better responsiveness for large graphs
+* New hotkeys for undo, redo, save, and export
+
+
+<h2>
   Release GraphSense 26.05
   <small class="text-muted">(2026-05-09)</small>
 </h2>
