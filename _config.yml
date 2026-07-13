@@ -36,11 +36,8 @@ url: "https://graphsense.org" # the base hostname & protocol for your site, e.g.
 repository: "graphsense/graphsense.github.io"
 repo: "https://github.com/graphsense"
 
-# Social sharing / SEO
-# TODO: Create og-image.png (1200x630px) for social sharing
-# og_image: /assets/img/og-image.png
-twitter:
-  card: summary
+# Social sharing / SEO: the og:image / twitter:image for all pages is set via
+# the "image" key in the front matter defaults below.
 # discord: "https://discord.gg/udweqn3aSd"
 
 # Build settings
@@ -79,8 +76,10 @@ defaults:
       type: "pages"
     values:
       layout: "page"
+      image: /assets/img/og-image.jpg
   - scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
+      image: /assets/img/og-image.jpg

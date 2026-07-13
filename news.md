@@ -5,9 +5,9 @@ nav_title: News
 description: Latest GraphSense releases, updates, and announcements. Stay informed about new features, supported cryptocurrencies, and platform improvements.
 ---
 
-<h2>
+<h2 id="release-26-07">
   Release GraphSense 26.07
-  <small class="text-muted">(2026-07-13)</small>
+  <small class="text-muted">(<time datetime="2026-07-13">2026-07-13</time>)</small>
 </h2>
 
 This release introduces CaseConnect 3.0, a rebuilt interface for spotting connections between cryptoasset investigations, along with Romanian language support and an improved relationship graph in the dashboard.
@@ -22,9 +22,9 @@ This release introduces CaseConnect 3.0, a rebuilt interface for spotting connec
 * Plenty of fixes and minor improvements
 
 
-<h2>
+<h2 id="release-26-06">
   Release GraphSense 26.06
-  <small class="text-muted">(2026-06-01)</small>
+  <small class="text-muted">(<time datetime="2026-06-01">2026-06-01</time>)</small>
 </h2>
 
 This release adds two new ways to work with GraphSense outside the dashboard: an MCP interface that lets AI assistants query GraphSense in natural language, and a new `graphsense` command-line client for bulk requests and automation.
@@ -37,9 +37,9 @@ This release adds two new ways to work with GraphSense outside the dashboard: an
 * New hotkeys for undo, redo, save, and export
 
 
-<h2>
+<h2 id="release-26-05">
   Release GraphSense 26.05
-  <small class="text-muted">(2026-05-09)</small>
+  <small class="text-muted">(<time datetime="2026-05-09">2026-05-09</time>)</small>
 </h2>
 
 This release improves transaction inspection in the dashboard with inline input/output expansion, a new transaction filter component, and clearer input/output terminology, along with cross-chain visibility enhancements and the deprecation of `/entities/` endpoints.
@@ -53,9 +53,9 @@ This release improves transaction inspection in the dashboard with inline input/
 * Plenty of fixes and minor improvements
 
 
-<h2>
+<h2 id="release-26-04">
   Release GraphSense 26.04
-  <small class="text-muted">(2026-04-10)</small>
+  <small class="text-muted">(<time datetime="2026-04-10">2026-04-10</time>)</small>
 </h2>
 
 This release introduces coinjoin and change address detection heuristics for UTXO transactions, along with mixing transaction visualization in the dashboard.
@@ -69,9 +69,9 @@ This release introduces coinjoin and change address detection heuristics for UTX
 * Infinite scrolling tags table
 
 
-<h2>
+<h2 id="release-26-03">
   Release GraphSense 26.03
-  <small class="text-muted">(2026-03-12)</small>
+  <small class="text-muted">(<time datetime="2026-03-12">2026-03-12</time>)</small>
 </h2>
 
 This release adds a new FastAPI-based REST API module and improves export workflows and cluster visualization in the dashboard.
@@ -83,9 +83,9 @@ This release adds a new FastAPI-based REST API module and improves export workfl
 * Added Python 3.12 and 3.13 support, dropped Python 3.9
 
 
-<h2>
+<h2 id="release-26-01">
   Release GraphSense 26.01
-  <small class="text-muted">(2026-01-30)</small>
+  <small class="text-muted">(<time datetime="2026-01-30">2026-01-30</time>)</small>
 </h2>
 
 This release brings a major dashboard UX overhaul with graph export capabilities, multi-node annotation, and Spanish language support.
@@ -99,9 +99,9 @@ This release brings a major dashboard UX overhaul with graph export capabilities
 * Better UTXO edge label readability
 
 
-<h2>
+<h2 id="release-25-11">
   Release GraphSense 25.11
-  <small class="text-muted">(2025-11-06)</small>
+  <small class="text-muted">(<time datetime="2025-11-06">2025-11-06</time>)</small>
 </h2>
 
 This release introduces cross-chain tag derivation and improved search capabilities for flexible address lookups.
@@ -113,9 +113,9 @@ This release introduces cross-chain tag derivation and improved search capabilit
 * Improved tag summary with transformation support before digest computation
 
 
-<h2>
+<h2 id="release-25-09">
   Release GraphSense 25.09
-  <small class="text-muted">(2025-09-04)</small>
+  <small class="text-muted">(<time datetime="2025-09-04">2025-09-04</time>)</small>
 </h2>
 
 This release adds a unified services layer and integrates tagpack-tool functionality directly into graphsense-lib.
@@ -126,9 +126,9 @@ This release adds a unified services layer and integrates tagpack-tool functiona
 * THORChain bridge transaction handling
 
 
-<h2>
+<h2 id="release-24-08">
   Release GraphSense 24.08
-  <small class="text-muted">(2024-08-20)</small>
+  <small class="text-muted">(<time datetime="2024-08-20">2024-08-20</time>)</small>
 </h2>
 
 This release modernizes the data pipeline with Delta Lake integration for more efficient raw data handling.
@@ -139,9 +139,9 @@ This release modernizes the data pipeline with Delta Lake integration for more e
 * Direct Delta Lake access for Tron and Ethereum delta updates
 
 
-<h2>
+<h2 id="release-24-01">
   Release GraphSense 24.01
-  <small class="text-muted">(2024-01-22)</small>
+  <small class="text-muted">(<time datetime="2024-01-22">2024-01-22</time>)</small>
 </h2>
 
 This release adds full support for the Tron network, including TRX and major tokens like USDT, USDC, and WTRX.
@@ -151,9 +151,9 @@ This release adds full support for the Tron network, including TRX and major tok
 * Extended multi-chain analytics capabilities
 
 
-<h2>
+<h2 id="release-23-09">
   Release GraphSense 23.09
-  <small class="text-muted">(2023-09-20)</small>
+  <small class="text-muted">(<time datetime="2023-09-20">2023-09-20</time>)</small>
 </h2>
 
 This release focuses on usability improvements and simplified deployment procedures for easier setup and contribution.
@@ -164,9 +164,9 @@ This release focuses on usability improvements and simplified deployment procedu
 * Enhanced documentation for contributors
 
 
-<h2>
+<h2 id="release-23-06">
   Release GraphSense 23.06
-  <small class="text-muted">(2023-06-30)</small>
+  <small class="text-muted">(<time datetime="2023-06-30">2023-06-30</time>)</small>
 </h2>
 
 This release introduces the refreshed "Pathfinder" user interface along with additional attribution tags and backend stability improvements.
@@ -177,9 +177,9 @@ This release introduces the refreshed "Pathfinder" user interface along with add
 * New add-ons for case deconfliction and automated tracing (for institutional users) (<a href="https://www.iknaio.com/insights/improving-cryptoasset-investigations-by-connecting-cases/" target="_blank" rel="noopener">read more</a>)
 
 
-<h2>
+<h2 id="release-23-01">
   Release GraphSense 23.01
-  <small class="text-muted">(2023-02-14)</small>
+  <small class="text-muted">(<time datetime="2023-02-14">2023-02-14</time>)</small>
 </h2>
 
 This release adds support for major stablecoins on Ethereum and introduces smart contract visibility in the dashboard.
@@ -190,9 +190,9 @@ This release adds support for major stablecoins on Ethereum and introduces smart
 * Check out the [walk-through video](https://youtu.be/UukSvbAUIh4) for key changes
 
 
-<h2>
+<h2 id="release-22-10">
   Release GraphSense 22.10
-  <small class="text-muted">(2022-10-22)</small>
+  <small class="text-muted">(<time datetime="2022-10-22">2022-10-22</time>)</small>
 </h2>
 
 This release introduces periodic blockchain synchronization and improves dashboard usability with new interaction features.
@@ -204,9 +204,9 @@ This release introduces periodic blockchain synchronization and improves dashboa
 * Duplicate node shadows can be toggled on/off
 
 
-<h2>
+<h2 id="release-1-0-0">
   Release GraphSense 1.0.0
-  <small class="text-muted">(2022-07-15)</small>
+  <small class="text-muted">(<time datetime="2022-07-15">2022-07-15</time>)</small>
 </h2>
 
 The first production release of GraphSense, featuring a completely rewritten dashboard and Ethereum integration.
@@ -215,9 +215,9 @@ The first production release of GraphSense, featuring a completely rewritten das
 * Integration of Ethereum account-to-account transactions
 
 
-<h2>
+<h2 id="release-0-5-2">
   Release GraphSense 0.5.2
-  <small class="text-muted">(2022-03-30)</small>
+  <small class="text-muted">(<time datetime="2022-03-30">2022-03-30</time>)</small>
 </h2>
 
 This release redesigns tagpack handling with a new TagStore architecture for faster and more flexible tag management.
@@ -228,9 +228,9 @@ This release redesigns tagpack handling with a new TagStore architecture for fas
 * Faster TagPack availability (decoupled from transformations)
 
 
-<h2>
+<h2 id="release-0-5-1">
   Release GraphSense 0.5.1
-  <small class="text-muted">(2021-11-30)</small>
+  <small class="text-muted">(<time datetime="2021-11-30">2021-11-30</time>)</small>
 </h2>
 
 This release brings performance enhancements, improved attribution tags, and compatibility with the Bitcoin Taproot upgrade.
@@ -241,9 +241,9 @@ This release brings performance enhancements, improved attribution tags, and com
 * Tags: confidence scores added, Wasabi and Samourai transactions integrated and tagged
 
 
-<h2>
+<h2 id="release-0-5">
   Release GraphSense 0.5
-  <small class="text-muted">(2021-06-01)</small>
+  <small class="text-muted">(<time datetime="2021-06-01">2021-06-01</time>)</small>
 </h2>
 
 A major release adding Ethereum transaction analysis as the first step towards integrating account-model ledgers.
@@ -254,9 +254,9 @@ A major release adding Ethereum transaction analysis as the first step towards i
 * Tags: quality improvements, entity- and address-level tag distinctions
 
 
-<h2>
+<h2 id="release-0-4-5">
   Release GraphSense 0.4.5
-  <small class="text-muted">(2020-11-19)</small>
+  <small class="text-muted">(<time datetime="2020-11-19">2020-11-19</time>)</small>
 </h2>
 
 This release introduces a complete REST API rewrite following the OpenAPI specification and a new Python client.
@@ -267,9 +267,9 @@ This release introduces a complete REST API rewrite following the OpenAPI specif
 * New API key-based access model (request via <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#99;&#111;&#110;&#116;&#97;&#99;&#116;&#64;&#103;&#114;&#97;&#112;&#104;&#115;&#101;&#110;&#115;&#101;&#46;&#111;&#114;&#103;">contact&#64;graphsense&#46;org</a>)
 
 
-<h2>
+<h2 id="release-0-4-4">
   Release GraphSense 0.4.4
-  <small class="text-muted">(2020-06-16)</small>
+  <small class="text-muted">(<time datetime="2020-06-16">2020-06-16</time>)</small>
 </h2>
 
 This release adds Tag Coherence scoring and improved entity visualization features.
@@ -279,9 +279,9 @@ This release adds Tag Coherence scoring and improved entity visualization featur
 * Audit trails exportable as PDF reports
 
 
-<h2>
+<h2 id="release-0-4-3">
   Release GraphSense 0.4.3
-  <small class="text-muted">(2020-05-11)</small>
+  <small class="text-muted">(<time datetime="2020-05-11">2020-05-11</time>)</small>
 </h2>
 
 This release brings address annotation, TagPack management, and infrastructure improvements.

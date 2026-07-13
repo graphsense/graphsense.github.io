@@ -12,7 +12,7 @@ description: GraphSense is an open-source cryptoasset analytics platform for Bit
 
   <div class="text-center mt-4 mb-3">
     <a href="https://app.iknaio.com" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg me-2 mb-2">Try Hosted Service &rarr;</a>
-    <a href="/documentation#option-2-self-hosted" class="btn btn-outline-primary btn-lg mb-2">Self-Host Guide &rarr;</a>
+    <a href="/documentation.html#option-2-self-hosted" class="btn btn-outline-primary btn-lg mb-2">Self-Host Guide &rarr;</a>
   </div>
 </div>
 
@@ -20,11 +20,11 @@ description: GraphSense is an open-source cryptoasset analytics platform for Bit
 
 <div class="container">
 
-  <p>GraphSense is developed mainly by <a href="https://www.iknaio.com" target="_blank">Iknaio Cryptoasset Analytics</a> in close collaboration with the <a href="https://www.csh.ac.at" target="_blank">Complexity Science Hub</a>. Iknaio was founded in 2021 by the project's core development team and runs GraphSense as a fully managed <a href="https://app.iknaio.com" target="_blank" rel="noopener noreferrer">hosted service</a>, so teams can use it without operating their own infrastructure. It also builds additional operational tools — such as <a href="https://www.iknaio.com/platform" target="_blank">Pathfinder</a>, <a href="https://www.iknaio.com/platform#caseconnect" target="_blank">CaseConnect</a>, and <a href="https://www.iknaio.com/platform#quicklock" target="_blank">QuickLock</a> — on top of the open-source platform, and offers services tailored to customer needs.</p>
+  <p>GraphSense is developed mainly by <a href="https://www.iknaio.com" target="_blank" rel="noopener">Iknaio Cryptoasset Analytics</a> in close collaboration with the <a href="https://www.csh.ac.at" target="_blank" rel="noopener">Complexity Science Hub</a>. Iknaio was founded in 2021 by the project's core development team and runs GraphSense as a fully managed <a href="https://app.iknaio.com" target="_blank" rel="noopener noreferrer">hosted service</a>, so teams can use it without operating their own infrastructure. It also builds additional operational tools — such as <a href="https://www.iknaio.com/platform" target="_blank" rel="noopener">Pathfinder</a>, <a href="https://www.iknaio.com/platform#caseconnect" target="_blank" rel="noopener">CaseConnect</a>, and <a href="https://www.iknaio.com/platform#quicklock" target="_blank" rel="noopener">QuickLock</a> — on top of the open-source platform, and offers services tailored to customer needs.</p>
 
-  <p>The platform originated in 2015 as a publicly funded research project at the <a href="https://www.ait.ac.at" target="_blank">Austrian Institute of Technology (AIT)</a>, led by <a href="https://bernhardhaslhofer.info/" target="_blank">Bernhard Haslhofer</a> as Principal Investigator. It grew out of several research projects supported by public funding programs, including the Austrian FFG (<a href="https://iktderzukunft.at/en/projects/graph-sense.php" target="_blank">IKT der Zukunft</a>, <a href="https://www.kiras.at/" target="_blank">KIRAS</a>), and the EU Horizon 2020 program (<a href="https://www.titanium-project.eu/" target="_blank">TITANIUM</a>).</p>
+  <p>The platform originated in 2015 as a publicly funded research project at the <a href="https://www.ait.ac.at" target="_blank" rel="noopener">Austrian Institute of Technology (AIT)</a>, led by <a href="https://bernhardhaslhofer.info/" target="_blank" rel="noopener">Bernhard Haslhofer</a> as Principal Investigator. It grew out of several research projects supported by public funding programs, including the Austrian FFG (<a href="https://iktderzukunft.at/en/projects/graph-sense.php" target="_blank" rel="noopener">IKT der Zukunft</a>, <a href="https://www.kiras.at/" target="_blank" rel="noopener">KIRAS</a>), and the EU Horizon 2020 program (<a href="https://www.titanium-project.eu/" target="_blank" rel="noopener">TITANIUM</a>).</p>
 
-  <p>The software itself remains fully open-source and <a href="https://github.com/graphsense" target="_blank">MIT-licensed</a>. Iknaio is its commercial service and development partner; the two are complementary, not competing.</p>
+  <p>The software itself remains fully open-source and <a href="https://github.com/graphsense" target="_blank" rel="noopener">MIT-licensed</a>. Iknaio is its commercial service and development partner; the two are complementary, not competing.</p>
 
 </div>
 
@@ -32,7 +32,7 @@ description: GraphSense is an open-source cryptoasset analytics platform for Bit
 
 <div class="container">
 
-  <p class="lead mb-5 text-center">The GraphSense system design supports UTXO- (e.g., Bitcoin) and account-model (e.g., Ethereum, Tron) ledgers. Currently, adapters are available for major cryptocurrencies like Bitcoin, Bitcoin Cash, Litecoin, Zcash, Ethereum and Tron. Additional ledgers can be integrated by implementing a <a href="/documentation#graphsense-lib--backend--analytics-engine">lightweight adapter component</a>.</p>
+  <p class="lead mb-5 text-center">The GraphSense system design supports UTXO- (e.g., Bitcoin) and account-model (e.g., Ethereum, Tron) ledgers. Currently, adapters are available for major cryptocurrencies like Bitcoin, Bitcoin Cash, Litecoin, Zcash, Ethereum and Tron. Additional ledgers can be integrated by implementing a <a href="/documentation.html#graphsense-lib--backend--analytics-engine">lightweight adapter component</a>.</p>
 
   <div class="row" style="justify-content:center">
 
@@ -54,7 +54,7 @@ description: GraphSense is an open-source cryptoasset analytics platform for Bit
 </ul>
 
 <div class="text-center mt-3 mb-5">
-  <a href="/documentation" class="btn btn-outline-primary">Read the full documentation &rarr;</a>
+  <a href="/documentation.html" class="btn btn-outline-primary">Read the full documentation &rarr;</a>
 </div>
 
 ## System Description / White paper
@@ -126,14 +126,14 @@ description: GraphSense is an open-source cryptoasset analytics platform for Bit
 
 <div class="container">
 
-  <p>Bernhard Haslhofer, <a href="https://www.csh.ac.at/" target="_blank">Complexity Science Hub</a></p>
+  <p>Bernhard Haslhofer, <a href="https://www.csh.ac.at/" target="_blank" rel="noopener">Complexity Science Hub</a></p>
 
-  <p>Rainer Stütz, <a href="https://www.csh.ac.at/" target="_blank">Complexity Science Hub</a></p>
+  <p>Rainer Stütz, <a href="https://www.csh.ac.at/" target="_blank" rel="noopener">Complexity Science Hub</a></p>
   
-  <p>Matthias Rella, <a href="https://www.iknaio.com/" target="_blank">Iknaio Cryptoasset Analytics GmbH</a></p>
+  <p>Matthias Rella, <a href="https://www.iknaio.com/" target="_blank" rel="noopener">Iknaio Cryptoasset Analytics GmbH</a></p>
   
-  <p>Michael Fröwis, <a href="https://www.iknaio.com/" target="_blank">Iknaio Cryptoasset Analytics GmbH</a></p>
+  <p>Michael Fröwis, <a href="https://www.iknaio.com/" target="_blank" rel="noopener">Iknaio Cryptoasset Analytics GmbH</a></p>
   
-  <p>Thomas Niedermayer, <a href="https://www.iknaio.com/" target="_blank">Iknaio Cryptoasset Analytics GmbH</a></p>
+  <p>Thomas Niedermayer, <a href="https://www.iknaio.com/" target="_blank" rel="noopener">Iknaio Cryptoasset Analytics GmbH</a></p>
 
 </div>
