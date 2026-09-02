@@ -72,6 +72,9 @@ description: GraphSense is an open-source cryptoasset analytics platform for Bit
     url = {https://arxiv.org/abs/2102.13613}
   }
   </code></pre></div></div>
+
+  <p>The platform was first presented in: Haslhofer, B., Karl, R., & Filtz, E. (2016). <strong>O Bitcoin where art thou? Insight into large-scale transaction graphs.</strong> Posters and Demos Track of the 12th International Conference on Semantic Systems (SEMANTiCS 2016).
+  <a href="https://ceur-ws.org/Vol-1695/paper20.pdf">(pdf)</a></p>
 </div>
 
 
@@ -80,6 +83,12 @@ description: GraphSense is an open-source cryptoasset analytics platform for Bit
 <div class="container">
 
   <p>GraphSense has already supported several scientific studies:</p>
+
+  <p>Müller, L., Elsner, J., Niedermayer, T., Haslhofer, B., Goger, T., Kühl, N., & Rückert, C. (2026). <strong>How reliable is the multi-input heuristic for bitcoin address clustering in law enforcement contexts?</strong> arXiv preprint.
+  <a href="https://arxiv.org/abs/2607.07414">(pdf)</a></p>
+
+  <p>Vynyavskyy, I., Kitzler, S., Haslhofer, B., & Yaish, A. (2026). <strong>Modern portfolio theory in the crypto-wilderness.</strong> arXiv preprint.
+  <a href="https://arxiv.org/abs/2605.20528">(pdf)</a></p>
 
   <p>Stütz, R., Stifter, N., Dragaschnig, M., Haslhofer, B., & Judmayer, A. (2026). <strong>Reuse of Public Keys Across UTXO and Account-Based Cryptocurrencies.</strong> arXiv preprint.
   <a href="https://arxiv.org/abs/2601.19500">(pdf)</a></p>
@@ -104,6 +113,9 @@ description: GraphSense is an open-source cryptoasset analytics platform for Bit
 
   <p>Romiti, M., Victor, F., Moreno-Sanchez, P., Nordholt, P., Haslhofer, B., & Maffei, M. (2021). <strong>Cross-layer deanonymization methods in the lightning protocol.</strong> Financial cryptography and data security (FC 2021).
   <a href="https://arxiv.org/abs/2007.00764">(pdf)</a></p>
+
+  <p>Fröwis, M., Gottschalk, T., Haslhofer, B., Rückert, C., & Pesch, P. (2020). <strong>Safeguarding the evidential value of forensic cryptocurrency investigations.</strong> Forensic Science International: Digital Investigation.
+  <a href="https://doi.org/10.1016/j.fsidi.2019.200902">(pdf)</a></p>
 
   <p>Stütz, R., Gaži, P., Haslhofer, B., & Illum, J. (2020). <strong>Stake shift in major cryptocurrencies: An empirical study.</strong> Financial cryptography and data security (FC 2020).
   <a href="https://arxiv.org/abs/2001.04187">(pdf)</a></p>

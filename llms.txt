@@ -23,7 +23,7 @@
 ## Research
 
 - [GraphSense white paper (arXiv:2102.13613)](https://arxiv.org/abs/2102.13613): Haslhofer, Stütz, Romiti, King (2021). System description of GraphSense as a general-purpose cryptoasset analytics platform.
-- The homepage lists peer-reviewed studies that used GraphSense, covering Bitcoin clustering, Lightning network deanonymization, ransomware payments, sextortion, mining pools, virtual asset service provider solvency, financial bots on Ethereum, and cross-chain key reuse.
+- The homepage lists peer-reviewed studies that used GraphSense, covering Bitcoin clustering and the reliability of the multi-input heuristic, Lightning network deanonymization, ransomware payments, sextortion, mining pools, virtual asset service provider solvency, financial bots on Ethereum, cross-chain key reuse, the evidential value of forensic cryptoasset investigations, and cryptoasset portfolio analysis.
 
 ## Key facts for citation
 
