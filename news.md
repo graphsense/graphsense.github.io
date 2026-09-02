@@ -5,6 +5,24 @@ nav_title: News
 description: Latest GraphSense releases, updates, and announcements. Stay informed about new features, supported cryptocurrencies, and platform improvements.
 ---
 
+<h2 id="release-26-08">
+  Release GraphSense 26.08
+  <small class="text-muted">(<time datetime="2026-09-02">2026-09-02</time>)</small>
+</h2>
+
+This release retires Pathfinder 1.0, the legacy cluster-centric graph tool, and introduces a new clustering engine for UTXO chains, alongside reliability and data-correctness work in the backend.
+
+* Pathfinder 1.0 retired; investigations trace address by address in Pathfinder 2, so every step can be verified and reproduced (<a href="https://www.iknaio.com/insights/address-clustering-issues/" target="_blank" rel="noopener">read more</a>)
+* New clustering engine for UTXO chains: a whole chain clusters in a single run and stays current with every data update; also available as the open-source <a href="https://pypi.org/project/graphsense-clustering/" target="_blank" rel="noopener">graphsense-clustering</a> package on PyPI (<a href="https://www.iknaio.com/insights/multi-input-clustering-bitcoin-on-a-laptop/" target="_blank" rel="noopener">read more</a>)
+* Zcash data updates restored after the Ironwood network upgrade of 28 July 2026
+* Open a saved graph by dropping it onto the start page
+* Search terms copied from PDFs now match, including ligatures such as "ff" that PDFs render as a single character
+* Signed-in username shown on the settings page
+* Bulk requests, page size, and graph depth are now bounded (10,000 items per bulk list, 8 MB request body, 5,000 items per page, depth 7); the command-line and Python clients split longer lists automatically
+* More reliable data updates and fewer intermittent API errors
+* Plenty of fixes and minor improvements
+
+
 <h2 id="release-26-07">
   Release GraphSense 26.07
   <small class="text-muted">(<time datetime="2026-07-13">2026-07-13</time>)</small>
