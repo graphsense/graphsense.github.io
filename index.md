@@ -11,7 +11,7 @@ description: GraphSense is an open-source cryptoasset analytics platform for Bit
   </p>
 
   <div class="text-center mt-4 mb-3">
-    <a href="https://iknaio.com/contact/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg me-2 mb-2">Request Hosted Service Access &rarr;</a>
+    <a href="https://iknaio.com/contact/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg me-2 mb-2">Try Hosted Service &rarr;</a>
     <a href="/documentation.html#option-2-self-hosted" class="btn btn-outline-primary btn-lg mb-2">Self-Host Guide &rarr;</a>
   </div>
 </div>
