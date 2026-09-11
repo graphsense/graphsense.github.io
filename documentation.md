@@ -27,7 +27,7 @@ AIT.
 |---|---|---|
 | **What** | Open-source analytics platform | Commercial service & extensions |
 | **License** | MIT | Proprietary (extensions) |
-| **Access** | Self-hosted via [GitHub](https://github.com/graphsense) | Hosted at [app.iknaio.com](https://app.iknaio.com) / [api.iknaio.com](https://api.iknaio.com) |
+| **Access** | Self-hosted via [GitHub](https://github.com/graphsense) | Hosted at [app.iknaio.com](https://app.iknaio.com) / [api.iknaio.com](https://api.iknaio.com) — [request access](https://iknaio.com/contact/) |
 | **Scope** | [graphsense-lib](https://github.com/graphsense/graphsense-lib) (analytics engine & REST API), [graphsense-dashboard](https://github.com/graphsense/graphsense-dashboard) (web UI), TagPacks | Pathfinder, CaseConnect, QuickLock, TaxReport, managed infrastructure |
 
 ## Getting Started
@@ -41,7 +41,7 @@ GraphSense-as-a-Service with near real-time data:
 
 - **Dashboard:** [app.iknaio.com](https://app.iknaio.com)
 - **REST API:** [api.iknaio.com](https://api.iknaio.com)
-- **Request access:** Send an email to [contact@graphsense.org](mailto:contact@graphsense.org) explaining who you are and why you need access. You will receive an API key.
+- **Request access:** Fill out the [Iknaio contact form](https://iknaio.com/contact/) and briefly describe who you are and what you intend to use the service for. Iknaio will get back to you with access details.
 
 ### Option 2: Self-hosted
 
@@ -136,7 +136,8 @@ KRYPTOMONITOR (FFG KIRAS), and DeFiTrace (2023–2025).
 
 **Q: I need a specific new feature — can you provide it?**
 
-File a *feature request* issue in
+For contributions to the open-source stack, file a *feature request* issue in
 [graphsense-lib](https://github.com/graphsense/graphsense-lib) or
-[graphsense-dashboard](https://github.com/graphsense/graphsense-dashboard),
-or write to [contact@graphsense.org](mailto:contact@graphsense.org).
+[graphsense-dashboard](https://github.com/graphsense/graphsense-dashboard).
+If you need custom features developed or integrated for your organization,
+contact Iknaio via the [contact form](https://iknaio.com/contact/).

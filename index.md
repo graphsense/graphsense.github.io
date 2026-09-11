@@ -11,7 +11,7 @@ description: GraphSense is an open-source cryptoasset analytics platform for Bit
   </p>
 
   <div class="text-center mt-4 mb-3">
-    <a href="https://app.iknaio.com" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg me-2 mb-2">Try Hosted Service &rarr;</a>
+    <a href="https://iknaio.com/contact/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg me-2 mb-2">Request Hosted Service Access &rarr;</a>
     <a href="/documentation.html#option-2-self-hosted" class="btn btn-outline-primary btn-lg mb-2">Self-Host Guide &rarr;</a>
   </div>
 </div>
@@ -20,11 +20,11 @@ description: GraphSense is an open-source cryptoasset analytics platform for Bit
 
 <div class="container">
 
-  <p>GraphSense is developed mainly by <a href="https://www.iknaio.com" target="_blank" rel="noopener">Iknaio Cryptoasset Analytics</a> in close collaboration with the <a href="https://www.csh.ac.at" target="_blank" rel="noopener">Complexity Science Hub</a>. Iknaio was founded in 2021 by the project's core development team and runs GraphSense as a fully managed <a href="https://app.iknaio.com" target="_blank" rel="noopener noreferrer">hosted service</a>, so teams can use it without operating their own infrastructure. It also builds additional operational tools — such as <a href="https://www.iknaio.com/platform" target="_blank" rel="noopener">Pathfinder</a>, <a href="https://www.iknaio.com/platform#caseconnect" target="_blank" rel="noopener">CaseConnect</a>, and <a href="https://www.iknaio.com/platform#quicklock" target="_blank" rel="noopener">QuickLock</a> — on top of the open-source platform, and offers services tailored to customer needs.</p>
+  <p>GraphSense is developed mainly by <a href="https://www.iknaio.com" target="_blank" rel="noopener">Iknaio Cryptoasset Analytics</a> in close collaboration with the <a href="https://www.csh.ac.at" target="_blank" rel="noopener">Complexity Science Hub</a>. Iknaio was founded in 2021 by the project's core development team and runs GraphSense as a fully managed hosted service, so teams can use it without operating their own infrastructure. Access to the hosted service can be requested via the <a href="https://iknaio.com/contact/" target="_blank" rel="noopener noreferrer">Iknaio contact form</a>. It also builds additional operational tools — such as <a href="https://www.iknaio.com/platform" target="_blank" rel="noopener">Pathfinder</a>, <a href="https://www.iknaio.com/platform#caseconnect" target="_blank" rel="noopener">CaseConnect</a>, and <a href="https://www.iknaio.com/platform#quicklock" target="_blank" rel="noopener">QuickLock</a> — on top of the open-source platform, and offers services tailored to customer needs.</p>
 
   <p>The platform originated in 2015 as a publicly funded research project at the <a href="https://www.ait.ac.at" target="_blank" rel="noopener">Austrian Institute of Technology (AIT)</a>, led by <a href="https://bernhardhaslhofer.info/" target="_blank" rel="noopener">Bernhard Haslhofer</a> as Principal Investigator. It grew out of several research projects supported by public funding programs, including the Austrian FFG (<a href="https://iktderzukunft.at/en/projects/graph-sense.php" target="_blank" rel="noopener">IKT der Zukunft</a>, <a href="https://www.kiras.at/" target="_blank" rel="noopener">KIRAS</a>), and the EU Horizon 2020 program (<a href="https://www.titanium-project.eu/" target="_blank" rel="noopener">TITANIUM</a>).</p>
 
-  <p>The software itself remains fully open-source and <a href="https://github.com/graphsense" target="_blank" rel="noopener">MIT-licensed</a>. Iknaio is its commercial service and development partner; the two are complementary, not competing.</p>
+  <p>The software itself remains fully open-source and <a href="https://github.com/graphsense" target="_blank" rel="noopener">MIT-licensed</a>. Iknaio is its commercial service and development partner; the two are complementary, not competing. Organizations that require custom features, additional ledgers, or tailored integrations can reach out to Iknaio through the <a href="https://iknaio.com/contact/" target="_blank" rel="noopener noreferrer">same contact form</a>.</p>
 
 </div>
 
