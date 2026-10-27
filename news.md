@@ -5,6 +5,25 @@ nav_title: News
 description: Latest GraphSense releases, updates, and announcements. Stay informed about new features, supported cryptocurrencies, and platform improvements.
 ---
 
+<h2 id="release-26-09">
+  Release GraphSense 26.09
+  <small class="text-muted">(<time datetime="2026-09-30">2026-09-30</time>)</small>
+</h2>
+
+This release adds support for lite networks, which are served by an external GraphSense-compatible backend with a reduced feature set, and with them eight new EVM chains in the dashboard. It also brings CoW Protocol swap detection, keyboard shortcuts, and better resilience when an external backend is unavailable.
+
+* Eight new EVM networks: BNB Smart Chain, Arbitrum, Base, Optimism, Polygon, Avalanche, Gnosis, and Robinhood Chain (<a href="https://www.iknaio.com/insights/pathfinder-lite/" target="_blank" rel="noopener">read more</a>)
+* Lite networks are marked with a "Lite" badge; the dashboard asks the new `/capabilities` endpoint which features each network supports and hides the missing ones
+* External backends in the REST API: networks without a local Cassandra keyspace can be proxied to a GraphSense-compatible backend, with optional per-currency access roles
+* CoW Protocol swaps reported in transaction conversions
+* Swaps and bridges show per-leg assets and fiat values
+* Keyboard shortcuts: Ctrl/Cmd+K focuses the search, Ctrl/Cmd+D duplicates the graph into a new tab, and holding Ctrl/Cmd shows a shortcut overlay
+* Movable dialogs and a more compact status bar
+* Mistyped BTC, LTC, BCH, ZEC, and TRX addresses are rejected with a checksum error instead of looking like unused addresses
+* New `graphsense-cli monitoring check-consistency` command checks raw, Delta Lake, and transformed data against each other
+* Plenty of fixes and minor improvements
+
+
 <h2 id="release-26-08">
   Release GraphSense 26.08
   <small class="text-muted">(<time datetime="2026-09-02">2026-09-02</time>)</small>
